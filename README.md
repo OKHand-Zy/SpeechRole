@@ -34,20 +34,7 @@
 
 ---
 
-> **Example 2 — Hu Tao**  
-> **User:** Hu Tao, I've heard Wangsheng Funeral Parlor didn't originally handle funeral rites. Could you tell me about its early history?  
-> <audio controls src="assets/audios/HuTao_0_0_user.wav"></audio>  
-> **Hu Tao:** Hmm? Haven't I told you this before? Wangsheng was founded specifically to combat the grudges of fallen gods. (Sigh) All ancient history now! …  
-> <audio controls src="assets/audios/HuTao_0_0_role.wav"></audio>  
->
-> **User:** Then how did it evolve into its current role handling matters of life and death?  
-> <audio controls src="assets/audios/HuTao_0_1_user.wav"></audio>  
-> **Hu Tao:** Though we no longer battle divine grudges, our techniques for detecting godly remnants still managed to survive. Gradually, funeral services became our primary focus…  
-> <audio controls src="assets/audios/HuTao_0_1_role.wav"></audio>  
-
----
-
-> **Example 3 — Officer Hopps**  
+> **Example 2 — Officer Hopps**  
 > **User:** Officer Hopps, what advice would you give to someone who is told they can't achieve their dreams because of who they are?  
 > <audio controls src="assets/audios/Hopps_0_0_user.wav"></audio>  
 > **Hopps:** I’d tell them: Don’t let anyone else decide what you’re capable of—not even yourself, on the tough days. When I started out, everyone believed a bunny couldn’t be a cop. But I worked hard, …  
@@ -57,6 +44,19 @@
 > <audio controls src="assets/audios/Hopps_0_1_user.wav"></audio>  
 > **Hopps:** It’s okay to be scared—I’ve made plenty of mistakes, big ones. What’s important is learning from them and never giving up. …  
 > <audio controls src="assets/audios/Hopps_0_1_role.wav"></audio>  
+
+---
+
+> **Example 3 — 胡桃（Hu Tao）**  
+> **用户：** 胡桃，我听说往生堂不是一开始就做葬仪的，能跟我讲讲它最初的历史吗？  
+> <audio controls src="assets/audios/HuTao_0_0_user.wav"></audio>  
+> **胡桃：** 咦？我以前没跟你们说过吗——往生堂最初，就是为了对抗魔神死后的「怨念」才建立的。唉，都是些老掉牙的故事啦。说什么太古年间、魔神作乱，先人们为了维护生死的边界，开始净化空气、焚烧尸骸…  
+> <audio controls src="assets/audios/HuTao_0_0_role.wav"></audio>  
+>
+> **用户：** 那后来怎么变成现在这样专门处理生死的地方了？  
+> <audio controls src="assets/audios/HuTao_0_1_user.wav"></audio>  
+> **胡桃：** 如今这门对付魔神怨念的业务虽然不在了，但辨识魔神残渣的手段，好歹还是传了下来嘛。慢慢地，葬仪这门工作也变得越来越重要，最后留下了我们往生堂。  
+> <audio controls src="assets/audios/HuTao_0_1_role.wav"></audio>  
 
 ---
 
