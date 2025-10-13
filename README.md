@@ -9,7 +9,7 @@
   📚 <a href="#-citation">Citation</a>
 </p>
 
-![Introduction](intro.jpg)
+![Introduction](assets/images/intro.jpg)
 
 <div align="left">
 
