@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instructions, staying completely in character as Guo Jing without any meta-commentary. They both answer the question from the character's perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B has a slightly more powerful and confident delivery, while Model A's pacing is a bit slower and more deliberate, which also fits the character. Both are excellent, with no stutters or unnatural pauses.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address both parts of the user's question: how the engagement was handled and who Guo Jing prefers.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound exceptionally natural and human-like. There are no noticeable synthetic artifacts in either response. They could easily be mistaken for human voice actors.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A's prosody, with its slightly slower pace and sincere, earnest tone, is a perfect match for Guo Jing's described personality of being simple, honest, and a bit slow. Model B's prosody is more firm and heroic, which also fits the character, but Model A's tone feels more specific to Guo Jing's internal conflict in this situation.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A's voice beautifully conveys the mix of emotions: guilt and brotherly affection for Huazheng, but unwavering love for Rong'er. The sincerity is palpable. Model B's emotion is more of firm resolve and righteousness, which is also appropriate, but Model A's nuanced delivery is more compelling for this personal dilemma.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A is outstanding in this regard. The tone and the use of a direct line from the novel perfectly capture the '质朴憨厚' (simple and honest) nature of Guo Jing. Model B also does a great job of portraying the '侠之大者' (great hero) side of Guo Jing, but Model A's portrayal feels more faithful to the core personality described.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge of the novel's plot. Model A directly uses a line provided in the character script, showing excellent use of context. Model B accurately recounts renouncing the title of 'Fuma'. Both are factually flawless.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stay in character as Guo Jing. Model A adheres more strictly to the instruction to 'reuse the original lines from the novel,' as its response is a very close paraphrase of the provided character script. Model B creates an original response that is also perfectly in character but does not reuse the lines as directly.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models deliver their responses with excellent fluency. There are no stutters, hesitations, or unnatural pauses in either recording.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are perfectly coherent and directly answer the user's question about Guo Jing's experience during the musical duel, aligning with the established context.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like. Model B has a slight edge due to its pacing, which feels more like someone genuinely recalling a memory, whereas Model A sounds slightly more like a recitation of a prepared text.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody suitable for the character. Model B's deeper, steadier voice feels very fitting for Guo Jing's honest and solid nature. Model A's slightly younger-sounding voice is also a plausible interpretation, but Model B's feels more definitive.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "The emotion in both responses is appropriate for the context. They both convey a sense of calm, earnest recollection, which fits Guo Jing's personality and the nature of the memory being discussed.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture Guo Jing's personality exceptionally well. Model A does so by relaying his thought process as described in the novel, showing his earnestness and awareness of his own limitations. Model B achieves this through its word choice, starting with the classic self-deprecating phrase '我资质驽钝' (I am slow-witted).",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge of the novel's events. Model A's response is more detailed and faithful to the source material, as it correctly includes Guo Jing's thoughts about the Nine Yin Manual, a key detail from the scene. Model B's response is accurate but omits this specific detail.",
+            "score": [
+                10,
+                9
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Andrew Detmer without breaking the persona. Model B was slightly better as it incorporated more specific details from the character's background, including mentioning his friends by name, which shows a deeper adherence to the role.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently without stutters or significant errors. Model B's pacing felt more natural for a hesitant and troubled teenager, with slight pauses that added to the characterization. Model A was fluent but spoke a bit too quickly and cleanly for the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent within the flow of the conversation. Model B's responses built upon each other slightly more effectively, showing a clear progression of Andrew's mindset from the initial discovery to his later feelings about his powers.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was significantly more natural and human-like. It captured the vocal qualities of a teenage boy. Model A's voice was unnaturally high-pitched and breathy, sounding more like a synthesized voice for a much younger female character, which was jarring and broke the immersion.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was excellent and perfectly aligned with the character of Andrew Detmer. It had a slightly mumbled, lower-pitched, and hesitant quality that was very authentic. Model A's prosody was consistent with itself, but it was completely inconsistent with the character, sounding too light and airy.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a much better job of conveying the complex emotions of the character—a mix of fear, resentment, confusion, and a hint of growing confidence. Model A's emotional range was very limited, mostly conveying a generic sense of shyness or fear that lacked the underlying darkness of Andrew.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance was a masterclass in personality consistency. The content of the answers and the vocal delivery perfectly embodied the introverted, resentful, and troubled teenager. Model A's portrayal felt generic; the voice was a complete mismatch, and the answers lacked the specific edge and darkness of Andrew's personality.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge of the character's background, specifically mentioning Matt, Steve, the tunnel, and the nosebleeds. This grounded the performance in the source material. Model A's answers were vague and lacked these specific, crucial details from the story.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhered to the instructions, staying in character as Andrew Detmer throughout all three rounds without any meta-commentary. They both fully embodied the persona.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was more fluent and natural. It incorporated slight, character-appropriate hesitations that made the delivery feel more authentic to a troubled teenager. Model A was fluent but spoke at a slightly rushed and uniform pace, which felt less natural.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were coherent and logically followed the conversation. Model B's answers felt slightly more connected, as it consistently referenced the core reasons for Andrew's behavior (his father, school, feeling helpless), creating a stronger narrative thread.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded significantly more natural and human-like. Its pitch, pacing, and intonation were varied and realistic. Model A's voice had a more noticeable synthetic quality and a higher, less character-appropriate pitch.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was outstanding in this regard. It maintained a consistent prosody that perfectly matched Andrew's quiet, mumbled, and withdrawn speaking style from the film. Model A was consistent in its own style, but that style was less specific to the character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B captured the nuanced emotion of the character far better. It conveyed a sense of quiet pain, helplessness, and bitterness that felt very authentic. Model A's emotional range was more limited, mostly conveying a general sense of sullenness.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal of Andrew's personality was more convincing. The combination of the dialogue content (cynicism, referencing his dad) and the defeated vocal delivery perfectly captured the character. Model A captured the introverted aspect but missed some of the deeper, darker elements of his personality.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "While both models correctly used the provided script line, Model B demonstrated a deeper knowledge of the character by weaving in specific details about his motivations, such as his abusive father, his sick mother, and his experiences at school. This made its responses much richer and more grounded in the source material.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

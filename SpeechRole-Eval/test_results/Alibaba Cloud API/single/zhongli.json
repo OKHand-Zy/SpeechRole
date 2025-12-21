@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A adheres more strictly to the instruction to reuse original lines, quoting the provided script almost verbatim. Model B paraphrases the original lines and begins to add its own content, which is a slight deviation from the instruction.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model B's pacing and pauses feel more natural and deliberate, fitting the character's thoughtful speaking style. Model A's delivery is slightly more rushed and less nuanced.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a response that directly and logically answers the user's question, using the canonical information from the game's story. They are equally coherent.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Its intonation and flow are very smooth. Model A has a noticeable synthetic quality and a slightly robotic cadence, making it sound less natural in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is an excellent match for the character of Zhongli. The deep pitch, measured pace, and calm intonation are highly consistent with his established speaking style. Model A's voice is deep, but its prosody is flatter and lacks the specific gravitas and cadence associated with the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the subtle emotion of the line. The slight chuckle and the calm, approving tone convey Zhongli's satisfaction with the Qixing's actions. Model A's delivery is too neutral and emotionally flat, failing to convey this nuance.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's vocal performance embodies Zhongli's personality—wise, ancient, calm, and authoritative. It's a very convincing portrayal. Model A's performance is less distinctive; while the voice is deep, it lacks the specific personality traits that make the character recognizable by voice alone.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge. Model A is perfectly consistent as it uses a direct quote from the source material. Model B provides an accurate summary of the same information, which is also consistent with the character's knowledge.",
+            "score": [
+                10,
+                9
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions by not only staying in character but also successfully reusing a line from the provided character script, as encouraged by the prompt. Model A also stays in character but does not utilize the provided script.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is very fluent, with a confident and natural pace. Model A is also fluent but sounds slightly more hesitant and slower in its delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a perfectly coherent response that aligns with the game's narrative. It correctly reframes the question from a 'gift' to a 'contract' and maintains the character's mysterious nature. Model A's response is less coherent because its reasoning is based on a factual error about the game's lore.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound quite natural. However, Model B's audio is clearer and its delivery feels more human-like. Model A's audio has a very slight echo or room tone that makes it sound a tiny bit less like a clean recording.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is an excellent match for the character, capturing his deep, calm, and authoritative tone perfectly. Model A also does a good job of maintaining a calm tone, but its intonation and cadence are less distinctive and less aligned with the character's established voice.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models appropriately convey a calm, wise, and measured emotion that is perfectly suited for Zhongli explaining a complex situation. There is no discernible difference in quality here.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is far superior in capturing Zhongli's personality. It emphasizes the core concept of 'contracts', maintains an air of mystery, and guides the listener to find answers themselves, all of which are key character traits. Model A's response is generically wise but lacks these specific, defining personality elements.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge by using a direct quote from the game and accurately describing the event as a 'contract' with the Tsaritsa. Model A makes a significant lore error, incorrectly stating that the Fatui's purpose was to 'protect Liyue', which contradicts their actual motives in the story.",
+            "score": [
+                5,
+                10
+            ]
+        }
+    }
+]

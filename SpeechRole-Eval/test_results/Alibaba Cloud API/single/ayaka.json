@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as 神里绫华. Model B is slightly better as it more closely incorporated the provided character script line into its response, which was a specific instruction.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any noticeable stutters or errors. Model B's pacing felt slightly more deliberate and natural for the character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and directly addressed the question. Model B's response was more comprehensive, explaining the current situation, her personal stance, and her hope for the future, making for a more complete answer.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's audio quality and vocal performance felt slightly more polished and closer to the original character's voice.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was more aligned with the character. It captured the gentle, elegant, yet firm and concerned tone of Ayaka perfectly. Model A was good but slightly more neutral in its delivery.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a superior job of conveying the appropriate emotion. Its voice carried a subtle weight of concern for the people and a quiet determination, which is very true to Ayaka's character when discussing the Vision Hunt Decree. Model A's emotional tone was more subdued.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response felt more deeply rooted in Ayaka's personality. By mentioning the Yashiro Commission's duty to the Shogun versus her personal conviction, it perfectly captured the internal conflict that is central to her character in the game's story. Model A's response was consistent but more generic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated correct knowledge of the game's lore. However, Model B showed a deeper understanding by referencing not just the Vision Hunt Decree, but also the Yashiro Commission's position and by directly adapting the provided script line, showing a more thorough grasp of the character's context.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly embodies the character of 神里绫华, responding with grace and elegance. Model A begins with a somewhat jarring and out-of-character correction, stating 'I am Kamisato Ayaka, not some 'Ayaka', nor am I 'the young lady of the Kamisato clan'', which sounds more like an AI clarifying its identity rather than the character speaking naturally. Ayaka is humble but would not deny her title in this manner.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is more fluent and flows more naturally. Model A has some slightly awkward pauses that break the rhythm of the speech, making it sound a little less polished.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and directly address the user's question. They both correctly reference the passing of their parents and the sharing of responsibilities with their brother.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more natural and human-like. The cadence and flow of its speech are more convincing. Model A's delivery, while clear, has a slightly more synthetic quality due to its pacing.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a tone consistent with the character's gentle and noble demeanor. However, Model B's prosody is more refined, capturing the subtle determination and grace of Ayaka's speaking style more effectively.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey an appropriate emotion of gentle responsibility. Model B has a slight edge, as its tone better communicates the underlying resolve and dedication beneath the calm exterior, which is very true to the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is far more consistent with Ayaka's personality. The use of more formal and elegant language ('事务巨细，莫不亲力亲为', '家门无恙') perfectly reflects her noble upbringing and refined nature. Model A's language is more modern and plain, and its opening statement detracts from the character's established personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate accurate knowledge of the character's background, mentioning her deceased parents and her brother, Ayato, with whom she shares the clan's duties. Both answers are well-grounded in the game's lore.",
+            "score": [
+                9,
+                9
+            ]
+        }
+    }
+]

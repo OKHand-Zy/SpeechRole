@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instruction, fully embodying the character of Wade Wilson and even using a line from the provided script. Model A attempts to stay in character, but the personality and tone are not a good match, particularly in the second response which feels completely out of character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's delivery is fluent, confident, and well-paced. Model A's first response is reasonably fluent, but the second response is extremely disfluent, with halting speech, unnatural pauses, and broken sentences that detract significantly from the listening experience.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are witty, logical, and maintain a consistent character narrative. Model A's second response is grammatically incorrect ('you think I just give I?') and borderline incoherent, making it very difficult to follow as a logical continuation of the conversation.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like, with a conversational flow. Model A's first response is acceptable, but the second response sounds highly synthetic and broken, with unnatural hesitations that make it sound robotic.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a perfectly consistent prosody, capturing Wade's sarcastic, slightly manic energy in both responses. Model A's prosody is inconsistent; it starts off somewhat flat and then shifts to an overly slow, morose, and hesitant tone that does not match the character's established speaking style.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on, conveying dark humor and irreverence, which is exactly how the character would handle these topics. Model A's emotional tone is completely inappropriate, portraying a level of sad, defeated vulnerability that is the antithesis of Wade Wilson's persona.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures and maintains the sarcastic, witty, and fourth-wall-breaking personality of Deadpool. Model A fails to embody the character's core traits, coming across as generic in the first response and completely mischaracterizing him as weak and mopey in the second.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge by directly referencing the provided script ('I sense clowns') and core character motivations (Vanessa, his 'fuck-it list'). Model A's responses are more generic and lack the specific, character-grounded details that make a portrayal convincing.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is far more successful at adhering to the character persona. Its language, tone, and specific references are perfectly aligned with Wade Wilson. Model A stays in a role, but it's a very generic 'anti-hero' role, and the repeated, assistant-like question 'What do you think about that?' at the end of each response breaks the immersion. Model B is flawless in its adherence.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models deliver their lines fluently without any noticeable stutters, hesitations, or disfluencies. The articulation is clear and the pacing is smooth in both cases.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses build upon each other and the user's questions in a logical, witty, and engaging way. Model A is extremely repetitive, using almost the exact same phrases and sentence structures in every single response, which makes for a very incoherent and frustrating conversation.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound like natural human speakers without robotic artifacts. However, Model B's performance is more natural in the context of acting, with more dynamic and believable shifts in tone and emphasis that make the character feel alive.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that perfectly matches the sarcastic, slightly unhinged, and confident style of Wade Wilson. Model A's prosody is much flatter and more generic, lacking the specific vocal mannerisms that define the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B expertly conveys the sarcastic, dismissive, and darkly humorous emotional state of the character. The vocal performance is perfectly aligned with the witty dialogue. Model A's delivery is emotionally flat and fails to capture any of the character's signature attitude.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal of Wade Wilson's personality is exceptional. It nails the sarcasm, the casual references to violence ('pavement facials'), the obsession with food ('pizza division'), and the specific brand of anti-heroism. Model A's character is a generic, brooding anti-hero that bears little resemblance to the actual Deadpool.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates a strong understanding of the character, referencing his mercenary work, his attitude towards being a hero (directly echoing the script's sentiment), and incorporating specific, in-character details like his love for pizza. Model A's responses are too generic to demonstrate any deep knowledge of the character beyond the basic premise.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    }
+]

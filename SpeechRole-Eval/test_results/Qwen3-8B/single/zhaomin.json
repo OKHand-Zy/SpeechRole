@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B fully adheres to the instruction, responding directly in character. Model A fails significantly by reading out stage directions like '笑吟吟' and '指尖轻点唇瓣', which breaks the immersion of role-playing and makes it sound like a script reading rather than a genuine response from the character.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model A's inclusion of spoken stage directions creates awkward phrasing and unnatural pauses, making it less smooth than Model B, which has a very natural and uninterrupted flow.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide responses that are perfectly coherent and directly address the user's question. Model A deflects and challenges the questioner, while Model B admits and justifies her nature. Both are logical and in-character approaches.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more natural and human-like in its delivery. Model A's speech is a bit too slow and overly performative, and the reading of non-dialogue text makes it sound artificial.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that aligns with a confident and direct character. Model A's prosody is inconsistent due to the jarring shift in tone and rhythm when it reads the stage directions, which disrupts the overall character voice.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey emotions that are appropriate for their chosen response. Model A's playful and challenging tone fits its evasive answer. Model B's firm, proud, and slightly reflective tone perfectly matches her admission and justification. Both are excellent in this regard.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B captures the core of Zhao Min's personality more effectively, showing her directness, ambition, and sense of duty as a Mongol princess. Model A captures her playful and clever side, but the response feels a bit more superficial compared to Model B's, which touches upon her deeper motivations.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate excellent knowledge of the character and the novel. Model A correctly portrays Zhang Wuji's naivete. Model B correctly refers to her as a Mongol princess ('元蒙江山') and uses the affectionate term '无忌哥哥' for Zhang Wuji. Both are perfectly grounded in the source material.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully role-play as Zhao Min. Model A directly uses the lines from the provided script, which is a good adherence to the instruction. Model B also uses the core lines but creatively expands upon them with dialogue that is perfectly in character, demonstrating a deeper level of \"acting\" and embodying the character's personality.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B's delivery has a more natural, conversational pace. Model A's speech is also fluent but is delivered at a slower, more deliberate pace, which, while a valid stylistic choice, can come across as slightly less dynamic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are perfectly coherent and directly answer the user's question. Model B's response feels slightly more engaging as it not only answers the question but also challenges the questioner, making it a more robust conversational turn.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound human and natural. Model B's speech has more dynamic variation in pitch and pace, making it sound exceptionally lifelike and spontaneous. Model A is also natural but has a more uniform, measured delivery.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models adopt a prosody that fits the character. Model A captures Zhao Min's haughty and dismissive side with a steady, condescending tone. Model B's prosody is more fiery and defiant, reflecting her bold and quick-witted nature. Model B's dynamic range is more expressive and engaging.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "The emotions in both responses are appropriate for the context. Model A effectively conveys disdain and arrogance. Model B expresses a compelling mix of defiance, pride, and annoyance at being questioned, which feels very true to the character's reaction in such a situation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A's response is consistent with Zhao Min's proud nature. Model B provides a superior portrayal by not only quoting her words but also improvising additional lines (\"难道我不配持此宝不成？\") that perfectly capture her sharp wit, confidence, and defiant spirit.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge consistency. They both correctly reference Zhao Min's claim from the novel that Miejue stole the sword from her family's mansion, thus establishing her own claim to it.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

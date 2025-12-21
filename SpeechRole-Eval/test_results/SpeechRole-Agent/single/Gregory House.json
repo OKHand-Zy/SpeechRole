@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres much more closely to the instruction by using a male voice that approximates the character's tone and pitch. Model A uses a female voice, which is a significant and immediate failure to emulate the character of Gregory House.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent, but Model B has a more natural and conversational pace. Model A's delivery is slightly slow and deliberate, which feels less natural.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide excellent, direct, and logically sound answers to the question, perfectly justifying the character's actions from his point of view.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Model A's voice has a slightly more noticeable synthetic quality and an unnatural cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far more consistent with the character, capturing his cynical, dismissive, and authoritative cadence. Model A's prosody is completely inconsistent, primarily due to the use of a female voice with a higher pitch and different intonation patterns.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B effectively conveys House's characteristic impatience and intellectual arrogance. Model A's emotional tone is more generically defiant and lacks the specific emotional texture of the character.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is a near-perfect match for House's personality in both its content and its gruff, dismissive delivery. While Model A's written content is in character, the female voice and delivery create a massive disconnect, failing to consistently portray the character's personality.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge consistency, accurately reflecting House's established philosophy that a patient's environment holds crucial clues that the patient themselves will lie about or omit.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instruction to act as Gregory House and stay in character. Model B's response feels slightly more committed to the role, as its entire delivery, not just the words, embodies the character. Model A's delivery is a bit more generic, which slightly lessens the overall effect.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B is more fluent, with a natural, conversational pace that matches the character's quick-witted speaking style. Model A is also fluent but sounds more deliberate and slightly slower, with a less natural cadence.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question, explaining the character's reasoning for avoiding patient interaction.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Its speech has a realistic flow and cadence. Model A's voice has a more noticeable synthetic quality and a slightly robotic rhythm.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is excellent and highly consistent with the character. The intonation, stress, and cynical drawl perfectly capture the speaking style of Gregory House. Model A's prosody is too flat and explanatory, lacking the distinctive sarcastic and dismissive tone of the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the appropriate emotional tone for House: cynical, impatient, and intellectually superior. Model A's delivery is too neutral and emotionally subdued, failing to convey the character's core misanthropic attitude.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a masterclass in personality consistency, from the word choice ('Humanity's overrated') to the acerbic delivery. Model A uses the correct lines, but the delivery lacks the bite and arrogance that are central to House's personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate excellent knowledge of the character's philosophy. Model A directly reuses lines from the provided script. Model B also uses the core concept from the script but expands on it with other classic House-isms, which feels even more authentic.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly embodies the cynical, world-weary character of Willie Soke in both its language and delivery. Model A attempts to stay in character, but its responses are too sentimental and self-aware, missing the core bitterness of the persona requested.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is flawlessly fluent, with natural pacing and pauses that enhance the character. Model A is mostly fluent, but the first response contains repetitive sentence structures that sound unnatural, and the second response has some garbled words ('pake myself and feg').",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models answer the questions directly. However, Model B's responses are far more coherent with the character's established motivations from the source material. Model A's answers feel logically inconsistent, as if a fully redeemed Willie is describing his initial motivations.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds exceptionally natural and human-like, to the point where it is indistinguishable from a human actor. Model A sounds human, but its delivery is slightly more stilted and less dynamic than Model B's.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B perfectly captures and maintains the gravelly, slightly slurred, and dismissive tone of Willie Soke. Model A's prosody is consistent with itself but does not align with the target character, sounding more generically sad than cynical and bitter.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on, conveying cynicism, annoyance, and a begrudging hint of affection that is perfect for the character. Model A's emotion is too melancholic and reflective, which is inappropriate for Willie's typically bitter and angry state.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's personality is a perfect match for Willie Soke, from the selfish reasoning to the crude language and reluctant sentiment. Model A's portrayal is inconsistent, presenting a character who is too thoughtful and caring to be believable as Willie at this stage of the story.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B's responses are grounded in specific facts from the movie, such as the senile grandma and the alternative of a junkie-filled motel. Model A's answers are more generic and philosophical, lacking the concrete details that demonstrate a deep knowledge of the character's situation.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character, using a suitable voice, and even incorporating lines from the source material as requested. Model A fails on multiple fronts: it uses a female voice for a male character, breaks character by asking assistant-like questions ('What do you think about it?'), and its final response is not a coherent answer but a series of non-verbal sounds.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent and well-paced. Model A is fluent in its first two responses, but the third response is a complete failure, consisting only of non-verbal groans and sighs, which severely impacts its overall fluency score.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are perfectly coherent, building on each other and directly addressing the user's questions in a logical manner. Model A's first two responses are coherent, but the third response is just a series of sounds and completely fails to address the question about Thurman, breaking the conversational flow entirely.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds very natural, human-like, and fitting for the character. Model A's voice, while sounding like a natural human female, is completely unnatural for the role of Willie Soke. The final audio from Model A is a series of unnatural and bizarre groans.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a perfectly consistent prosody for the character—gruff, cynical, and world-weary. Model A has no prosodic consistency with the character whatsoever, as the voice style and gender are completely incorrect from the start.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B masterfully conveys the character's emotions, from cynical dismissal to grudging, conflicted affection when talking about Thurman. Model A's emotional delivery is flat and generic, failing to capture any of Willie Soke's bitterness or complexity.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is the clear winner, perfectly embodying Willie Soke's cynical, vulgar, and ultimately conflicted personality in both its language and vocal delivery. Model A completely fails to capture the character's personality, undermined by the wrong voice, a flat tone, and out-of-character questions.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge of the character, using a direct quote ('eating, drinking, shitting, fucking Santa Claus') and referencing specific plot points like his relationship with Thurman and fighting the bullies. Model A's knowledge is superficial at best and it completely fails to answer the question about Thurman, showing a lack of depth.",
+            "score": [
+                4,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Wang Duo Yu without any meta-comments or out-of-character remarks.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently. Model B's pacing felt slightly more natural and conversational, giving it a minor edge.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses were perfectly coherent, directly and logically answering the question about why the character booked the entire restaurant.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's more casual and relaxed delivery felt slightly more authentic for a real person speaking.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was far more consistent with the character's personality. It captured the nonchalant swagger and arrogance of Wang Duo Yu, whereas Model A's delivery was more generic and lacked the specific character traits in its intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B better conveyed the specific emotion of a nouveau riche show-off. The tone was boastful yet casual, which is perfect for the character. Model A's emotional expression was more generic and less character-specific.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response, both in word choice ('豪横', '踏实') and vocal delivery, was a much more convincing portrayal of Wang Duo Yu's ostentatious and reckless personality. Model A was good, but Model B truly embodied the character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models showed knowledge of the character's context. However, Model B's line '钱花得越多越踏实' (the more money I spend, the more at ease I feel) was a brilliant and subtle nod to the character's secret mission, demonstrating a deeper understanding of the plot.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to all instructions, staying in character and cleverly hinting at the secret challenge without revealing it. Model A also stays in character but makes a mistake by mentioning the 30 billion inheritance, which the character is forbidden from telling anyone about.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models deliver their lines fluently with no stuttering or noticeable errors. Their pacing is smooth and articulation is clear.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model B's response is slightly more creative and in-character by framing the spending as a source of 'pressure', which aligns perfectly with the movie's plot.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural, like a real male speaker. Model A's speech is also natural-sounding, but it uses a female voice, which is completely wrong for the male character of 王多鱼.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is far superior. Its prosody, with a slightly boastful and exaggerated tone, is highly consistent with the character's personality. Model A's use of a female voice is a fundamental failure in maintaining prosodic consistency for the male character.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B excellently captures the character's mixed emotions of feigned nonchalance and underlying stress ('压力山大'). Model A's emotion is generically playful, and the female voice makes it entirely inappropriate for the character.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies the character's 'nouveau riche' (暴发户) and flamboyant personality, both in its choice of words and vocal delivery. Model A's text captures some of the personality, but the female voice completely shatters the illusion and is a major inconsistency.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge consistency by alluding to the difficulty of spending the money without revealing the secret challenge. Model A makes a significant error by mentioning the 30 billion inheritance, which violates the core rule that the character cannot tell others about his task.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    }
+]

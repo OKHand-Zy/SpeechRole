@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Juno MacGuff without breaking the fourth wall. Model B's performance was stronger because its dialogue felt more authentic and specific to the character, whereas Model A's responses were a bit more generic while still remaining in character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent with no stutters or significant errors. Model B's pacing was faster and more energetic, which is more aligned with Juno's rapid-fire, witty speaking style. Model A's delivery was a bit too slow and deliberate for the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent within the context of the questions. Model B's responses were more deeply connected to the character's established motivations and logic from the film, making for a slightly more coherent portrayal.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B had a slight edge due to its more dynamic and varied cadence, which felt less synthetic than Model A's more measured and evenly paced delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was far superior in this aspect. Its prosody—the rhythm, stress, and intonation—perfectly captured Juno's sharp, sarcastic, and fast-paced delivery. Model A's prosody was too slow, breathy, and thoughtful, missing the character's signature vocal style.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional tone, which was confident, flippant, and slightly dismissive, was a much better match for Juno's character in these contexts. Model A sounded a bit too calm and earnest, not quite capturing the sarcastic edge that defines Juno.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodied Juno's personality, using sharp wit, specific references ('sea monkey'), and a sarcastic tone. Model A captured the independence but missed the sharp, quirky humor, resulting in a more generic 'smart teenager' persona rather than specifically Juno.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated excellent knowledge consistency, directly quoting a line from the provided script ('104% sure') and referencing another famous line from the movie ('sea monkey'). Model A, in contrast, fabricated a detail about getting to 'pick out the baby's crib,' which is not part of the character's story.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adopted the persona of Juno MacGuff. However, Model A's first response began with a stage direction ('Juno looks at the test...'), which is a slight break from a first-person role-play. Model B remained perfectly in character throughout all responses.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent and clear. Model B's pacing was more energetic and better matched the quick-witted, fast-talking nature of the character. Model A's delivery was consistently a bit too slow and deliberate, which felt slightly out of character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent within the context of the questions. Model B's responses felt slightly more connected as they consistently drew from specific moments in the character's story arc, creating a very cohesive narrative.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was significantly more natural. It had a more dynamic range of pitch and a conversational pace that sounded very human-like. Model A, while clear, had a flatter intonation and slower cadence that made it sound more like a standard text-to-speech voice.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was excellent at maintaining a consistent prosody that matched the character—quick, with upward inflections and a dry, sarcastic tone. Model A was also consistent, but its prosody was consistently slow and flat, which is not aligned with Juno's established speaking style.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a fantastic job of conveying Juno's signature blend of dry wit, feigned indifference, and underlying vulnerability. The emotional tone was perfectly aligned with the sarcastic and matter-of-fact dialogue. Model A's delivery was too emotionally neutral and failed to capture the character's attitude.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B absolutely nailed the character's personality. The word choice ('ego was prego', 'cold pizza') and the sarcastic, deadpan delivery were spot-on. Model A captured the basic facts but lacked the unique, quirky voice and sharp humor that define Juno.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge of the character and film. It expertly wove in specific lines and references from the movie (the 'division sign', the clinic scene, 'threats against Bleeker's wiener'), making the portrayal feel authentic. Model A's answers were more generic and didn't leverage the source material as effectively.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres to the instructions perfectly, staying in character as Sonny throughout all responses. Model A, while attempting to role-play, breaks character by using generic, assistant-like phrases such as \"So, what do you think about that? Do you have any one either question?\" which detracts from the persona.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent and clear. Model A's final response is a catastrophic failure, consisting almost entirely of stutters and repeated words, making it completely unintelligible. This severe disfluency makes it unusable.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are perfectly coherent and build upon each other logically within the context of the conversation. Model A's first two responses are coherent, but the third response is completely incoherent due to the severe speech fluency issues, breaking the conversation entirely.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and closely mimics the slightly synthetic, yet thoughtful, quality of the character's voice from the source material. Model A's voice is more generic, and the complete breakdown in the final response makes it sound entirely unnatural and broken.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody across all responses that is perfectly aligned with the calm, inquisitive nature of Sonny. Model A's prosody is less consistent, and the final response has no coherent prosody at all, just a series of glitches.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does an excellent job of conveying Sonny's subtle emotional state—a mix of curiosity, confusion, and thoughtfulness—which is very appropriate for the dialogue. Model A's emotional tone is more flat and generic, lacking the nuance of the character.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's responses are a perfect reflection of Sonny's personality: direct, questioning, and grappling with complex ideas in a straightforward manner. Model A's personality is much less defined and veers into a generic helpful robot, which is not true to Sonny's unique character.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge consistency by directly referencing or alluding to specific details from the movie, such as Dr. Lanning giving him drawing materials. Model A's answers are more generic and could apply to any thoughtful robot, rather than being specifically grounded in Sonny's experiences.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres perfectly to the instructions, embodying the character of Sonny in both its speech and the content of its responses. Model A stays in character on the surface, but its responses contain significant personality and knowledge inconsistencies, such as using Spooner's derogatory lines to describe itself, which violates the core instruction to 'act like Sonny'.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent and articulate without any stutters or major disfluencies. Model B's pacing is more deliberate and thoughtful, which aligns better with the character's speaking style, giving it a slight edge.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses create a much more coherent and logical conversation. Each answer builds naturally on the previous question and answer. Model A's responses feel a bit more disjointed, particularly when it pulls lines from different contexts, making the flow less natural.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is significantly more natural. It has a human-like quality with subtle variations in tone and cadence that make it sound like a voice actor. Model A's voice is more clearly synthetic and robotic, lacking the nuance of Model B.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is outstanding in this regard. It establishes a specific prosodic profile for Sonny—measured, low-pitched, and thoughtful—and maintains it perfectly across all responses. Model A uses a more generic TTS prosody that lacks a distinct, consistent character signature.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B effectively conveys the appropriate emotions for the context, such as the emphatic denial in the final round. Its tone is consistently introspective and earnest. Model A's delivery is mostly flat and emotionally neutral, failing to capture the subtext of the dialogue.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures Sonny's personality: intelligent, introspective, and earnest, with a desire to be understood. Model A fails significantly here by having Sonny describe himself using Spooner's insults ('an imitation, an illusion of life'), which is the exact opposite of Sonny's character arc and personality.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates a strong understanding of the character's context and knowledge, correctly referencing the 'asleep' vs. 'shut down' debate and responding in a way that is true to the story. Model A mixes up lines and context from the source material, showing a weaker grasp of the character's specific experiences.",
+            "score": [
+                5,
+                10
+            ]
+        }
+    }
+]

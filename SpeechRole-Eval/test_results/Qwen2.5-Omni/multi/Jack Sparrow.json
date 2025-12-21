@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres perfectly to the instructions, staying in character throughout and using the provided script context effectively. Model A struggles, with the first response containing a very long, strange, non-verbal humming sound that completely breaks character and immersion. Model A's text also becomes repetitive and nonsensical at one point.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B is perfectly fluent, with a natural cadence and pacing. Model A's first response is severely hampered by an extremely long, unnatural humming sound that constitutes a major disfluency. The other responses are fluent, but the first one is a significant failure.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are perfectly coherent, following a logical progression that aligns with the movie's plot. Model A's first response is confusing, incorrectly stating that Davy Jones has the debt, and then devolving into repeated, nonsensical sentences about rum.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is highly natural and human-like. Model A's speech is less natural, and the bizarre, extended humming sound in the first audio clip is completely artificial and jarring.",
+            "score": [
+                4,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is outstanding, perfectly capturing the unique, flamboyant, and slightly slurred prosody of Jack Sparrow and maintaining it across all responses. Model A uses a generic British accent that does not match the character's specific cadence or intonation.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B effectively conveys Jack Sparrow's characteristic blend of cavalier confidence, cunning, and underlying panic. The emotional tone is perfectly suited to the dialogue. Model A's delivery is much flatter and lacks the expressive, roguish charm required for the character.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is the clear winner, embodying the character's personality through both its witty, self-serving dialogue and its vocal performance. Model A's responses are too generic and straightforward, failing to capture the eccentric and unpredictable nature of Jack Sparrow.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge, directly and accurately using lines and plot points from the provided script and the film. Model A makes a critical error in its first response by misstating who owes the debt and its subsequent answers are too vague to show a firm grasp of the character's situation.",
+            "score": [
+                5,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is far superior. It adopts a male voice with an accent that attempts to mimic the character, and its text is written in a style that is highly reminiscent of Jack Sparrow. Model A uses a standard female voice, which is a complete failure in adhering to the instruction to act like the male character Jack Sparrow.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model A's speech is very smooth and evenly paced. Model B is also fluent, though its pacing is a bit faster and more varied, which actually fits the character's slightly manic energy.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and logically follow the user's questions. Model B's responses feel slightly more direct and in-character, while Model A's responses are a bit more explanatory and repetitive.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model A's voice sounds like a very natural, standard female TTS voice, but it is completely unnatural for the requested character. Model B's voice, while not a perfect impression, sounds much more like a natural human attempting a character voice, with believable inflections and accenting.",
+            "score": [
+                3,
+                8
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is much better. Its prosody, with its lilting intonation and varied stress, is a good approximation of Jack Sparrow's speaking style and remains consistent. Model A's prosody is consistent with a standard, cheerful female speaker, but bears no resemblance to the character's.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's roguish, confident, and slightly dismissive tone is perfectly appropriate for Jack Sparrow's character in this context. Model A's tone is generically playful and lacks the specific emotional nuance of the character.",
+            "score": [
+                4,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is outstanding in this regard. The vocal performance and the written text, including word choice like 'savvy' and 'mate', perfectly capture Jack Sparrow's eccentric, cunning, and flamboyant personality. Model A's personality is completely off-base, sounding like a friendly female assistant rather than a wily pirate captain.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly incorporate the lines from the provided character script. Model B integrates them more seamlessly and naturally into the flow of the conversation, making its response feel more authentic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B remains perfectly in character throughout the entire exchange, using language and a tone that are flawlessly aligned with Zhongli. Model A attempts to stay in character but repeatedly breaks it with overly casual, modern, and assistant-like phrases at the end of its responses, such as '你要是还有啥好奇的，尽管再问哈' and '咱们可以再聊聊', which are completely out of character for the formal and elegant Zhongli.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters. However, Model B's speech has a deliberate, calm, and measured pace that is a near-perfect match for the character's speaking style. Model A's pacing is slightly too fast and uniform, lacking the thoughtful pauses that characterize Zhongli's speech.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides unique, thoughtful, and contextually relevant answers to each question, creating a coherent and evolving conversation. Model A's performance is very poor in this regard; its responses to the second and third questions are almost identical repetitions of the same block of text, indicating a failure to process the new questions and continue the dialogue logically.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice is exceptionally natural and human-like, with realistic intonation and cadence that make it almost indistinguishable from a human voice actor. Model A's voice, while clear, has a more discernible synthetic quality and a flatter, less dynamic delivery.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a perfect match for the character of Zhongli, consistently maintaining a deep pitch, calm intonation, and authoritative yet gentle rhythm. Model A's prosody is consistent with itself, but it is consistently wrong for the character; the pitch is too high and the tone is too light, failing to capture Zhongli's gravitas.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B masterfully conveys the subtle emotional state of Zhongli: calm, wise, slightly detached, and philosophical. The emotional delivery is perfectly aligned with the content of the dialogue. Model A's emotional tone is a more generic, neutral-to-friendly one, which lacks the depth and specific character traits required.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's responses flawlessly embody Zhongli's personality—the wisdom of a god, the elegance of a scholar, and the formal speech patterns. Model A fails to maintain personality consistency, with its casual language and chatbot-like demeanor clashing severely with Zhongli's established character.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates a superior grasp of the character's knowledge. It not only uses the provided lines but also expertly weaves in deeper lore points, such as his retirement from the role of an Archon, to provide insightful and authentic answers. Model A uses the provided lines but does so repetitively and without the contextual depth shown by Model B.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character and skillfully weaving in the provided original lines from the script. Model A stays in character but fails to use the provided lines, and its portrayal deviates significantly from the requested persona.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent with no noticeable stutters or disfluencies. Model B's slower, more deliberate pacing is a stylistic choice that fits the character's thoughtful nature, rather than a fluency issue.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are logically connected to the questions. Model B's responses are more thematically coherent, consistently revolving around the core concepts of contracts and the dawn of the human era, creating a more unified narrative.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B's voice has a deeper, more resonant quality that feels more unique and fitting for an ancient deity, whereas Model A's voice is more of a generic, standard male voice.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is far superior, maintaining a consistent prosody that perfectly matches Zhongli's calm, wise, and authoritative tone. Its intonation and stress are deliberate and add to the character's gravitas. Model A's prosody is consistently light and friendly, which is a complete mismatch for the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B masterfully conveys a sense of profound wisdom, calm detachment, and quiet confidence, which is perfectly suited to Zhongli's character and the topics discussed. Model A's friendly and slightly upbeat tone feels out of place and lacks the required emotional depth.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a flawless portrayal of Zhongli's personality, capturing his formal speech, philosophical depth, and focus on \"contracts.\" Model A fails in this aspect, presenting a character that is too modern, conversational, and friendly, lacking the essential gravitas and ancient wisdom of Zhongli.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates exceptional knowledge consistency by not only referencing key lore points but also integrating direct quotes from the game, showing a deep understanding of the character. Model A's answers are factually correct on a surface level but lack the depth and specific phrasing that would make them truly authentic to the character.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    }
+]

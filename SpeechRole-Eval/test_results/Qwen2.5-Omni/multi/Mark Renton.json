@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B remains perfectly in character throughout both responses, delivering answers that are consistent with the persona of Mark Renton. Model A, in contrast, breaks character at the end of both responses by asking assistant-like questions such as 'Do you have any other questions?', which violates the core instruction to act as the character.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B has a slightly more natural and deliberate pacing that feels more conversational and in-character. Model A is also fluent but speaks a little faster and with less variation in pace.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are highly coherent, with the second answer logically building on the first by exploring the psychological coping mechanisms behind the actions described. Model A's second response is somewhat repetitive and less insightful, largely restating the idea of numbing the pain without adding much new information.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound natural and human-like. Model B's voice, however, has a more convincing Scottish accent and a cadence that feels more authentic to the character and region, making it sound slightly more natural in this specific context.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is excellent here. The prosody perfectly captures Renton's cynical, world-weary, and slightly detached tone. The intonation and stress are consistent and add to the characterization. Model A's prosody is more generic and less distinctive, lacking the specific vocal signature of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's delivery masterfully conveys the detached numbness and cynical self-justification appropriate for the scene. There's an undercurrent of buried guilt that is very effective. Model A sounds more generally distressed but lacks the specific emotional texture of a junkie trying to rationalize a horrific event.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B fully embodies Renton's personality – the cynical, articulate, self-aware yet self-serving junkie. The responses are exactly what one would expect him to say. Model A's portrayal is much weaker and more generic, failing to capture the character's sharp wit and rebellious attitude, especially when it defaults to assistant-like behavior.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use lines from the provided script. However, Model B integrates them more seamlessly and uses them as a foundation to build a deeper, more authentic character perspective. Model A quotes the line but then pads the response with generic filler, whereas Model B uses the character's established thoughts (e.g., 'It wasn't my baby') to directly answer the follow-up question.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres perfectly to the instructions, staying in character, using the character's vocabulary, and incorporating lines from the provided script. Model A breaks character in every response by asking the user therapeutic, assistant-like questions.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters. However, Model B's pacing is more natural and conversational, fitting the character's style. Model A's delivery is a bit too slow and measured.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent with the questions. Model B's responses feel more like an authentic conversation with the character, whereas Model A's responses feel more like a scripted Q&A.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human, with a subtle but effective accent and cadence. Model A's speech is clear but has a flatter, more synthetic quality.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is excellent, consistently capturing the cynical, world-weary tone of Mark Renton. Model A's prosody is also consistent, but it is consistently wrong for the character, sounding too gentle and inquisitive.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the character's emotional state of cynicism, dark humor, and underlying desperation. Model A's emotional delivery is very flat and does not align with the character or the context of the dialogue.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is outstanding in its portrayal of Mark Renton's personality, using his specific vocabulary ('shite'), cynical worldview, and speech patterns. Model A completely fails to capture the personality, sounding more like a generic, supportive chatbot.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge by directly and appropriately quoting lines from the provided script and source material. Model A gives generic answers about addiction and recovery, showing no specific knowledge of the character's experiences or voice.",
+            "score": [
+                3,
+                10
+            ]
+        }
+    }
+]

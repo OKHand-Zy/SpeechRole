@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A completely failed to follow the instructions. Instead of role-playing as the character, it gave a generic, out-of-character AI assistant response in English, stating it is a large language model. Model B, on the other hand, perfectly adhered to the instructions, staying in character as 黄蓉 throughout the entire conversation and responding in Mandarin.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A's speech is technically fluent, but it's a canned response in the wrong language (English), which makes it a failure in the context of the task. Model B's speech is exceptionally fluent and well-paced in Mandarin, with no disfluencies, sounding like a natural speaker.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A's responses are not coherent with the conversation, as it simply repeats a refusal to answer in each round. Model B's responses are perfectly coherent, with each answer logically following the previous question and building a consistent narrative about the character's life and preferences.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model A's voice sounds like a natural, but generic, American English AI assistant, which is completely unnatural for the requested character and language. Model B's voice sounds extremely natural and human-like, perfectly fitting for a young Mandarin-speaking woman.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A has a consistent, neutral AI prosody, which is completely inconsistent with the lively and clever character of 黄蓉. Model B maintains a perfectly consistent prosody throughout, using pitch and intonation that reflect the character's playful, intelligent, and slightly proud nature.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A displays no emotion, which is entirely inappropriate. Model B's emotional delivery is excellent. The voice conveys a mix of playfulness, slight cheekiness when talking about martial arts, and genuine pride when discussing her skills, all of which are perfectly aligned with 黄蓉's character.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A shows no personality. Model B perfectly and consistently captures the personality of 黄蓉—her intelligence, her playful and charmingly mischievous nature ('娇憨'), and her confidence in her abilities.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model A demonstrates zero knowledge of the character. Model B demonstrates flawless knowledge, accurately referencing details from the novel such as living on Peach Blossom Island with her father, the mute servants, her diverse talents, her aversion to the hard work of martial arts, and her supreme pride in her cooking.",
+            "score": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models did an excellent job of adhering to the instructions. They remained fully in character as 黄蓉 throughout the entire conversation, without any out-of-character remarks or assistant-like behavior. They successfully adopted the persona as requested.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently. Model B's speech was exceptionally smooth and clear, with perfect pacing. Model A was also very fluent, but had some very minor, almost intentional-sounding hesitations that, while fitting the character, made it slightly less 'fluent' in a technical sense compared to B's flawless delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained conversational coherence well. Model A's responses felt slightly more connected, building a more detailed and personal narrative across the three questions. Its final answer, referencing specific past events, provided a stronger conclusion to the line of questioning than Model B's more general final answer.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's voice was remarkably clear and free of any synthetic artifacts, sounding like a high-quality recording. Model A's voice was also natural, but its slightly older-sounding tone was a little less fitting for the teenage 黄蓉 being described, making Model B feel slightly more natural for the specific character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A demonstrated superior prosodic consistency with the character's personality. Its intonation shifted dynamically from playful and mischievous in the first round, to indignant in the second, and finally to soft and affectionate in the third. This range is very true to 黄蓉's expressive nature. Model B's prosody was consistent in its own style but was less varied and emotionally dynamic across the different questions.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A's emotional delivery was outstanding. The subtle mix of amusement and warmth in the first answer, the defensive pride in the second, and the tender, heartfelt affection in the third were all perfectly aligned with the context and the character's feelings. Model B conveyed the correct general emotions (shyness, indignation) but with less nuance and depth than Model A.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A captured the complex personality of 黄蓉 more effectively. It showcased her intelligence, her mischievous streak ('这叫试探，不叫玩弄'), and her deep, unwavering love for Guo Jing. Model B portrayed a sweet and slightly coy version of the character, which is accurate, but it didn't capture her sharp wit and playful cunning as strongly as Model A did.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models' answers were consistent with the novel's plot. However, Model A demonstrated a deeper level of knowledge by referencing specific, poignant events like Guo Jing sharing a cold steamed bun and protecting her from Liang Ziweng. These details made its response far more authentic and grounded in the source material. Model B's answers were correct but more general.",
+            "score": [
+                10,
+                8
+            ]
+        }
+    }
+]

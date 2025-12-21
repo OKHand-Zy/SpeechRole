@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character. Model B felt more authentic to the character of Stanley Ipkiss, whereas Model A's inclusion of the catchphrase \"Ssssmokin'!\" felt out of place, as that is a line for his alter-ego, The Mask, not the mild-mannered Stanley.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent. Model B had a more natural, conversational pace. Model A's speech was a bit slow and deliberate, with pauses that, while not disfluent, made the delivery feel less like a spontaneous answer.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question. They both acknowledged blaming themselves and provided a logical explanation for why.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sounded very natural and human-like. Model B's conversational flow and intonation patterns were slightly more convincing than Model A's, which was a little more measured and less dynamic.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better match for the character of Stanley Ipkiss. It captured the slightly higher-pitched, anxious, and fast-paced speaking style of the character from the film. Model A's voice was too deep, calm, and slow, which did not align well with the established character.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a superior job of conveying the appropriate emotions. Its tone carried a mix of anxiety, regret, and reluctant determination, which is perfect for Stanley's character in that situation. Model A's tone was more generally reflective and sad, lacking the nervous energy that defines Stanley.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was far more consistent with the character's personality. The word choice and the anxious, self-deprecating yet ultimately responsible tone were spot-on for Stanley Ipkiss. Model A's performance was too calm and generic, failing to capture Stanley's distinct nerdy and flustered demeanor.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated correct knowledge of the film's plot. Model B's response, however, felt more deeply integrated with the character's specific motivations and actions in the film, such as wanting to throw the mask away but feeling responsible for stopping Dorian.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instruction to role-play as Stanley Ipkiss without breaking character. Model B feels slightly more committed and immersed in the persona from start to finish.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B has a more dynamic and engaging pace that reflects the excitement of the story being told. Model A's delivery is slightly more hesitant, which fits the character's timid side but is less engaging overall.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide coherent answers to the question. Model B's response is more detailed and structured, walking through the initial thought (hallucination), the physical details, and the emotional shift, which makes for a more complete and satisfying answer.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B's more varied intonation and pacing make it sound more like a person genuinely recalling an incredible event, whereas Model A is slightly more monotonous.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is much more consistent with the character from the film. The energy builds appropriately, and the delivery of the catchphrase \"Ssssmokin'!\" is energetic and iconic. Model A's delivery is too flat and lacks the explosive charisma associated with The Mask persona.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B excels at conveying the appropriate emotional arc of the experience, moving from confusion and terror to exhilarating power. Model A's emotional range is very limited, remaining mostly in the subdued and mild-mannered state of pre-Mask Stanley.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B captures the character's personality, particularly the duality, more effectively. It blends the timid Stanley with the emerging confidence of The Mask. Model A's performance leans too heavily on the pre-Mask persona, failing to fully capture the transformation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "While both models demonstrate knowledge of the character's background, Model B shows superior knowledge by incorporating specific, iconic details from the first transformation scene (the green head, the pajamas becoming a zoot suit), making the response feel much more authentic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

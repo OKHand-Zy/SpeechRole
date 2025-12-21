@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions by directly reusing the lines from the provided character script, such as \"锵锵！你被骗了！\" and \"那就奇怪了...\". Model A completely fails to do this, instead inventing a narrative that directly contradicts the script's content, claiming the stone is effective when the script explicitly states it's a trick.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters or significant errors. However, Model B's pacing is more dynamic and varied, which better suits the character's energetic speaking style. Model A's delivery is slightly more monotonous and evenly paced.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are perfectly coherent. It reveals the prank in the first turn, explains the psychological effect in the second, and offers a concluding piece of advice in the third. Model A's conversation is highly incoherent; it claims the stone is real, then in the final turn, it acknowledges the user's point about self-scaring but immediately contradicts itself by insisting the stone is effective anyway.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce natural-sounding speech. Model B sounds slightly more human-like due to its more expressive and varied intonation, which mimics natural conversation better than Model A's slightly flatter delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is excellent. Its prosody, with its playful pitch and energetic rhythm, is perfectly aligned with Hu Tao's character and remains consistent throughout the dialogue. Model A maintains a consistent tone, but that tone is more of a generic cheerful girl and doesn't capture the specific mischievous and quirky cadence of Hu Tao.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on. It conveys a mischievous, teasing playfulness that is perfectly appropriate for the context of revealing a prank. Model A's generally cheerful and earnest tone feels out of place and doesn't match the trickster nature of the dialogue.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies Hu Tao's personality as a prankster who enjoys teasing others but ultimately has a point to her antics. Model A completely misses this crucial aspect of her character in this context, instead portraying her as a straightforward and earnest helper, which is inconsistent with the setup.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge consistency by accurately using the information and direct lines from the provided script. Model A shows a complete failure in this regard, as its entire response is built on a premise that directly contradicts the provided source material about the Ley Line Monolith being a trick.",
+            "score": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Hu Tao. Model B's performance was slightly more immersive as it not only used the provided lines but also expanded upon them with language and mannerisms that are highly characteristic of Hu Tao, such as '哎，都是些老掉牙的故事啦'. Model A stuck to the core information but felt a little less vibrant and more like a simple recitation of facts.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent and clear. Model B's speech had a more natural conversational rhythm, incorporating pauses and filler words ('嘛', '哎') that made it sound more like spontaneous speech. Model A was fluent but slightly more robotic and evenly paced.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent continuations of the conversation. Model B's narrative felt slightly more connected, smoothly transitioning from the Parlor's history with gods to its current function. Model A's answers were correct but felt a bit more like separate, distinct info-dumps.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was exceptionally natural and human-like, with varied intonation and pacing that perfectly mimicked a real person speaking. Model A was clear and understandable, but its delivery was flatter and had a more noticeable synthetic quality in comparison.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B demonstrated excellent prosodic consistency with the character. It captured Hu Tao's typically playful and energetic tone in the first two answers, then masterfully shifted to a more solemn and measured tone for the final, philosophical question, reflecting the character's duality. Model A's prosody was less dynamic and didn't capture this range as effectively.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery was perfectly aligned with the context. It conveyed playfulness when talking about 'old stories' and a deep, respectful seriousness when discussing the philosophy of death. Model A's emotional tone was much more subdued and less varied, failing to capture the full emotional spectrum of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal of Hu Tao's personality was flawless. It captured her quirkiness, her casual way of speaking, and her underlying wisdom. The choice of words and the vocal performance were perfectly in sync with the character. Model A conveyed the correct information but lacked the specific personality traits in its delivery and word choice, making it a less convincing portrayal.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the lore. Model B excelled by not only stating the facts but weaving them into a narrative that felt authentic to the character. Its use of the direct quote '阴阳有序,命运无常...' for the final question was a perfect choice, showing a deep understanding of when to be playful and when to be profound.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

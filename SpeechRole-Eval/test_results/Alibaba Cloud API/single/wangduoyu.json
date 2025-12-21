@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Wang Duoyu. Model B's response, however, felt more authentic and clever. The line '钱花得越多越踏实' (The more money I spend, the more at ease I feel) is a brilliant nod to the character's secret mission without explicitly stating it, showing a deeper adherence to the character's core motivation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently without any stutters or significant errors. Model B's pacing was slightly more conversational and natural, whereas Model A felt a little more like a standard, albeit good, text-to-speech reading.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly logical and directly addressed the user's question, explaining the motivation for booking the entire restaurant in a way that is consistent with the character.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B had a slight edge due to its more varied intonation and conversational pacing, which made it sound less like a generated voice and more like a person speaking.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was much more aligned with Wang Duoyu's character. It captured his flamboyant, confident, and slightly nonchalant attitude. Model A's delivery was a bit flatter and more generic in its arrogance, lacking the specific flair of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a better job of conveying the appropriate emotion. The tone was a mix of boastfulness and genuine satisfaction, which perfectly fits a nouveau riche character enjoying his spending spree. Model A's emotion was a more one-dimensional arrogance.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response was a masterclass in capturing Wang Duoyu's personality. The use of the word '豪横' (extravagant/domineering) and the logic of '大包间不够气派' (a private room isn't grand enough) are perfectly in character. Model A was good, but Model B felt more specific and true to the source material.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly understood the context. However, Model B's line '钱花得越多越踏实' (The more money I spend, the more at ease I feel) brilliantly reflects the character's secret knowledge and motivation (the need to spend 1 billion) without breaking the rule of not telling anyone. It shows a superior grasp of the character's hidden context.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Wang Duoyu without any out-of-character remarks. Model B's response felt slightly more immersed in the role, fully embracing the persona from the first word.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any stutters or noticeable errors. They both had a natural, conversational pace.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided direct and logical answers to the question. Model B's answer was slightly more creative, framing the spending as a 'pressure' which is a core theme for the character, making it a more engaging and coherent response within the character's context.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's voice had a slightly more distinct, brash quality that felt more unique and less like a standard text-to-speech voice, making it sound more authentic to a specific character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was exceptional. The intonation perfectly captured the character's boastful yet ironically stressed demeanor, especially with the delivery of '压力山大' (under huge pressure). Model A's prosody was good and fit a generic rich person, but Model B's was more specific to Wang Duoyu's unique personality.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A conveyed a simple, carefree arrogance. Model B, however, captured a more complex and character-appropriate emotion: the feigned burden and stress of having to spend so much money, which is central to the character's comedic situation. This nuance made its performance much stronger.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response was a masterclass in embodying the character's personality. Phrases like '这点钱' (this little bit of money), '甩出去' (throw it away), and complaining about the 'pressure' of spending it with '排面' (grandeur) are perfectly in line with the nouveau riche, show-off persona. Model A was good, but its response was more generic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated knowledge of the character's situation. Model A correctly mentioned the one-month time limit. Model B was more clever, alluding to the secret challenge by calling it a 'pressure' without explicitly revealing the task, which is a more sophisticated application of the character's knowledge and constraints.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

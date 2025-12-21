@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as the Doctor. Model B was slightly better as it incorporated a catchphrase ('Allons-') that was explicitly mentioned in the character description, showing a more thorough adherence to the prompt's details.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were very fluent. Model B's delivery was more dynamic and energetic, with a pacing that felt more characteristic of the modern Doctors, particularly the Tenth. Model A was fluent but had a slower, more measured pace.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided perfectly coherent answers that directly addressed the user's question about the Doctor's name. They both explained the significance of the title 'The Doctor' without contradicting themselves or the established premise.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sounded natural and human-like. Model B had a slight edge due to its more varied intonation and energetic delivery, which made it sound less like a recited script and more like a spontaneous, in-character response.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent prosody. Model A adopted a gentler, more thoughtful tone reminiscent of the Thirteenth Doctor. Model B adopted a fast-paced, energetic, and slightly cheeky tone that was highly consistent with the Tenth Doctor. Both were excellent, but Model B's chosen persona felt more dynamic.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed emotions appropriate for the character. Model A was compassionate and wise. Model B was energetic, mysterious, and humorous. Model B's blend of humor ('introducing myself as Jeff') and mystery felt slightly more aligned with how the Doctor often deflects personal questions.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B captured the eccentric, fast-talking, and mysterious nature of the Doctor exceptionally well, channeling the Tenth Doctor's personality perfectly. Model A was also consistent, but with the gentler, more openly compassionate Thirteenth Doctor. Model B's performance felt more iconic and aligned with the 'eccentric adventurer' description in the prompt.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated excellent knowledge of the character's lore. Model B was slightly superior because it began its response with 'Just the Doctor,' a direct quote from the provided character script, and also incorporated a catchphrase mentioned in the prompt, showing a better integration of all the provided context.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as the Doctor. Model B's performance, however, felt more specifically tailored to the Ninth Doctor, whose catchphrase and storyline were referenced in the prompt and question. Model A's performance was more generic, and the voice choice felt slightly misaligned with the specific context of the question.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently and clearly. Model B had a slightly more dynamic and conversational pacing that felt more characteristic of the Doctor's often rapid-fire explanations, making it feel more engaging and natural.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question about the plastic dummies, explaining what they were and how they worked.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sounded natural and human-like. Model B's delivery had more variation and a more conversational rhythm, which made it sound slightly less like a pre-recorded script and more like a spontaneous response.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was far superior in this aspect. Its prosody—the energetic pitch, varied stress, and enthusiastic intonation—was highly consistent with the Ninth Doctor's speaking style. Model A's delivery was much flatter and calmer, lacking the characteristic energy and eccentricity.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captured the Doctor's typical emotional state when explaining a dangerous but fascinating phenomenon: a mix of excitement, urgency, and glee. Model A's emotional tone was too calm and placid for the context.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance was highly consistent with the Ninth Doctor's personality—energetic, a bit manic, and authoritative. Model A's calm, measured delivery and female voice felt like a mismatch for the specific incarnation being referenced by the question and catchphrase.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge of Doctor Who lore, correctly identifying the Autons, the Nestene Consciousness, and the method of their control, as established in the series.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

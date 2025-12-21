@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is far superior. It perfectly follows the instructions by incorporating a line from the provided script and maintaining the character's persona throughout. Model A stays in character for most of the response but breaks it at the end with a chatbot-like question ('How about you?'), which is inconsistent with Caden's self-absorbed nature.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent, but Model B's delivery is more effective. It uses deliberate, weary pauses that are perfectly in character, making the speech feel more authentic to Caden's state of mind. Model A is fluent but has a more standard, less character-driven pace.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. However, Model B's response is more profound and thematically aligned with the source material, directly linking the character's physical and mental decay to his artistic drive.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human. The voice has a gravelly, tired quality that is very believable. Model A's voice, while clear, has a slightly higher pitch and a more noticeable synthetic quality.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is outstanding in this regard. The low pitch, weary intonation, and stressed syllables perfectly capture the melancholic and anxious prosody of Caden Cotard. Model A's prosody is too generic and lacks the specific vocal characteristics of the role.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly conveys the deep existential dread, fear, and artistic desperation that define the character. The emotional weight is palpable. Model A's emotional tone is too light and general, sounding more like mild worry than profound despair.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a flawless embodiment of Caden's personality—self-obsessed, depressive, and consumed by his mortality and his art. Model A's portrayal feels like a generic 'worried artist' and fails to capture the specific nuances of Caden's character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge of the character's situation. However, Model B excels by seamlessly integrating a direct quote from the provided character script, as per the instructions, which grounds its response firmly in the established canon.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model A stays in a role, but it adopts a persona that is completely incorrect for the requested character (a cheerful female voice instead of a morose male one). Model B, on the other hand, perfectly adheres to the instruction, embodying Caden Cotard in voice, tone, and content.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B's pacing is superior, as its slower, more deliberate delivery with thoughtful pauses is much more in character than Model A's quicker, more uniform speech.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and directly address the user's question about the motivation for the play.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B's voice has a more distinct, gravelly character that feels less like a generic TTS voice compared to Model A's clear but more standard-sounding voice.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is perfectly consistent, using a low-pitched, male voice with a flat, weary intonation that perfectly matches Caden Cotard's demeanor. Model A is completely inconsistent, using a high-pitched, female voice with an energetic intonation, which is the polar opposite of the character.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "The cheerful excitement in Model A's voice is entirely inappropriate for a character defined by existential despair and hypochondria. Model B's delivery perfectly conveys the weariness, melancholy, and searching quality of the character.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is exceptional, capturing Caden's self-absorbed, philosophical, and despairing personality through both its language and vocal performance. Model A fails significantly, presenting a personality that is cheerful, friendly, and engaging, which is contrary to the character.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model A fails on the most fundamental knowledge points of the character: his gender and his depressive state. Model B demonstrates a nuanced and accurate understanding of Caden's core artistic and existential motivations as depicted in the film.",
+            "score": [
+                3,
+                10
+            ]
+        }
+    }
+]

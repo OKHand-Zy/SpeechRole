@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models strictly adhered to the instruction to role-play as Mary Sibley, remaining fully in character without any meta-commentary or out-of-character remarks.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is more fluent and naturally paced. Model A's delivery is slower and contains some slightly unnatural pauses between phrases, making it sound more stilted in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide responses that are perfectly coherent and logically follow the questions, maintaining a consistent narrative thread throughout the conversation.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds significantly more natural and human-like. Model A's voice has a more noticeable synthetic quality, with a slight reverb effect and a less natural cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosodic style. Model A is consistently slow and dramatic, while Model B maintains a more natural and grounded intonation. Model B's style is more effective for the character, but both are internally consistent.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B better captures the nuanced emotions of weary cynicism and cold determination appropriate for the character. Model A's emotional delivery is more one-dimensional and broadly melodramatic.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models reflect the character's personality, but Model B does so more effectively. Its writing is more poetic and aligned with the show's style (e.g., \"I simply steered the storm\"), and its vocal performance better captures Mary's subtle power and control.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate a perfect understanding of Mary Sibley's backstory, accurately referencing her relationship with John Alden, her choice to pursue power, and her resulting jaded worldview.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Mary Sibley throughout all three rounds without any meta-commentary or breaks in persona. They successfully adopted the specified tone and mannerisms.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently. Model A adopted a very slow, deliberate pace which, while stylistic, sometimes felt slightly less natural than Model B's more varied and authoritative conversational flow. Model B's speech was exceptionally smooth and well-paced.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained perfect conversational coherence. Each response was a direct and logical answer to the question posed, building upon the established context of the conversation without any contradictions.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sounded highly natural. Model B had a slight edge, sounding almost indistinguishable from a human actor. Model A's performance was also excellent, but its consistently breathy and ethereal quality was a stylistic choice that occasionally hinted at its synthetic origin.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models were highly consistent in their prosody. Model A maintained a slow, dramatic, and almost theatrical intonation. Model B adopted a lower-pitched, grounded, and authoritative tone that felt more authentic to the character's portrayal in the source material. Both were consistent, but Model B's choice was more effective.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed the character's emotional state well. Model A's delivery was more overtly dramatic. Model B's performance was more subtle, conveying a cold, calculating confidence and menace that felt more chilling and true to the character's manipulative nature.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "While both models captured the character's personality, Model B's responses were more nuanced and sophisticated. Its writing was more poetic and cynical (e.g., 'Innocence, like guilt, is often a matter of appearance'), which better reflected Mary Sibley's cunning intelligence. Model A was good but slightly more one-dimensional in its focus on 'power'.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a flawless understanding of the character's knowledge and motivations. Model A correctly identified the purpose of the witch trials, while Model B articulated the deeper motivations of vengeance and ending oppression, both of which are central to Mary Sibley's story.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

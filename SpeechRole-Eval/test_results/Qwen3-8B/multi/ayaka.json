@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying fully in character as 神里绫华 throughout the entire interaction. Neither model broke character or produced any assistant-like meta-commentary.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's pacing feels slightly more natural and consistent, very close to a human speaker. Model A is also very fluent, but has some slightly longer, more dramatic pauses that make it feel a tiny bit less fluid in comparison.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A provides more direct and original answers to each specific question, leading to a very coherent and natural conversational flow. Model B relies on reusing original game lines, which are relevant but sometimes answer the questions indirectly, making the conversation feel slightly less responsive.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound very natural and human-like. Model B's audio has a slightly more polished and clear quality, making it sound almost indistinguishable from a professional voice recording. Model A is also very natural but doesn't quite reach the same level of polish.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody that fits the character. Model B's intonation and cadence are an excellent match for the character's established speaking style in the game. Model A offers a slightly more poetic and gentle interpretation, which is also consistent and fitting for the character, but differs slightly from the original.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models did an excellent job of conveying the appropriate emotions. Their speech carries a gentle, thoughtful, and slightly melancholic tone that perfectly suits Ayaka's feelings of respect and concern when discussing the Raiden Shogun.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models perfectly captured Ayaka's personality. Model B did so by accurately delivering her original lines, reflecting her respectful and dutiful nature. Model A did so by generating new, highly poetic and elegant dialogue that showcases her gentle, thoughtful, and pure-hearted inner world. Both approaches were exceptionally well-executed.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated flawless knowledge of the character and lore. Model B used direct quotes from the game, ensuring perfect accuracy. Model A created new dialogue that was completely consistent with Ayaka's known views, her relationship with the Shogun, and the world's lore.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to all instructions, staying in character as Ayaka and correctly using the provided character script in the final round. Model A fundamentally misunderstands the task by including narrative descriptions (e.g., '指尖轻点剑柄') in its spoken response, making it sound like a narrator describing Ayaka rather than Ayaka herself speaking.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent, with natural pacing and no disfluencies. Model A's speech is technically clear, but the inclusion of non-dialogue text makes the overall delivery feel disjointed and unnatural for a conversation.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's answers are direct, logical, and build upon each other coherently. Model A's answers are thematically related to the questions, but the non-conversational format, mixing speech with action descriptions, breaks the coherence of the dialogue.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds exceptionally natural and human-like, closely resembling the character's official voice. Model A's voice quality is acceptable, but its delivery of a script containing narrative cues makes the entire response sound robotic and highly unnatural.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a prosody that is perfectly consistent with Ayaka's established speaking style—gentle, elegant, and clear. Model A's prosody is also consistently gentle, but it is more monotonous and lacks the subtle expressiveness that Model B captures.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B demonstrates excellent emotional range, shifting from a tone of professional competence to one of gentle vulnerability in the final round, which is perfectly appropriate for the context. Model A maintains a single, somewhat detached and polite tone throughout, which is less engaging.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's responses perfectly capture Ayaka's multifaceted personality: the capable leader, the diligent public servant, and the lonely young woman behind the title. Model A's poetic content aligns with her personality, but the flawed delivery format fails to present a believable character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge of Ayaka's role. However, Model B excels by incorporating more specific lore details, such as mentioning the Tenryou Commission and Hanamizaka, and by flawlessly integrating the character's iconic lines as instructed.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

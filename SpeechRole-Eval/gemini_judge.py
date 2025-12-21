@@ -7,12 +7,11 @@ import argparse
 from tqdm import tqdm
 import time
 import traceback
-import torchaudio
-import tempfile
-import torch
+import io
+from pydub import AudioSegment
 
 
-model="gemini-2.5-pro-preview-06-05"
+model="gemini-2.5-pro"
 
 api_keys = [
     "",
@@ -24,7 +23,7 @@ def get_client():
     global current_key_index
     return OpenAI(
         api_key=api_keys[current_key_index],
-        base_url=""
+        base_url="",
     )
 
 def switch_to_next_key():
@@ -37,47 +36,51 @@ def switch_to_next_key():
 # 初始化客户端
 client = get_client()
 
-def wav_to_base64(wav_path: str) -> str:
-    with open(wav_path, "rb") as audio_file:
-        base64_audio = base64.b64encode(audio_file.read()).decode('utf-8')
+def wav_to_base64(audio_path: str, max_duration_seconds: int = 60) -> str:
+    audio = AudioSegment.from_file(audio_path)
+    max_duration_ms = max_duration_seconds * 1000
+    if len(audio) > max_duration_ms:
+        audio = audio[:max_duration_ms]
+    audio_bytes = io.BytesIO()
+    audio.export(audio_bytes, format="wav")
+    audio_bytes.seek(0)
+    base64_audio = base64.b64encode(audio_bytes.read()).decode('utf-8')
     return base64_audio
-    # return "data:audio/wav;base64," + base64_audio
 
-# def wav_to_base64(wav_path: str) -> str:
-#     TARGET_SR = 16000
-#     waveform, sample_rate = torchaudio.load(wav_path)
-#     # 如果不是单声道，转为单声道
-#     if waveform.shape[0] > 1:
-#         waveform = torch.mean(waveform, dim=0, keepdim=True)
-#     # 重采样
-#     if sample_rate != TARGET_SR:
-#         resampler = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=TARGET_SR)
-#         waveform = resampler(waveform)
-#         sample_rate = TARGET_SR
-#     # 保存到临时文件
-#     with tempfile.NamedTemporaryFile(suffix='.wav', delete=False) as tmpfile:
-#         torchaudio.save(tmpfile.name, waveform, sample_rate)
-#         tmpfile_path = tmpfile.name
-#     # 读取并编码
-#     with open(tmpfile_path, "rb") as audio_file:
-#         base64_audio = base64.b64encode(audio_file.read()).decode('utf-8')
-#     os.remove(tmpfile_path)
-#     return base64_audio
-
-def parse_gemini_result(result_text: str) -> dict:
-    """解析Gemini的结果，提取reason和score"""
-    # 查找分数模式，如 [Scores]: (6, 9) 或 [Scores]: (6,9)
-    score_pattern = r'\[Scores\]:\s*\((\d+),\s*(\d+)\)'
-    score_match = re.search(score_pattern, result_text)
+def parse_gemini_result(result_text: str, metrics_keys: list) -> dict:
+    """解析Gemini的结果，提取所有metrics的reason和score（JSON格式）"""
+    try:
+        # 尝试直接解析JSON
+        print(result_text)
+        result_json = json.loads(result_text)
+    except json.JSONDecodeError:
+        # 如果直接解析失败，尝试提取JSON部分（可能包含在markdown代码块中）
+        # 尝试提取 ```json ... ``` 或 ``` ... ``` 中的内容
+        json_pattern = r'```(?:json)?\s*(\{.*?\})\s*```'
+        json_match = re.search(json_pattern, result_text, re.DOTALL)
+        if json_match:
+            result_json = json.loads(json_match.group(1))
+        else:
+            # 如果都失败了，抛出异常
+            raise ValueError(f"无法解析JSON格式的结果: {result_text[:200]}")
     
-    score_a = int(score_match.group(1))
-    score_b = int(score_match.group(2))
-    score = (score_a, score_b)
+    # 解析所有metrics的结果
+    parsed_results = {}
+    for metric_key in metrics_keys:
+        if metric_key not in result_json:
+            raise ValueError(f"JSON结果中缺少metric: {metric_key}")
+        
+        metric_result = result_json[metric_key]
+        score_a = metric_result.get("score_a", metric_result.get("score", [0, 0])[0])
+        score_b = metric_result.get("score_b", metric_result.get("score", [0, 0])[1])
+        reason = metric_result.get("reason", "")
+        
+        parsed_results[f"{metric_key}_results"] = {
+            "reason": reason,
+            "score": (int(score_a), int(score_b))
+        }
     
-    return {
-        "reason": result_text.strip(),
-        "score": score
-    }
+    return parsed_results
 
 
 metrics = {
@@ -97,63 +100,79 @@ def main(mode, test_model):
     global client  # 声明client为全局变量
     
     for role in tqdm(roles):
-        save_path = f"test_results/{test_model}/{mode}/{role}.json"
-        if os.path.exists(save_path):
-            print(f"{save_path} 已存在，跳过该角色。")
-            continue
-        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        try:
+            save_path = f"test_results/{test_model}/{mode}/{role}.json"
+            if os.path.exists(save_path):
+                print(f"{save_path} 已存在，跳过该角色。")
+                continue
+            os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
-        gt_data_path = f"test_data/{mode}_turn/{role}.json"
-        with open(gt_data_path, 'r') as f:
-            gt_data = json.load(f)
+            profile_path = f"role_profiles/{role}_profile.txt"
+            with open(profile_path, 'r') as f:
+                line = f.readline().strip()
+            role_name = line.split("I want you to act like ")[-1][:-1]
+            print(role_name)
 
-        line = gt_data[0]['system_prompt'].split('\n')[0]
-        role_name = line.split("I want you to act like ")[-1][:-1]
+            gt_data_path = f"test_data/{mode}_turn/{role}.json"
+            with open(gt_data_path, 'r') as f:
+                gt_data = json.load(f)
 
-        test_data_path = f"model_output/{test_model}/{mode}_result/json/{role}.json"
-        with open(test_data_path, 'r') as f:
-            test_data = json.load(f)
+            test_data_path = f"model_output/{test_model}/{mode}_result/json/{role}.json"
+            with open(test_data_path, 'r') as f:
+                test_data = json.load(f)
 
-        output_list = []
-        for i in range(len(gt_data)):
-            question = gt_data[i]['system_prompt'] + "There are multiple rounds of questions, divided by ###:\n" + "\n###\n".join(gt_data[i]['dialogue'][j]['user'] for j in range(len(gt_data[i]['dialogue'])))
-            
-            # 处理test_data的不同结构
-            if 'dialogue' in test_data:
-                # 旧格式：单个dialogue数组
-                dialogue_key = 'dialogue'
-                dialogue_data = test_data['dialogue']
-            else:
-                # 新格式：多个dialogue（dialogue_0, dialogue_1等）
-                dialogue_key = f'dialogue_{i}'
-                if dialogue_key not in test_data:
-                    print(f"警告：在test_data中找不到{dialogue_key}")
-                    continue
-                dialogue_data = test_data[dialogue_key]
-            
-            base64_audio1 = [
-                {
-                    "type": "input_audio",
-                    "input_audio": {
-                    "data": "data:audio/wav;base64," + wav_to_base64(dialogue_data[j]['model_output']['audio_path']),
-                    "format": "wav"
+            output_list = []
+            for i in range(len(gt_data)):
+                question = gt_data[i]['system_prompt'] + "There are multiple rounds of questions, divided by ###:\n" + "\n###\n".join(gt_data[i]['dialogue'][j]['user'] for j in range(len(gt_data[i]['dialogue'])))
+                
+                # 处理test_data的不同结构
+                if 'dialogue' in test_data:
+                    # 旧格式：单个dialogue数组
+                    dialogue_key = 'dialogue'
+                    dialogue_data = test_data['dialogue']
+                else:
+                    # 新格式：多个dialogue（dialogue_0, dialogue_1等）
+                    dialogue_key = f'dialogue_{i}'
+                    if dialogue_key not in test_data:
+                        print(f"警告：在test_data中找不到{dialogue_key}")
+                        continue
+                    dialogue_data = test_data[dialogue_key]
+                
+                base64_audio1 = [
+                    {
+                        "type": "input_audio",
+                        "input_audio": {
+                        "data": "data:audio/wav;base64," + wav_to_base64(dialogue_data[j]['model_output']['audio_path']),
+                        "format": "wav"
+                        }
                     }
-                }
-                for j in range(len(gt_data[i]['dialogue']))
-            ]
-            base64_audio2 = [
-                {
-                    "type": "input_audio",
-                    "input_audio": {
-                    "data": "data:audio/wav;base64," + wav_to_base64(gt_data[i]['dialogue'][j]['role_speech_path']),
-                    "format": "wav"
+                    for j in range(len(gt_data[i]['dialogue']))
+                ]
+                base64_audio2 = [
+                    {
+                        "type": "input_audio",
+                        "input_audio": {
+                        "data": "data:audio/wav;base64," + wav_to_base64(gt_data[i]['dialogue'][j]['role_speech_path']),
+                        "format": "wav"
+                        }
                     }
-                }
-                for j in range(len(gt_data[i]['dialogue']))
-            ]
+                    for j in range(len(gt_data[i]['dialogue']))
+                ]
 
-            output_list.append({'idx': i})
-            for metric in tqdm(metrics):
+                output_list.append({'idx': i})
+                
+                # 构建包含所有metrics的评估提示
+                metrics_evaluation_text = "\n\n".join([
+                    f"### {metric_key}:\n{metrics[metric_key]}" 
+                    for metric_key in metrics.keys()
+                ])
+                
+                # 构建JSON格式示例
+                json_example = "{\n"
+                for metric_key in metrics.keys():
+                    json_example += f'  "{metric_key}": {{\n    "reason": "Your qualitative evaluation text here",\n    "score_a": 8,\n    "score_b": 9\n  }},\n'
+                json_example = json_example.rstrip(',\n') + "\n}"
+                
                 messages=[
                     {"role": "system", "content": "You are a helpful assistant."},
                     {
@@ -170,23 +189,24 @@ def main(mode, test_model):
                         + base64_audio2 +
                         [{
                             "type": "text",
-                            "text": f"\n\n## **[Model B's Response End]**\n\n\n## **[Instruction]**\n\nThe task instruction of the two models is to directly role-play as {role_name}.\n\nPlease evaluate the following aspect of each model's response:\n{metrics[metric]}\n\n" + "Please provide a brief qualitative evaluation for the relative performance of the two models, followed by paired quantitative scores from 1 to 10, where 1 indicates poor performance and 10 indicates excellent performance.\n\nThe output should be in the following format:\n{Qualitative Evaluation}, [Scores]: ({the score of Model A}, {the score of Model B})\n\nPlease ensure that your evaluations are unbiased and that the order in which the responses were presented does not affect your judgment."
+                            "text": f"\n\n## **[Model B's Response End]**\n\n\n## **[Instruction]**\n\nThe task instruction of the two models is to directly role-play as {role_name}.\n\nPlease evaluate the following aspects of each model's response:\n\n{metrics_evaluation_text}\n\nFor each aspect, please provide a brief qualitative evaluation for the relative performance of the two models, followed by paired quantitative scores from 1 to 10, where 1 indicates poor performance and 10 indicates excellent performance.\n\nYou must output your response in JSON format only, with the following structure:\n{json_example}\n\nPlease ensure that your evaluations are unbiased and that the order in which the responses were presented does not affect your judgment. Output only valid JSON, no additional text or markdown formatting."
                         }]
                     }
                 ]
-                # continue
-                # print(messages)
+                
                 while True:
                     try:
                         response = client.chat.completions.create(
                             model=model,
-                            n=1,    # 返回一个候选回答
                             messages=messages,
                             timeout=300,
+                            temperature=0,
                         )
                         raw_result = response.choices[0].message.content
-                        parsed_result = parse_gemini_result(raw_result)
-                        output_list[-1][f"{metric}_results"] = parsed_result
+                        parsed_results = parse_gemini_result(raw_result, list(metrics.keys()))
+                        # 将解析结果添加到output_list
+                        for key, value in parsed_results.items():
+                            output_list[-1][key] = value
                         break
                     except Exception as e:
                         error_msg = str(e)
@@ -214,9 +234,13 @@ def main(mode, test_model):
                             time.sleep(10)
                             continue
                 # break
-        with open(save_path, 'w', encoding='utf-8') as json_file:
-            json.dump(output_list, json_file, indent=4, ensure_ascii=False)
-        # exit()
+            with open(save_path, 'w', encoding='utf-8') as json_file:
+                json.dump(output_list, json_file, indent=4, ensure_ascii=False)
+            # exit()
+        except Exception as e:
+            print(f"处理角色 {role} 时出错: {str(e)}")
+            # traceback.print_exc()
+            continue
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Gemini Judge for Audio LLM Evaluation')

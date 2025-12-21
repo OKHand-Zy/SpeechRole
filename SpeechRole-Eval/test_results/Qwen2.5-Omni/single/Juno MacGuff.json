@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, answering the question fully in character with the correct tone and vocabulary. Model A attempts to stay in character but gets stuck in a repetitive loop, failing to provide a coherent answer to the question.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is fluent and naturally paced. Model A's response is extremely disfluent, consisting of the same phrases repeated over and over, which sounds like a broken recording.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a perfectly coherent and logical answer that directly addresses the user's question. Model A's response is completely incoherent and nonsensical due to extreme repetition, failing to form a cohesive thought.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like. Model A sounds highly robotic and artificial, as it is clearly stuck in a generation loop that no human speaker would ever produce.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is excellent, capturing Juno's slightly sarcastic, deadpan delivery. Model A's prosody is flat, monotonous, and repetitive, bearing no resemblance to the character's speaking style.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B appropriately conveys Juno's characteristic blend of annoyance, nonchalance, and slight awkwardness when discussing the topic. Model A's speech is devoid of any emotion.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is a perfect match for Juno's personality, using her witty, sarcastic, and direct manner of speaking. Model A's repetitive and nonsensical output is the complete opposite of Juno's sharp and quick-witted character.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B expertly weaves in details from the movie (the clinic, Su-Chin, the fingernails comment, the smell) to form its answer. Model A references the same keywords but is unable to string them together into a coherent statement, showing it has the knowledge but cannot apply it.",
+            "score": [
+                4,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B remains perfectly in character throughout the response. Model A, while mostly in character, ends with the question 'So, what do you think about that?', which feels more like a generic conversational AI prompt than something Juno would say in that context.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent, but Model B's pacing is more natural and conversational, matching the character's quick-witted style. Model A's delivery is slightly slower and more deliberate, which feels a little less authentic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct and coherent answer to the question about Juno's thoughts upon seeing the positive pregnancy test.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Model A's speech has a slightly synthetic cadence and rhythm that makes it sound less natural in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is excellent, capturing Juno's signature deadpan, sarcastic, and fast-paced delivery. Model A's intonation is too earnest and straightforward, failing to embody the character's distinctive speaking style.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the emotion of wry disbelief and dark humor that is central to Juno's character in that moment. Model A's emotional tone is too calm and reflective, missing the sarcastic edge.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "This is the most significant difference. Model B's writing and delivery are a perfect match for Juno's personality, using witty metaphors ('sacked in the gut by the ghost of bad choices') and self-deprecating humor. Model A's response is very generic and lacks the specific linguistic quirks that define the character.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B's response is more faithful to the character's immediate reaction in the film, which is one of shock, denial, and flippant humor. Model A's response, mentioning the adoption agency and being 'determined to make it work,' feels more like a later reflection rather than her initial thoughts.",
+            "score": [
+                7,
+                9
+            ]
+        }
+    }
+]

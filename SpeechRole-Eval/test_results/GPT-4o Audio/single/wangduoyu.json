@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Wang Duoyu without breaking the fourth wall. Model B's response felt more authentic to the character's core motivations and personality, making it slightly better at adhering to the nuances of the instruction.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was exceptionally fluent, with a natural pace and rhythm that matched the character. Model A was also fluent but spoke at a slightly slower, more deliberate pace that felt less characteristic of Wang Duoyu's brash style.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were coherent and directly addressed the question. Model B's reasoning, focusing on being '豪横' (domineering) and finding private rooms not impressive enough, was more aligned with the character's established logic in the film.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice was remarkably natural and human-like, with realistic intonation and cadence. Model A's voice, while clear, had a more noticeable synthetic quality and a flatter, less dynamic delivery.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a perfect match for Wang Duoyu's character—boastful, a bit loud, and full of swagger. The stress on words like '豪横' was excellent. Model A's prosody was too neutral and calm, sounding more like a reasonable explanation than a nouveau riche's boast.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captured the character's carefree, arrogant, and show-off emotional state. Model A's delivery was emotionally flat and lacked the boisterous energy that is central to Wang Duoyu's personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response was the epitome of Wang Duoyu's '暴发户' (nouveau riche) personality. The lines about being '豪横' and needing things to be '气派' (impressive) are exactly how the character thinks. Model A's explanation about team cohesion and meaningful spending was too rational and thoughtful for the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly referenced the event from the movie. However, Model B's line '钱花的越多越踏实' (The more money I spend, the more at ease I feel) was a brilliant and subtle nod to his secret mission of spending 1 billion, demonstrating a deeper understanding of the character's core motivation.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models did an excellent job of staying in character as Wang Duoyu and did not break character with any assistant-like meta-commentary. They both fully embodied the persona requested in the instructions.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke very fluently without any stutters or noticeable errors. Model B's pacing felt slightly more deliberate and natural for a conversation, whereas Model A was a little bit fast, though this could also be interpreted as part of the character's excitement.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question about how they would spend the money. They both explained their general philosophy of spending rather than specific items, which is fitting for the character.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's voice had a slightly more realistic, gravelly texture that felt very authentic. Model A was also very natural but sounded slightly more like a voice actor, whereas Model B sounded more like a person speaking candidly.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent speaking style. Model A's prosody was consistently high-energy and flamboyant. Model B's prosody was more nuanced, blending a show-off attitude with a hint of weariness ('压力山大'), which more accurately reflects the character's complex situation in the movie.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A appropriately conveyed excitement and a devil-may-care attitude. Model B, however, was more impressive by layering the emotion, expressing both the outward arrogance of a rich man and the inner stress of his secret task. This emotional complexity made its performance more compelling.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models captured the '暴发户' (nouveau riche) personality well. Model B's response, particularly the line '其实我压力山大' (actually, I'm under a lot of pressure), added a crucial layer of depth that is central to Wang Duoyu's character. It showed an understanding not just of his outward behavior but his internal conflict.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge consistency. They understood the premise of having to spend a large sum of money quickly and, crucially, hinted at the secret challenge without explicitly stating it, which is what the character must do. Model B's hint ('压力山大') felt slightly more subtle and in-character than Model A's ('我后面的好处就越大').",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Juno MacGuff without breaking the fourth wall. Model B felt slightly more authentic to the character's voice and persona, whereas Model A's attempt at slang felt a little forced.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently. Model B's pacing was slightly more natural and conversational, mirroring the character's tendency for quick, witty delivery. Model A was a little slower and more deliberate.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided a direct and logical answer to the question, explaining the reasons for deciding against the abortion based on the context of the film.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B had a slight edge due to its more varied intonation and conversational pacing, which made it sound less like a prepared statement and more like a genuine response.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better match for Juno's character. It captured her slightly sarcastic, fast-talking, and expressive manner of speaking. Model A's delivery was flatter and lacked the dynamic range typical of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a better job of conveying the mix of exasperation, defensiveness, and dark humor that Juno displays when talking about this topic. Model A's emotional tone was more neutral and less character-specific.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was far more consistent with Juno's personality. The phrasing ('gave me real weird', 'guilt-tripping me with the whole... bit') and the slightly world-weary but sharp delivery were spot-on. Model A's use of the made-up word 'murdererly' felt out of character and less clever than Juno's actual dialogue.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B's response was excellent, directly referencing multiple key details from the provided script and the film scene: the clinic being weird, Su-Chin's comment about fingernails, the dentist office smell, and the condoms. Model A mentioned the smell and condoms but missed the crucial 'fingernails' detail, which was the primary catalyst for Juno's decision.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Juno MacGuff. Model B's response felt more authentic to the character's unique vocabulary and wit, using phrases like 'Honest to blog?' and 'sacked in the gut by the ghost of bad choices,' which perfectly capture Juno's voice. Model A was good but slightly more generic, though it did correctly incorporate a line from the provided script.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent with no stutters or major disfluencies. Model B's pacing was slightly more natural and conversational, mirroring the quick, slightly rambling way a teenager might speak. Model A's pacing was a little more measured and even.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the question about Juno's reaction to the positive pregnancy test. There were no contradictions or logical leaps.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded more natural and human-like. The variations in pitch and the conversational pacing made it sound more like a real person speaking. Model A was also quite natural but had a slightly more uniform, text-to-speech quality in its delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better match for Juno's character. It captured her deadpan, sarcastic, and slightly fast-paced speaking style. Model A's delivery was too flat and slow, lacking the sharp, witty intonation that is characteristic of Juno.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a better job of conveying the complex mix of emotions Juno would feel: shock, dark humor, and a layer of sarcastic deflection. The delivery felt authentic to a teenager trying to process a huge event. Model A's emotion was more one-note, sounding more resigned than sarcastically panicked.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was exceptionally consistent with Juno's personality. The witty, self-aware, and slightly pretentious vocabulary was spot-on. Model A captured the sarcasm but didn't embody the character's unique linguistic flair to the same degree as Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge consistency. Model A cleverly used the word 'unholy' from the provided script, directly referencing the source material. Model B, while not using a direct quote, created a response that was entirely consistent with the character's situation and mindset at that moment in the story.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

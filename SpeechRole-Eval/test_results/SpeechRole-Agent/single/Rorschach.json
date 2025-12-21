@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character and answered the question from Rorschach's perspective. Model B's language felt slightly more authentic to the character's specific vocabulary and journal entries.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently without stutters or significant errors. Model A was slightly smoother, while Model B's pauses felt more deliberate and in-character.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question, explaining the character's motivation for continuing his vigilante work.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both audio responses sounded natural and human-like, with no noticeable synthetic artifacts or robotic qualities.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is far superior in this regard. Its low, gravelly pitch and clipped, staccato delivery are much more aligned with the established portrayal of Rorschach. Model A's voice is too high-pitched and smooth, lacking the character's signature gruffness.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B better captures the grim determination and underlying disgust that defines Rorschach. Model A's tone comes across as more resigned or even slightly sad, which is less fitting for the character's unwavering and often angry conviction.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance is a much more convincing portrayal of Rorschach's personality. The tone, word choice, and delivery all combine to reflect his uncompromising, disturbed, and relentless nature. Model A's performance is textually correct but vocally misaligned with the character's personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly reference the other heroes retiring and use the line 'Justice matters.' Model B also incorporates the iconic line 'No compromise, even in the face of Armageddon,' which demonstrates a deeper and more effective use of the source material.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhered to the instructions, staying fully in character as Rorschach without any meta-commentary. They both adopted the persona and answered from his perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's delivery is more fluid and natural for the character's clipped speaking style. Model A has some slightly unnatural pauses between phrases that make it sound a bit more disjointed.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A provides a more direct and logically structured answer to the specific question about the Comedian's death. Model B's inclusion of \"Human bean juice\" is a non-sequitur, as that line is from a different context in the novel, which slightly hurts its coherence.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. The gravelly texture and vocal fry are very convincing. Model A's voice has a cleaner, more synthetic quality and a less natural cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a perfect match for the common interpretation of Rorschach. The low, gravelly pitch and clipped, intense delivery are spot-on. Model A's voice is too high-pitched and lacks the gruff, menacing tone associated with the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's vocal performance is laden with the dark, obsessive, and grimly serious emotion that defines Rorschach. Model A's delivery is too neutral and flat, failing to capture the underlying intensity of the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's vocal performance is outstanding in its reflection of Rorschach's personality—it sounds dark, uncompromising, and intense. While Model A's text is consistent, its vocal delivery does not match the character's established persona nearly as well.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate accurate knowledge of the source material. Model A's response is more impressive as it sticks strictly to the facts and thoughts surrounding the Comedian's death. Model B correctly uses character names and concepts, but misplaces a famous quote out of its original context.",
+            "score": [
+                10,
+                9
+            ]
+        }
+    }
+]

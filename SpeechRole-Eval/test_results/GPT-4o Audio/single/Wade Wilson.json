@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models did an excellent job of staying in character as Wade Wilson. They adopted the persona fully without any meta-commentary. Model B's response felt slightly more immersed in the character's specific mindset from the film.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any stutters or awkward pauses. The speech was smooth and well-paced in both cases.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question about Wade's first thoughts after the procedure.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both responses sounded very natural and human-like. Model B had a slightly more unique vocal texture that felt less like a standard voice and more like a distinct character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent vocal style. Model B's prosody, with its slightly more cynical and gravelly tone, felt more aligned with the post-mutation Deadpool. Model A's was also good but had a slightly lighter, more generic 'witty' tone.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's vocal performance better captured the mix of dark humor, self-loathing, and anger that defines the character at that moment. The delivery of lines like 'avocado hate crime' was particularly effective. Model A conveyed sarcasm well, but missed some of the darker undertones.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was superior in capturing the specific personality of Deadpool. The writing was edgier and more specific ('avocado hate crime', 'Francis's head on a waffle iron'), and the vocal performance matched this perfectly. Model A was good but felt a little more like a generic sarcastic hero.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated knowledge of the character's story. However, Model B's direct reference to Francis and his desire for revenge was a stronger and more central plot point, making its response feel more grounded in the character's immediate motivations from the story.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Wade Wilson without any out-of-character meta-commentary. Model B gets a slight edge for incorporating a direct quote from the source material, which was explicitly encouraged in the prompt.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's pacing feels slightly more natural and conversational, with better-timed pauses that enhance the delivery. Model A is smooth but a little more evenly paced.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the question. They both explain the motivation of having terminal cancer as the primary driver for the decision.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Its delivery has a conversational quality that is very convincing. Model A is clear but has a slightly more noticeable synthetic quality in its tone and cadence.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far more consistent with the character of Deadpool. It captures the sarcastic, slightly manic, and world-weary intonation perfectly. Model A's delivery is a bit flatter and more generic, lacking the distinctive vocal mannerisms of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B excels at conveying the appropriate emotional mix of gallows humor, self-deprecation, and underlying pain. The emotion in its voice perfectly matches the vulgar and tragic content of the text. Model A's emotional delivery is more subdued and less impactful.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a perfect embodiment of Deadpool's personality. The specific, vulgar, and creative language ('Freddy Krueger face-fucked a topographical map of Utah') is spot-on. Model A captures the general sarcastic tone but lacks the unique and extreme flavor of Wade Wilson's humor.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge of the character's backstory. However, Model B's response is richer, referencing not only the cancer but also his motivation for Vanessa ('my lady deserved the prize-winning version of me') and using a direct quote from the film, showing a deeper command of the source material.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

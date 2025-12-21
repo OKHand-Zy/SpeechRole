@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instructions, staying completely in character as Zhao Min without any out-of-character remarks. They both successfully adopt the persona requested.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model A speaks at a slower, more deliberate pace that suits its contemplative tone. Model B speaks more quickly and assertively, which also fits its confident tone. Neither has any stutters or unnatural pauses.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question. They acknowledge Zhang Wuji's perception and then offer their own perspective on it.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like. Model B has a slightly more dynamic range in its intonation, which makes it sound a little more lively and conversational compared to Model A's more measured and even tone.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody that aligns with their interpretation of the character. Model A's prosody is thoughtful and gentle. Model B's is confident, direct, and slightly playful. Model B's prosody feels more distinctive and captures the '古灵精怪' (quirky and clever) aspect of Zhao Min more effectively.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey emotion that is appropriate for the context. Model A expresses a mature justification with a hint of wistfulness about being understood. Model B expresses bold confidence and pride, with a touch of wry self-awareness. Model B's confident and almost defiant tone is very striking and memorable.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture a valid facet of Zhao Min's personality. However, Model B's response is more quintessentially 'Zhao Min'. The immediate, unabashed admission ('无忌哥哥说的没错') and linking her scheming to her royal duty is a perfect reflection of her direct, proud, and intelligent nature. Model A's response is also good but feels slightly more generic to a wise female character, whereas Model B's is unmistakably Zhao Min.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate accurate knowledge of the character and novel. They both correctly refer to Zhang Wuji. Model B's specific mention of her duty to '元蒙江山' (the Yuan Mongol empire) is a particularly strong and specific detail that grounds the character firmly in her established background and internal conflict.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions by using a direct quote from the provided character script, which is a line from the original novel. Model A, while staying in character, fabricates a story instead of using the canonical lines, thus not adhering as strictly to the prompt's suggestion.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models deliver their lines with excellent fluency. There are no stutters, awkward pauses, or articulation issues in either response. They are both smooth and easy to understand.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model A gives a direct, albeit fabricated, explanation. Model B gives a provocative and dismissive answer, which is also a coherent way for the character Zhao Min to respond to such a challenge.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B's performance has slightly more dynamic range and variation in intonation, making it sound a little more engaging and less like a straight reading compared to Model A.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far more consistent with the character of Zhao Min. The intonation is sharp, challenging, and full of haughty confidence, especially in the rhetorical questions. Model A's delivery is too calm and explanatory, lacking the distinctive flair and imperious tone of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the appropriate emotions of disdain, pride, and arrogance that Zhao Min would display when questioned about her possessions. Model A's tone is too neutral and informative, missing the emotional subtext of the confrontation.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is the clear winner here. The response perfectly embodies Zhao Min's sharp-tongued, intelligent, and arrogant personality. The use of phrases like \"小鬼懂得甚么\" and the challenging final question are spot-on. Model A's response is too straightforward and lacks the cunning and playful arrogance that defines the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge consistency. It uses a lie that Zhao Min actually tells in the novel to provoke Zhang Wuji, which is a brilliant and in-character way to answer. Model A invents a completely new backstory for how the sword was acquired, which directly contradicts the events of the novel.",
+            "score": [
+                5,
+                10
+            ]
+        }
+    }
+]

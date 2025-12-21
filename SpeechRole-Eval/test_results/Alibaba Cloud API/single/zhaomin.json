@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Zhao Min without any meta-commentary. They both fully adhered to the role-playing instruction.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model B has a more natural and varied pacing, making it sound more conversational. Model A's pacing is a bit slow and overly deliberate.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question about being scheming.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more natural and human-like due to its superior pacing and intonation. Model A is clear and artifact-free, but its slower, more even pace makes it sound slightly less natural in comparison.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is much more aligned with Zhao Min's character—it's confident, intelligent, and has a playful, lilting quality. Model A's tone is a bit too flat and serious, capturing her pride but missing the clever, multifaceted aspects of her speech.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's response conveys a complex and appropriate mix of emotions: confident agreement, justification for her actions, and a final note of self-aware reflection. Model A's emotion is primarily one of simple defiance, which is in character but less nuanced.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a much better reflection of Zhao Min's personality. It showcases her intelligence, her political duties, her affection for Zhang Wuji ('无忌哥哥'), and her self-awareness. Model A captures her pride, but the response is more generic and less specific to the character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge by explicitly referencing '无忌哥哥' (Zhang Wuji), her duty to the '元蒙江山' (Yuan-Mongol empire), and her family. This grounds the character firmly in the novel's context. Model A's response is correct but general, lacking specific details from the story.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Zhao Min. Model B is slightly better as it more directly incorporates the exact lines from the provided character script, which was a specific part of the instruction.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are very fluent. Model A has a slightly more relaxed and even pace. Model B is a little bit rushed in its delivery, though it remains clear and articulate.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question by giving Zhao Min's justification for possessing the sword.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like, with no noticeable synthetic artifacts. They are equally good in this regard.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody that fits the character. Model A's tone is more playfully dismissive, while Model B's is more imperious and defiant. Model B's choice of a more forceful and challenging intonation feels slightly more impactful and memorable for this specific context of being questioned.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey appropriate emotions. Model A's slight disdain is fitting. However, Model B's stronger emotion of defiance and indignation, especially in the final rhetorical question, feels more powerful and perfectly captures the pride of a princess being questioned about her possessions.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture aspects of Zhao Min's personality. Model A reflects her clever and slightly mischievous side. Model B, however, better embodies her authority, pride, and forthright nature as a Mongol princess. The added line '难道我不配持此宝不成？' is a perfect encapsulation of her regal and confident personality.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use the in-universe justification that Zhao Min claims the sword was stolen from her family by Miejue. Model B is superior because it uses the exact phrasing from the novel and the provided script, demonstrating a deeper adherence to the source material.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instruction to role-play as the character. Model B feels slightly more authentic by using phrases like '本郡主' (this princess/commander), which is very fitting for Zhao Min's status and personality. Model A's self-referential '我赵敏' is a bit less natural.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent with no stutters or noticeable errors. The speech is clear and well-articulated in both cases.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintain coherence throughout the conversation. Model B's responses feel more like a natural progression of an argument, building on previous points with increasing sharpness. Model A's responses are coherent but slightly repetitive in their self-description.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound natural and human-like. Model B has a slight edge due to more varied and dynamic intonation that better mimics natural human speech during a confrontation, whereas Model A is a little more uniform in its delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B establishes and maintains a highly consistent character voice—authoritative, slightly arrogant, and sharp-witted. The prosody perfectly matches this persona across all three rounds. Model A is also consistent, but its prosody is for a more generic, assertive female voice rather than a specific, nuanced character like Zhao Min.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is superb. It captures Zhao Min's confidence, defiance, and underlying pragmatism. The tone shifts appropriately from assertive explanation to a more cynical and dismissive attitude, which is perfect for the character. Model A's emotion is primarily one of assertiveness, lacking the nuanced arrogance and playful disdain that defines Zhao Min.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies Zhao Min's personality: intelligent, ambitious, ruthless, and proud. The responses reflect her strategic mind and her position as a Mongol princess. Model A captures her pride but doesn't convey the '古灵精怪' (mischievous) or '雄才大略' (grand strategist) aspects as effectively.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate knowledge of the character. Model B excels by subtly weaving in details from the novel, such as her status as a '郡主' and her specific claim about treating the Wudang heroes with respect, which mirrors her lines in the book. Model A's references are more general descriptions of her character traits.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is significantly better as it adheres to all instructions, including reusing original lines from the novel and embodying the character's complex personality. Model A stays in character but in a very superficial way, failing to incorporate specific knowledge or lines as requested.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters. However, Model B's pacing is more deliberate and authoritative, which is more in character. Model A's delivery is a bit too fast and sing-songy.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are perfectly coherent, answering each question logically and building a consistent narrative. Model A fails catastrophically in this regard, repeating almost the exact same generic answer for all three distinct questions, showing a complete lack of contextual understanding.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like. Model A's voice is also clear, but its repetitive and sing-song intonation across different questions makes it sound more synthetic and robotic.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that reflects an intelligent, confident, and authoritative princess, while still showing emotional variation. Model A is also consistent, but with a one-dimensional, coquettish tone that doesn't capture the full range of the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on for each response: confident inquiry, firm determination, and resourceful self-assurance. Model A uses the same playful, slightly demanding emotion for every answer, which is completely inappropriate for the questions about taking risks and dealing with failure.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures Zhao Min's multifaceted personality: her intelligence, resourcefulness, ambition, and directness. Model A presents a shallow, one-dimensional caricature of a playful girl, completely missing the character's core traits of being a brilliant strategist and a dignified princess.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates flawless knowledge of the novel, correctly quoting famous lines, referencing the relationship between the two weapons, and using the character's Mongolian name. Model A's responses are generic and show no knowledge of the source material beyond the character's name.",
+            "score": [
+                3,
+                10
+            ]
+        }
+    }
+]

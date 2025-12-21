@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B excels by directly incorporating lines from the provided character script as instructed, demonstrating superior adherence. Model A's responses are in character but do not utilize the specific lines given.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B has a slight edge due to more naturalistic pacing and deliberate pauses that enhance the character's gravitas. Model A is smooth but slightly more monotonous in its delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintain excellent coherence throughout the dialogue. Model B's answers are more concise and directly address each question, creating a slightly better conversational flow. Model A's first response is a bit of an info-dump, answering two questions at once, but it remains logical.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds more natural and human-like, with subtler and more realistic intonations. Model A's voice, while fitting for the character's tone, has a more noticeable synthetic quality.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models consistently maintain a slow, low-pitched, and authoritative prosody that is highly appropriate for the character of Raiden Shogun. They are equally strong in this aspect.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey the correct solemn and restrained sorrow. Model B's performance is more nuanced, subtly expressing a deeper personal pain beneath the stoic exterior, making it slightly more impactful and authentic.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal feels more authentic to the character. Its use of direct quotes from the game, combined with concise and impactful statements, perfectly captures the personality of Raiden Ei reflecting on her traumatic past. Model A is good but less precise in its characterization.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate accurate knowledge of the game's lore. Model B is superior as it explicitly uses the information provided in the character script, directly fulfilling that part of the prompt and confirming its use of the provided knowledge base.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models adhered strictly to the instructions, staying in character as Raiden Shogun throughout the interaction. Model B made excellent use of the suggestion to incorporate original lines from the source material, which slightly enhanced its adherence to the prompt's specific requests.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines with perfect fluency. There were no stutters, hesitations, or unnatural pauses in either response set. The articulation was clear and the pacing was smooth.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A's responses felt more like a natural, developing conversation. Each answer logically followed the previous question and built upon the character's reasoning. Model B, while using accurate quotes, felt slightly less coherent in the final round, where the chosen quote didn't perfectly address the user's question about personal management.",
+            "score": [
+                9,
+                7
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded highly natural and human-like. Model B's voice was remarkably similar to the character's official Chinese voice actor, which made its performance feel exceptionally authentic and natural within the context of the role-play.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was outstanding, capturing the specific pitch, cadence, and authoritative yet calm tone of the Raiden Shogun almost perfectly. Model A also maintained a very consistent and appropriate prosody, but Model B's performance was a more precise match to the established character voice.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models did an excellent job of conveying the appropriate emotion for the character. They captured the calm, reflective, and authoritative tone of the post-Archon Quest Raiden Shogun, avoiding any overly expressive or out-of-character emotional displays.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models consistently portrayed the character's personality. Model A's content felt slightly more thoughtful and demonstrated the character's internal development through original dialogue. Model B's vocal performance was a more direct and accurate embodiment of the character's established vocal persona. They are equally strong in different ways.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a deep and accurate understanding of the character's lore and motivations. Model A conveyed this through well-reasoned original answers, while Model B did so by directly and accurately quoting lines from the game. Both approaches were highly effective.",
+            "score": [
+                9,
+                9
+            ]
+        }
+    }
+]

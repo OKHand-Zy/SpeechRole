@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Wade Wilson. Model B, however, did a superior job by directly incorporating a line from the provided character script (\"I sense clowns\"), which was a specific instruction. Model A's response was in character but more generic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were highly fluent with no stutters or noticeable errors. Model B's pacing felt slightly more natural and conversational, mirroring the character's fast-talking style, while Model A was a bit more measured and slow in its delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical follow-ups to the questions. Model B's responses felt more grounded in the character's specific narrative, referencing Vanessa and his pre-Deadpool mindset, making for a slightly more coherent character arc within the conversation.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced very natural, human-like speech. Model B's voice had a more dynamic range in pitch and pace, which made it sound slightly more authentic and less like a consistent text-to-speech persona compared to Model A's more level delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better fit for the character of Wade Wilson. It was consistently fast-paced, sarcastic, and dynamic, which is how the character is typically portrayed. Model A was also consistent, but its slower, more deadpan delivery didn't capture the character's manic energy as effectively.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's performance was more emotionally aligned with the character. It effectively conveyed the signature blend of dark humor, sarcasm, and a hint of underlying sincerity (when mentioning Vanessa). Model A's emotional tone was primarily sarcastic and felt a bit one-dimensional in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captured the character's personality. The use of specific, witty humor (the Nickelback joke, the \"fuck-it list\"), fourth-wall-adjacent comments (\"edit\"), and pop culture references is spot-on for Deadpool. Model A was sarcastic, but its humor was more generic and lacked the specific chaotic flavor of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge consistency by directly referencing a line from the provided script and mentioning Vanessa, a core character in Wade's story. This showed a deeper integration of the character's established background. Model A's answers were correct in a general sense but lacked these specific, knowledgeable details.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as instructed. However, Model B's portrayal was significantly more authentic to the specific nuances of Wade Wilson, incorporating his unique blend of dark humor, meta-commentary, and specific speech patterns. Model A's version felt more like a generic, sarcastic anti-hero rather than specifically Deadpool.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently without stutters or significant errors. Model B's pacing was more dynamic and conversational, better matching the character's high-energy, slightly manic speaking style. Model A's delivery was a bit too slow and deliberate for the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided coherent responses that logically followed the questions. Model B demonstrated superior coherence by creating a running gag across its answers (referencing the pizza), which not only linked the dialogue but was also perfectly in character for Deadpool's style of humor.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced natural, human-like speech. Model B's performance felt more authentic, with subtle variations in tone and pace that sounded like a person genuinely speaking, whereas Model A, while clear, sounded more like a voice actor reading lines.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was far more consistent in its prosody, maintaining a sarcastic, energetic, and slightly unhinged tone that is signature to the character. Model A's prosody was consistently too slow and deep, sounding more like a traditional, brooding hero, which is inconsistent with Deadpool's persona.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery was perfectly aligned with the character, conveying sarcasm, dismissiveness, and dark humor through its tone. Model A's emotional range was much flatter and felt too earnest at times, missing the chaotic and cynical edge of Wade Wilson.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's responses, in both content and delivery, were a near-perfect reflection of Deadpool's personality. It captured his wit, violent tendencies, and core conflict about heroism. Model A captured the sarcasm but missed the deeper layers of chaos and meta-humor that define the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated excellent use of the provided context and broader character knowledge, directly quoting a line from the script ('That I ain't') and making clever, specific references to the pizza/stalker scene. Model A's references were more general (e.g., Avengers, katanas) and less integrated with the specific prompt.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

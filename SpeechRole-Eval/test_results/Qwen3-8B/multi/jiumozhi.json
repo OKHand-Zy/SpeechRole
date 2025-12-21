@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Jiumozhi. Model B's responses felt more like a direct conversational reply, whereas Model A's written text included stage directions (e.g., '目光闪烁', '冷笑') which, while descriptive, are not part of a natural spoken response. Therefore, Model B adhered slightly more closely to the instruction of acting like the character in a conversation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was significantly more fluent and smooth, with natural pacing that mimics human conversation. Model A's delivery was somewhat stilted, with noticeable pauses between phrases that broke the flow of the sentences.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly coherent and logically followed from the questions asked. There were no contradictions or non-sequiturs in either model's dialogue.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded far more natural and human-like. Its intonation, pacing, and articulation were very convincing. Model A's voice had a more noticeable synthetic quality and a slightly robotic cadence, making it sound less natural in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintained a highly consistent prosody that perfectly captured the character's speaking style—a mix of feigned humility and underlying arrogance. Model A was also consistent in its sinister tone, but it was more monotonous and lacked the dynamic range that Model B displayed, making its portrayal less specific to the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's vocal performance was rich with subtext, effectively conveying Jiumozhi's hypocrisy, condescension, and ambition through subtle shifts in tone. Model A's emotional expression was more generic, projecting a standard 'villain' tone without the specific nuances of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "While both models' written content was consistent with the character's personality, Model B's vocal performance was a much more vivid and accurate portrayal. The voice itself embodied Jiumozhi's articulate, cunning, and self-righteous nature. Model A's text was excellent, but its voice performance was less distinctive.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge consistency. They correctly referenced key plot points from the novel, such as receiving the Shaolin manuals from Murong Bo and the character's relentless pursuit of Shaolin's martial arts.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as 鸠摩智 throughout the entire interaction. They used the character's self-reference '小僧' and maintained the persona without any out-of-character remarks.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were highly fluent. Model B was exceptionally smooth, with a very consistent and natural pace. Model A was also very fluent but had a few moments of slightly more theatrical pacing that were a tiny bit less smooth than Model B's delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly coherent and logical within the context of the conversation. They answered each question directly while building upon their established character motivations.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's audio was exceptionally clear and smooth, sounding almost indistinguishable from a high-quality human recording. Model A was also very natural, with a slightly raspier and more stylized tone that fit the character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent prosody that matched their interpretation of the character. Model A consistently used a more overtly sinister and dramatic tone with sharp inflections. Model B consistently used a calm, authoritative, and condescending tone. Both were equally consistent and effective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models portrayed the character's complex emotions perfectly. Model A captured the overt menace and sinister glee, especially with the cold laughs. Model B excelled at conveying the subtle, condescending arrogance and hypocrisy through a calm and measured tone. Both approaches are highly appropriate for the character.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models delivered outstanding and consistent portrayals of 鸠摩智's personality. Model A emphasized his dangerous, ruthless villainy. Model B focused on his hypocritical, cunning, and manipulative nature as a 'master of language'. Both are crucial aspects of the character, and both models executed their chosen interpretation flawlessly.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated excellent knowledge of the source material. Model A correctly referenced his threat to burn Duan Yu ('烈火焚心'). Model B correctly referenced his promise to Murong Bo as a core motivation. Both used specific, accurate details from the novel to justify the character's actions.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

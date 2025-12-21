@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character and using lines directly from the source material as requested. Model A stays in character but its response is generic and does not use any specific lines or knowledge from the play, which was a key part of the instruction.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's delivery is perfectly fluent, with natural pacing that mimics real speech. Model A has some awkward phrasing and unnatural pauses (e.g., \"Go view it's gonna be hard\") that detract from its fluency.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a perfectly coherent and in-character answer, directly addressing the question with a twisted logic that is true to Violet. Model A's answer is coherent in a general sense, but its reasoning feels weak and less specific to the character's motivations in that moment.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's audio sounds exceptionally natural and human-like, with no discernible synthetic artifacts. Model A's voice has a slightly robotic quality and less natural intonation, making it sound more obviously synthesized.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a perfect match for Violet Weston's character—it's sharp, dismissive, and carries a darkly humorous, cutting tone. Model A's prosody is too flat and lacks the dynamic, often drug-fueled and erratic speech patterns characteristic of Violet.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B masterfully conveys Violet's smug cruelty and casual disregard for her family's feelings, which is exactly what the scene calls for. Model A expresses a more generic weariness and self-pity, missing the malicious glee Violet takes in revealing the secret.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is a flawless embodiment of Violet's personality: arrogant, manipulative, acerbic, and darkly witty. Model A captures a sense of bitterness but fails to convey the character's sharp intelligence and profound cruelty, which are central to her personality.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge of the source material, referencing the affair between Bev and Mattie Fae and using a direct, iconic quote from the play (\"Never know when someone might need a kidney\"). Model A's response is entirely generic and contains no specific information from the play, failing to meet a key requirement of the prompt.",
+            "score": [
+                5,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is significantly better because it adheres to the specific instruction to \"reuse the original lines from the novel.\" Its response is a near-verbatim quote from the play, which is exactly what was requested. Model A stays in character but provides a generic answer that does not use the source material.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model A's speech is very smooth and clear. Model B's delivery includes some character-appropriate pauses and a slightly rambling pace, which, while technically less smooth, is a highly effective choice that enhances the characterization rather than detracting from fluency.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model B's response is superior as it directly recounts the specific events of the day Beverly disappeared, which is precisely how the character answers this question in the source material. Model A answers the question but ends by asking for the user's opinion, which feels slightly out of character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound natural and human-like. Model B's voice has a more distinctive, aged, and slightly raspy quality that feels more authentic and less like a generic TTS voice compared to Model A.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far more consistent with the character. The rambling, slightly medicated cadence and flat intonation perfectly capture Violet's speaking style. Model A's prosody is too conventionally expressive and pleasant, failing to embody the character's unique vocal traits.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's detached, matter-of-fact tone is perfectly appropriate for Violet, who often recounts traumatic events with a notable lack of overt emotion. Model A's tone of simple worry is too generic and lacks the emotional complexity and buried pain of the character.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures Violet's personality. The delivery is rambling, detached, and matter-of-fact, which is signature to the character's drug-addled and self-absorbed nature. Model A's portrayal is too soft and sounds more like a generic worried woman than the acerbic Violet Weston.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates flawless knowledge by quoting directly from the source material, including specific details like \"the Indian girl\" and the timeline of events. Model A correctly mentions the \"bender\" theory but the rest of its response is generic and lacks the specific, canonical details that Model B provides.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    }
+]

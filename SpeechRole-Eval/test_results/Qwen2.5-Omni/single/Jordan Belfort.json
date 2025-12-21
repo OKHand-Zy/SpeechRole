@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B stays perfectly in character, delivering a concise, arrogant response that is pure Belfort. Model A, while mostly in character, ends with a question to the user ('Do you have any similar experiences?'), which feels more like a conversational AI trying to maintain engagement rather than something the self-absorbed Belfort would say.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters. However, Model B's pacing is much better suited to the character. It's faster, more energetic, and has the high-octane delivery expected of Jordan Belfort. Model A's delivery is slower and more deliberate, which doesn't quite capture the character's manic energy.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question about the feeling of making a huge commission for the first time.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. The cadence, inflections, and overall delivery have a convincing, organic quality. Model A's voice, while clear, has a more noticeable synthetic quality and a flatter, less dynamic intonation pattern.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a near-perfect match for the character. The pitch variation, the stress on words like 'rush' and 'garbage,' and the overall swagger in the intonation are spot-on. Model A's prosody is too calm and measured, lacking the charismatic and aggressive speaking style that defines Jordan Belfort.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B masterfully conveys the manic excitement and arrogance of the moment, describing it as a 'rush better than any drug.' The emotion in the voice perfectly aligns with the content. Model A describes feeling 'on top of the world,' but the vocal delivery is too subdued and reflective, failing to capture the described high.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B embodies the character's personality flawlessly. The word choice ('schmucks,' 'absolute garbage') and the confident, brash delivery are quintessential Belfort. Model A captures some of the facts but misses the personality; it sounds more like someone recounting a story calmly rather than the larger-than-life character living it.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly reference the key details from the source material: the reaction of the other brokers ('looked at me like I'd just discovered fire'). Model B's use of language like 'selling absolute garbage' and 'that easy money hooked me for life' feels more authentic to the character's narration style in the film and book.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres to the instructions more effectively. It stays in character without forcing elements that don't fit the context. Model A, while staying in character for most of the response, inappropriately uses the character's catchphrase in a context where it doesn't make sense, and ends with an assistant-like question, \"So, what do you think about that?\", which slightly breaks the persona.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent, but Model B has a more natural and confident pacing that is better suited to the character. Model A's delivery is a bit slower and more deliberate, which feels less like the fast-talking Jordan Belfort.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question about the character's upbringing.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Its cadence and flow are very convincing. Model A's voice has a slightly more synthetic quality and a flatter intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far superior and much more consistent with the character. It captures the confident, slightly brash, New York-style cadence of Jordan Belfort. Model A's prosody is a complete mismatch; the voice is soft and has a gentle intonation that is the opposite of the character's known speaking style.",
+            "score": [
+                4,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B conveys a sense of confident, ambitious recollection that is very appropriate for the context. Model A's emotional tone is too subdued and flat, and its attempt to deliver the high-energy catchphrase lacks any of the required passion or defiance, making it sound unconvincing.",
+            "score": [
+                5,
+                8
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "This is the biggest differentiator. Model B does an excellent job of capturing the charismatic, cocky, and ambitious personality of Jordan Belfort. Model A fails completely in this regard; the voice and delivery are so misaligned with the character that it creates a jarring disconnect.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly reference the character's background, including his upbringing in Bayside, Queens, and his parents' profession as accountants. They both demonstrate accurate knowledge from the source material.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

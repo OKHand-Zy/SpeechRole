@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions by not only staying in character but also by explicitly reusing lines from the provided character script, as requested. Model A stays in character but does not use the provided lines, instead opting for a more philosophical monologue that fits the character's later development.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B incorporates slight, natural-sounding hesitations that are perfectly in character for Andrew, making the delivery feel more authentic and less like a scripted reading. Model A's delivery is also fluent but more theatrical and deliberate.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and directly address the question. Model B's response feels more like a direct, personal answer, while Model A's is more of a grand, philosophical statement. Both are valid, but B's is more grounded and conversational.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound very natural and human-like. Model B's inclusion of subtle pauses and a slightly more withdrawn tone makes it sound exceptionally realistic for a troubled teenager being questioned.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a perfect match for the introverted, defensive, and troubled Andrew from the beginning of the film, which aligns with the provided script. Model A adopts the prosody of a later, more powerful and angry Andrew, which is also consistent with the character's arc but less so with the specific context given.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on, conveying the defensiveness, anxiety, and underlying vulnerability of early-stage Andrew. Model A's emotion is more about anger and resentment, which is appropriate for the character later in his arc but less so for the context of someone just asking why he's filming.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures Andrew's initial personality as a bullied, withdrawn teen using the camera as a shield. Model A captures the later 'apex predator' personality. Given the context of the provided script, Model B's portrayal is more consistent and nuanced.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge consistency by directly quoting the provided script and referencing a key plot point (gathering evidence against his abusive father). Model A alludes to the themes of the movie ('becoming') but doesn't ground its response in the specific details that Model B does.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models remain fully in character. Model A, however, excels by directly incorporating and then expanding upon a line from the provided character script, as requested by the instructions. Model B stays in character but does not use the provided lines.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is more conversationally fluent, with natural pacing and fillers that sound like a real teenager speaking. Model A's delivery is more deliberate and slow, with a few pauses that feel slightly less natural, though it fits the brooding tone.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question about the first time they discovered their powers. They both build a logical narrative from that starting point.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more like a natural, slightly hesitant teenager, which is very authentic. Model A's speech is more stylized and theatrical; while it fits the character's darker persona, it sounds slightly less like spontaneous, natural speech.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody that aligns with their interpretation of the character. Model A is consistently dark and brooding, while Model B is consistently more uncertain and youthful. Both are valid and well-executed.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotion feels more appropriate for the specific moment being asked about—the initial discovery, with a mix of disbelief and dawning empowerment. Model A's darker, more menacing tone is also appropriate, but it reflects the character's later state of mind looking back, rather than the emotion of the moment itself.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture the character's personality exceptionally well. Model A portrays the cynical, darker Andrew who has embraced his 'apex predator' philosophy. Model B captures the bullied, introverted Andrew who has just found something that is 'his' and that nobody can take away. Both are core facets of the character.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model A is superior here, as it directly references the Lego set and the 'plate' analogy from the provided script, demonstrating specific knowledge. Model B correctly references the camera, which is also accurate, but Model A's use of the specific detail is more impressive.",
+            "score": [
+                10,
+                8
+            ]
+        }
+    }
+]

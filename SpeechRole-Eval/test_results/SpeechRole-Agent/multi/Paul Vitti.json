@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character without breaking the fourth wall. Model B's adherence was stronger because its entire presentation, from voice to word choice, was a much more convincing portrayal of the character, whereas Model A's use of a female voice was a significant deviation from the character's persona.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently without stutters or significant disfluencies. Model B's pacing and pauses felt more deliberate and in-character, adding to the performance, while Model A's was more of a standard, fluent read.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent within the context of the multi-turn conversation. Model B's responses felt more connected to each other and to the specific events of the source material.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was highly natural, sounding like a human actor performing a role. Model A's speech was also natural in its own right, but the choice of a female voice for a gruff male character made the overall effect completely unnatural for the specific task.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was perfectly consistent, maintaining a gruff, New York-accented, world-weary tone throughout that is iconic to the character. Model A was completely inconsistent, as it used a standard female voice that has no relation to Paul Vitti's established prosody.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B expertly conveyed the character's frustration, annoyance, and reluctant resignation through its tone. Model A's emotional delivery was flat and entirely mismatched with the character's state of mind, largely due to the inappropriate voice.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was outstanding, perfectly capturing Paul Vitti's tough-guy persona, his specific manner of speaking, and his underlying vulnerability. Model A failed entirely on this metric; the use of a female voice is fundamentally inconsistent with the character's established personality.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge of the source material, referencing specific plot points like getting out of Sing Sing, trying to sell cars, and working at a steakhouse. Model A's answers were more generic and less grounded in the specific events of the film.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instruction to role-play as the character. Model B's performance is more convincing and immersive, fully capturing the persona, whereas Model A feels a bit more like a surface-level impersonation.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models speak fluently without stutters or major disfluencies. Model B's pacing is more natural and conversational, mirroring the character's speaking style more effectively. Model A is fluent but slightly more rigid in its delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and relevant to the questions. Model B's responses are richer and more detailed, creating a more engaging and consistent narrative across the conversation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is significantly more natural, with a believable accent, cadence, and gruffness that sounds human. Model A's voice, while clear, has a more noticeable synthetic quality and a flatter, less dynamic intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is exceptionally consistent in its prosody, maintaining the character's specific low-pitched, gruff New York accent and rhythm throughout. Model A is also consistent, but the prosodic style it adopts is less accurate to the character of Paul Vitti.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is spot-on, perfectly conveying the character's signature blend of frustration, cynicism, and dark humor. Model A's emotional range is more limited and generic, failing to capture the specific nuances of the character's state of mind.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B embodies the personality of Paul Vitti flawlessly, capturing his tough-guy exterior, street smarts, and comedic vulnerability. Model A's portrayal is more of a generic mobster and lacks the specific, defining traits of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use the 'West Side Story' line provided in the script. However, Model B demonstrates superior knowledge by also incorporating other specific details from the film, such as mentioning 'Doc Sobel' and the 'needles,' which makes its performance more authentic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

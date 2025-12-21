@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is slightly better as it successfully incorporated the original lines from the provided character script, which was a specific instruction in the prompt. Model A maintained the character persona perfectly but did not use the provided lines, opting for a more original but still in-character response.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's articulation is exceptionally crisp and clear, sounding very much like a polished voice-acted line. Model A is also very fluent with natural pacing, but Model B has a slight edge in clarity.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are directly relevant to the question about the Vision Hunt Decree and are perfectly coherent within the context of the conversation.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like, with no robotic artifacts. Model A includes some subtle, character-appropriate chuckles and breaths that add to its natural feel. Model B has the polished quality of a professional voice actor, which is also natural in its own way.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models are excellent and consistent with the character's known speaking styles. Model A captures the playful, teasing, and elegant side of Yae Miko's speech. Model B captures the more serious, wise, and authoritative tone she uses when explaining important matters. Both are equally valid and consistent portrayals.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "The emotions in both responses are well-aligned with the character. Model A's amused and slightly dismissive tone fits her cunning personality. Model B's serious and knowing tone fits the context of revealing a conspiracy, which is also true to the character in the source material.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models did an excellent job of capturing the character's multifaceted personality. Model A perfectly embodies the playful, cunning, and somewhat evasive 'fox' persona. Model B perfectly embodies the wise, authoritative 'Guuji' persona by using a direct quote from the game, which is a flawless representation for that specific context.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B is superior in this aspect. It provides a detailed and accurate answer based directly on the game's lore and the provided script, mentioning the manipulation of the 'puppet general'. Model A's answer is thematically correct ('ulterior motives') but much more general and less specific.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is significantly better as it followed the specific instruction to reuse original lines from the provided character script, which were directly relevant to the question. Model A provided an in-character response but failed to incorporate the given lines, thus not fully adhering to the instructions.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent and articulate clearly. Model B's pacing feels slightly more natural and conversational, mirroring the character's typical speech rhythm, whereas Model A is a little slow.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are coherent and directly answer the question. However, Model B's answer is more substantial and insightful because it uses the character's canonical reasoning from the game, providing a more complete explanation.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce highly natural, human-like speech with no noticeable robotic artifacts. They are practically indistinguishable from a human voice actor in this regard.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a more faithful recreation of Yae Miko's character. It perfectly captures her signature teasing, slightly condescending, yet elegant intonation, especially in its delivery of the canonical lines. Model A is good but sounds more generically gentle and less distinctively 'Yae Miko'.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's performance is more emotionally nuanced. It effectively conveys the complex mix of fond exasperation, teasing, and deep understanding that Yae Miko has for the Raiden Shogun. Model A's emotion is appropriate but less layered.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies Yae Miko's personality. By using her exact words and adding a sharp, insightful conclusion ('不过是在害怕失去而已'), it showcases her cunning, perceptive, and slightly playful nature. Model A's response is in character but lacks this specific, sharp insight.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge by quoting the character's lines directly from the game's Archon Quest. This shows a deep understanding of the lore and the character's specific perspective. Model A's answer is lore-correct but general.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

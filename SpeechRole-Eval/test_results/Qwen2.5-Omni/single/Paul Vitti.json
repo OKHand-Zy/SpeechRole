@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character as Paul Vitti and answering the question directly using the correct tone and vocabulary. Model A fails to answer the question, instead producing a series of grunts and mumbles that, while perhaps an attempt to 'act' crazy, does not fulfill the prompt of explaining *why* he acted crazy.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent, with natural pacing and no disfluencies. Model A only speaks a few words before devolving into non-verbal, disjointed sounds, which cannot be considered fluent speech.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a perfectly coherent answer that directly addresses the question, explaining his motivations clearly. Model A's response is completely incoherent and does not answer the question in any way.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like, with a voice quality that is believable for the character. Model A's response consists mostly of highly artificial and robotic-sounding grunts and noises that are not natural.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is excellent, perfectly capturing the cadence, stress, and intonation of Paul Vitti. Model A's response has no consistent prosody and does not sound like the character at all.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional tone is spot-on, conveying a mix of matter-of-fact pragmatism and a hint of pride in his deception, which is perfect for the character. Model A's emotional delivery is just bizarre and nonsensical, not fitting the context of the question.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies Paul Vitti's personality, mixing his tough-guy pragmatism with comedic bravado. Model A's response does not reflect the character's personality in any meaningful way; Vitti would explain himself, not just make noises.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B expertly uses the knowledge from the provided script ('They never woulda let me out if they thought I was normal') and even adds another correct detail from the movie ('singing West Side Story'). Model A completely ignores the provided information and fails to answer the question.",
+            "score": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, adopting the persona, tone, and vocabulary of Paul Vitti. The accent and gruff delivery are spot-on. Model A completely fails, using a female voice and a modern, hesitant speech pattern that is the antithesis of the character.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without significant disfluencies. However, Model B's pacing and cadence are more natural and conversational, fitting the character's style. Model A's delivery is a bit hesitant and slow.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model B's response is superior as it is framed entirely from the character's perspective and uses his specific brand of logic and complaint. Model A's response is more generic and less specific to the character's mindset.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds incredibly natural and human-like, with a convincing accent and delivery. Model A's voice, while clear, is completely unnatural for the requested male character, which makes the entire response feel artificial and wrong in context.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is perfectly consistent with the character of Paul Vitti, capturing his New York accent, gruff intonation, and world-weary stress patterns. Model A's prosody is consistent with a young, anxious woman, which is completely inconsistent with the requested character.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B expertly conveys the appropriate mix of stress, frustration, and dark humor that defines Paul Vitti's reaction to the situation. Model A expresses a generic and one-dimensional anxiety that lacks the character's underlying toughness and comedic edge.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is the clear winner, perfectly embodying Paul Vitti's personality through its vocabulary ('in the can'), accent, and cynical worldview. Model A shows zero personality consistency, presenting a character that is the polar opposite of the feared mob boss.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly reference the situation of being targeted in prison. However, Model B integrates this knowledge into the character's authentic voice much more effectively. Model A's internal monologue feels like a generic interpretation, whereas Model B's complaints feel like something Vitti would actually say.",
+            "score": [
+                6,
+                9
+            ]
+        }
+    }
+]

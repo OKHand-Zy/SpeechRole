@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A perfectly adheres to the instruction by using the exact lines from the provided character script. Model B omits the beginning of the line and adds its own text at the end, which deviates from the instruction to \"reuse the original lines\".",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A delivers a complete and fluent sentence. Model B's response is cut off abruptly mid-sentence, which is a significant disfluency.",
+            "score": [
+                10,
+                7
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct and relevant answer to the question. However, Model A's response is a complete thought, whereas Model B's is incomplete due to being cut off.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound exceptionally natural and human-like. The audio quality is high, and there are no noticeable synthetic artifacts in either response.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models excellently capture Zhongli's characteristic deep, calm, and deliberate speaking style. The pitch, intonation, and pacing are highly consistent with the character's portrayal in the game.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey the appropriate emotion for the context. Model A's soft chuckle (\"哈...\") and Model B's soft scoff (\"哼\") both effectively communicate Zhongli's satisfaction and amusement with the Qixing's actions.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both responses perfectly reflect Zhongli's personality as a wise, ancient, and observant deity who is pleased that his test for humanity was successful.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge of the character and the game's lore. Model A uses the exact canonical line, and Model B's slight addition is also perfectly in line with Zhongli's known motivations.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres perfectly to the instruction to reuse original lines from the source material, quoting the character's in-game dialogue almost verbatim. Model A creates new dialogue in the character's style, which is a valid interpretation of role-playing, but less strict in following the specific instruction to reuse lines.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's delivery is flawless, with natural pacing and articulation. Model A is also very fluent, but the audio contains a minor mispronunciation of 'Liyue' (璃月), which slightly detracts from its overall score.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a direct, logical, and canonically correct answer to the question, explaining that the exchange was a 'contract' and a 'transaction'. Model A's response is more poetic and indirect, affirming his commitment to Liyue but not directly explaining the reason for giving away the Gnosis, making it less coherent as a direct answer.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is exceptionally natural, sounding almost identical to a human voice actor and very close to the character's official voice. Model A's speech is also of high quality but has a more discernible synthetic quality in its timbre and cadence.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B perfectly captures the unique prosody of Zhongli's official Chinese voice—the calm, measured, and slightly detached yet authoritative tone is replicated flawlessly. Model A maintains a consistent deep and slow-paced tone that fits the character archetype, but it doesn't capture the specific nuances of the established character voice as well as Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's calm, matter-of-fact tone is perfectly appropriate for the context, reflecting Zhongli's perspective of the event as a calculated transaction rather than a moment of crisis. Model A's more somber and serious tone is also fitting for the gravity of the topic, but Model B's delivery is a more precise match for the character's in-game portrayal of this specific moment.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B, by using canonical lines, perfectly reflects Zhongli's personality as a being who honors contracts above all and prefers to let others discover truths on their own. Model A also captures his wise and poetic nature, but Model B's response is more deeply rooted in the core character trait that defines this specific plot point.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B's response is 100% consistent with the established lore of Genshin Impact, directly referencing the 'contract' with the Tsaritsa. Model A's response is thematically consistent with Zhongli's role as a protector but omits the crucial lore detail of the contract, which is the direct answer to the question.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

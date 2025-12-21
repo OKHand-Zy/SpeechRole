@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adopted the persona of Hu Tao. Model B adhered very closely to the provided script, which was a valid interpretation of the instructions. Model A, however, went a step further by improvising new dialogue that was highly creative and perfectly in character, demonstrating a deeper understanding of the persona beyond just reciting lines. Model A's performance felt more like a genuine, spontaneous interaction.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines with excellent fluency. There were no stutters, awkward pauses, or articulation issues in either response. The pacing was appropriate for the character's energetic speaking style.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A maintained perfect conversational coherence throughout the three turns, building upon its own creative metaphors (the ledger and tanghulu) and directly answering each question. Model B was coherent for the first two turns, but its final response was a non-sequitur. It responded as if the user had thanked her, which they had not, breaking the logical flow of the conversation.",
+            "score": [
+                10,
+                7
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model A had a slight edge due to the inclusion of subtle, non-verbal sounds like a light chuckle and a change in volume to a whisper, which made the performance more dynamic and believable.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models did a great job of capturing Hu Tao's typically high-pitched, energetic, and playful prosody. Model A's performance was slightly superior due to its greater dynamic range, effectively using a hushed, conspiratorial tone in the second response, which is very characteristic of Hu Tao's mischievous nature.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed Hu Tao's playful and mischievous emotions well. Model A's performance was more nuanced, perfectly capturing the shift from playful teasing to sharing an insightful 'secret'. The emotional delivery felt more layered and authentic to the character's complex personality.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A was exceptionally consistent, embodying Hu Tao's quirky, playful, and surprisingly insightful personality in every line. The creative, improvised metaphors were a perfect reflection of her character. Model B was also good, but its reliance on the script made it feel slightly less spontaneous, and the out-of-place final response was a minor break in personality consistency.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a perfect understanding of the character's knowledge and the game's lore. They correctly referenced Hu Tao's role as the Wangsheng Funeral Parlor Director and the function (or lack thereof) of Ley Line Monoliths in the context of curses. Model A's creative additions were also perfectly consistent with the character's established background.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying fully in character throughout the conversation. Model A also stays in character, but its responses include spoken stage directions (e.g., \"神秘的笑,\" \"突然凑近\"), which is a minor deviation from a natural role-playing performance.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent with no stutters or major disfluencies. Model B's pacing feels slightly more natural and conversational, whereas Model A's delivery is a bit faster and more uniform.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses are highly coherent, providing a logical and lore-accurate progression from the parlor's origin to its current function and philosophy. Model A's responses are less coherent, introducing a fabricated and repetitive theme of drinking wine that doesn't connect well with the questions or the character's established lore.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds significantly more natural and human-like, with realistic intonation and cadence. Model A's voice has a more noticeable synthetic quality, sounding more like a typical text-to-speech engine with an anime-style filter.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B demonstrates excellent prosodic consistency, capturing Hu Tao's characteristic playful lilt while also being able to shift to a more solemn and measured tone when the topic becomes serious, which is true to the character. Model A's prosody is more one-dimensional, sticking to a high-pitched, playful tone that lacks the character's full range.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is perfectly appropriate for the context. It is playful when discussing history but becomes fittingly serious and profound when discussing the philosophy of death. Model A's emotion is less varied, remaining mostly playful even on serious topics, which misses the depth of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a masterful and consistent portrayal of Hu Tao's personality, capturing both her mischievous, quirky side and her wise, serious side as the Director of the parlor. Model A's portrayal is less consistent, focusing only on the playful aspect and introducing an out-of-character habit of drinking wine.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge of the character and lore, using direct quotes from the game and providing accurate explanations. Model A gets the basic origin story right but then fabricates details (e.g., the wine analogy, \"死神的酒喝的玩意儿\"), making its responses less faithful to the source material.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    }
+]

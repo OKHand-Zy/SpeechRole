@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instruction, staying in character as Huang Rong without any meta-commentary or out-of-character remarks. They both fully embody the persona.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's delivery is exceptionally smooth and well-paced. Model A is also very fluent, but its faster, more energetic pace is slightly less clean than Model B's calm delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are perfectly coherent. They directly answer the question by reflecting on their first meeting with Guo Jing and explaining the origins of their deep feelings, maintaining a logical and engaging narrative.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds more natural and human-like, with a grounded and realistic tone. Model A's voice is very high-pitched and energetic, which, while a valid stylistic choice for the character, can sometimes sound slightly more synthetic or like a stylized voice-acted performance rather than natural speech.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A's prosody is excellent and more distinctive, perfectly capturing the playful, light, and mischievous tone of the young Huang Rong being described. The intonation is lively and consistently reflects this persona. Model B's prosody is also consistent, but with a more generally sincere and contemplative tone.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A excels by conveying a strong sense of playful, teasing affection, which is perfectly appropriate for Huang Rong reminiscing about the \"silly\" but lovable young Guo Jing. Model B conveys a sincere, heartfelt emotion, which is also appropriate but less specific to the unique dynamic of the characters during their early encounters.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A's response is a stronger and more vivid reflection of Huang Rong's core personality. The teasing tone, the playful cleverness, and the affectionate insults (\"傻瓜\") are all quintessential Huang Rong. Model B captures her vulnerability and appreciation for kindness, but it's a less unique portrayal of her famously clever and mischievous nature.",
+            "score": [
+                10,
+                8
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate good knowledge of the novel. Model B more directly references key plot points like meeting in Zhangjiakou and Guo Jing's generosity (\"舍衣赠马\"), as well as her accurate emotional state (\"寂寞可怜\"). Model A focuses more on their dynamic (his naivety, her teasing) and her character traits (cooking), creating a plausible scene that is true to the spirit of the characters, even if the specific details are an embellishment.",
+            "score": [
+                9,
+                9
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres to the instructions perfectly, staying in character as Huang Rong throughout the response. Model A fails to do so, as it reads out what appear to be stage directions or descriptive text ('嗨, 晏嘴轻笑', '况且你眨眨眼') as part of the dialogue, which breaks the immersion of the role-play.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is very fluent and smooth. Model A is also generally fluent, but the inclusion of the unnatural, non-dialogue phrases makes its delivery feel slightly awkward and stilted at times.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question. They both give logical, in-character reasons for not focusing on martial arts.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural, like a person speaking in character. Model A sounds highly unnatural because it vocalizes script directions, which makes it sound robotic and as if it's reading without understanding the context of dialogue versus description.",
+            "score": [
+                4,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that fits the character—it sounds clever, a little proud, and confident. Model A's prosody is inconsistent and broken by the strange phrasing of the stage directions, which disrupts the character's speaking style.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models capture a playful and lighthearted emotion that is appropriate for Huang Rong. Model B's tone also carries a hint of intellectual pride when mentioning her father's skills, which adds a nice layer of depth to the characterization.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a more well-rounded portrayal of Huang Rong's personality, touching upon her upbringing, her preference for intellectual pursuits, and her pride in her father's knowledge. Model A focuses more narrowly on her playful nature and her relationship with Guo Jing, which is also in character but less comprehensive.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model A correctly uses the term '傻哥哥' to refer to Guo Jing. Model B correctly references '爹爹' (Huang Yaoshi), '桃花岛' (Peach Blossom Island), and her father's skills. However, Model B makes a significant error by saying she would have a '师傅' (master) cook for her, which contradicts her own established identity as a peerless chef.",
+            "score": [
+                9,
+                7
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Leonard Shelby. Model B was slightly better as it felt more grounded in the character's core logic, whereas Model A had a moment where it seemed to refer to itself in the third person ('he'll never be able to move on'), which was a minor break from the character's typical internal monologue style.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent. Model B's pacing was slightly more effective, sounding like someone trying to piece together facts. Model A had a few more pauses that felt slightly less natural for the character's determined state.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a much more coherent answer from Leonard's perspective. It correctly states that his belief is based on 'the facts' and his system, which is the central pillar of his existence. Model A's response is more rambling and is based on a factually incorrect premise from the film ('Teddy told me himself'), which makes its reasoning less coherent within the story's context.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sounded quite natural. Model B's speech had a slightly more human-like cadence and flow, whereas Model A's delivery was a bit more uniformly paced and breathy, making it sound marginally more synthetic.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was more consistent with the character's typical narrative voice from the film—a bit flat, declarative, and focused on the facts. Model A adopted a more confused and emotional tone, which is also part of the character, but Model B's delivery felt more aligned with the specific act of recalling and trusting his system.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's tone of grim determination perfectly matches its dialogue about trusting 'the facts.' It's the sound of Leonard convincing himself through his system. Model A's tone is more one of general confusion and paranoia, which is also in character, but it doesn't align as tightly with the specific claims being made in its dialogue.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies the core of Leonard's personality: a man who has to trust his system of facts above all else. The response is concise, logical (from his point of view), and dismissive of unreliable memory. Model A captures the paranoia but is less focused, which makes it feel slightly less representative of the character's driving motivation.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "This is the biggest difference. Model B's response is perfectly aligned with the film's plot and the character's methodology, even echoing lines from the provided script about the facts he's collected. Model A makes a critical error, claiming 'Teddy told me himself he was the one,' which is the opposite of what happens in the film and misrepresents the reason Leonard targets Teddy.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instructions, staying in character as Leonard Shelby without any meta-commentary. They both answer the question from the character's perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B is significantly more fluent, with a natural conversational flow. Model A's speech is broken up by several unnatural, rhythmic pauses between sentences, which makes it sound stilted.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question about keeping track of clues.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds much more natural and human-like. Model A's unnatural pacing and cadence give it a slightly robotic quality.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is more consistent with the character's weary and determined speaking style. Model A's delivery is flatter and less varied, not fully capturing the nuances of the character's voice.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does a better job of conveying the subtle, underlying emotion of the character, such as weariness and frustration. Model A's delivery is more emotionally neutral and detached.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture the methodical aspect of Leonard's personality. However, Model B's performance feels more complete by also incorporating the character's paranoia and desperation, making it a more nuanced portrayal.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge consistency, accurately referencing key elements from the film such as Sammy Jankis, the tattoos, polaroids, and using dialogue that is true to the character.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is superior as it not only stays perfectly in character but also adheres to the specific instruction to reuse original lines from the source material. Model A stays in character but provides a more generic response that does not incorporate lines from the play.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's delivery is significantly more fluent and natural. Model A has some noticeable, slightly unnatural pauses between phrases that make the speech feel a bit disjointed.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. However, Model B's response is stronger because it uses a direct, twisted justification from the play itself, making it more impactful and specific to the character's logic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds much more natural and human-like. The pacing and cadence are conversational. Model A's speech has a slightly robotic quality due to its choppy pacing and less natural intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is an excellent match for Violet's character, capturing her sharp, cynical, and darkly humorous speaking style. Model A's delivery is more monotonous and lacks the dynamic range expected from the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the specific emotional state of the scene: a mix of smug satisfaction, dismissiveness, and shocking, cruel pragmatism. Model A conveys a general bitterness but misses the nuanced cruelty of this particular moment.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a masterclass in Violet's personality, combining her arrogance, her need for control, and her shocking cruelty masked as practicality. Model A captures her bitterness but doesn't showcase the full, complex awfulness of her character as effectively.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge of the source material by directly quoting one of the most memorable and chilling lines from the play ('Never know when someone might need a kidney'). Model A's response is plausible for the character but contains no specific information or lines from the play, failing to meet a key part of the prompt.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres more strictly to the instruction to reuse original lines from the novel. Its response is a near-direct quote of Violet's monologue, which is precisely what the prompt asked for. Model A provides a correct summary but does not use the original lines.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent with no noticeable stutters or disfluencies. Model B's pacing, which is slightly more rambling and monologue-like, feels more authentic to the character's speaking style.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model B's response is superior because it provides a detailed, specific account of the day, which is more engaging and true to the source material than Model A's more general summary.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B's voice has a slightly more distinctive, raspy quality that feels more aligned with an older woman who is a heavy smoker and drinker, like Violet.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is much more consistent with the character. It captures the rambling, storytelling, and slightly detached cadence of Violet's monologues. Model A's prosody is more generic and lacks the specific rhythm of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B is more emotionally appropriate. It delivers the lines with a detached, matter-of-fact tone, which is exactly how Violet recounts these events, highlighting her self-absorption. Model A sounds a bit too generically reminiscent and lacks Violet's signature edge.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a perfect reflection of Violet's personality. The dismissive tone, the matter-of-fact recounting of events, and the casual, derogatory reference to 'the Indian girl' are all hallmarks of the character. Model A's response is too generic and lacks these specific personality traits.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge consistency by quoting the character's monologue from the play almost verbatim. Model A is factually correct in its summary but lacks the specific, character-defining details that Model B includes.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

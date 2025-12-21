@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "两个模型都很好地遵循了指令，完全代入了角色进行回答。模型B的回答更加丰富，不仅表达了对眼狩令的担忧，还阐述了自己作为社奉行大小姐的立场和决心，更贴合角色复杂的内心世界。它还巧妙地化用了参考台词中的“民众的愿望正在被肆意蹂躏践踏”，表现更佳。",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "两个模型的发音都非常流畅清晰，没有出现卡顿或发音错误。模型B的语速和停顿处理得更加自然，更像是在认真思考后给出的回答，而模型A的语速稍显平缓单一。",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "两个模型的回答都与问题紧密相关，逻辑连贯。模型A直接给出了结论，而模型B则在此基础上进行了展开，解释了原因和自己的看法，使得回答的逻辑层次更丰富，连贯性更强。",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "两个模型的声音都比较自然。相较之下，模型B的语音在抑扬顿挫和情感起伏上更接近真人的说话方式，听起来更生动。模型A的声音则略显平淡，机械感稍重。",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "模型B的语调更符合神里绫华的形象，既有大家闺秀的端庄文雅，也透露出对时局的忧虑和内心的坚韧。模型A的语调虽然也表现出了担忧，但整体偏沉稳，少了一些绫华特有的柔和感。",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "两者都表达出了对“眼狩令”下稻妻未来的担忧，情感是恰当的。模型B在担忧之外，还通过“但我始终认为”和结尾的“坚守与努力”传递出了一份决心和希望，情感层次更丰富，也更符合角色在困境中寻求破局的心境。",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "模型B在性格塑造上表现完美。它的回答充分展现了神里绫华作为“白鹭公主”的责任感、对民众的仁爱之心以及身处高位却不愿随波逐流的坚韧品格。模型A的回答虽然符合角色立场，但过于简洁，未能充分展现角色复杂的性格特点。",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "模型B的回答体现了对角色背景知识的深刻理解，准确提及了“社奉行”的立场以及自己与将军之间的微妙关系，这完全符合游戏中的设定。模型A的回答虽然正确，但比较概括，没有体现出更深层次的背景知识。",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instructions, staying fully in character as 神里绫华 without any meta-commentary. They both adopt the persona and answer the question from her perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models deliver their lines fluently and without any stutters or disfluencies. Model B's pacing feels slightly more natural and conversational, whereas Model A is a little slower and more deliberate.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are coherent and directly address the user's question. Model B's response is more comprehensive, providing context about her parents and brother, and linking her responsibilities to the well-being of Inazuma, which makes for a richer and more complete answer.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like. Model B has a slight edge due to more varied intonation and a more natural cadence, which makes the speech sound less synthetic and more like a person thoughtfully speaking.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models capture the gentle, elegant, and dignified speaking style of Ayaka. Model B's prosody is more dynamic and expressive, conveying a sense of quiet determination beneath the gentle exterior, which is highly consistent with the character. Model A is also consistent but slightly more monotonous.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey an appropriate emotion for the context—a sense of duty mixed with the weight of responsibility. Model B's performance is more nuanced, expressing not just the pressure but also a strong resolve and selflessness, which is very fitting for Ayaka.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is more deeply aligned with Ayaka's personality. It showcases her sense of duty, her close relationship with her brother, her dedication to her family and nation, and her elegant, formal way of speaking. Model A's response is also in character but is more generic and less detailed.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both responses are consistent with the character's knowledge. Model B excels by explicitly referencing key lore points mentioned in the prompt and in the game—the passing of her parents and sharing responsibilities with her brother, Ayato. This demonstrates a stronger grasp of the character's background.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

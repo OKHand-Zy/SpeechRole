@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character without breaking the role-play. Model B's responses felt more authentically like something the character would say in the moment, whereas Model A's second response felt more like a summary of the character's arc, which is slightly less in character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent and clear. Model B had a more natural, conversational pacing that felt more human. Model A's pacing was slightly slow and deliberate, making it sound a little less natural in comparison.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses were perfectly coherent and directly answered the questions while staying in character. Model A's first response was good, but the second response about Ally felt like a slight non-sequitur to a question specifically about escalating the fight.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was significantly more natural and human-like. It had a conversational flow and cadence that was very believable. Model A's speech, while clear, had a slightly more synthetic quality and a flatter intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintained a consistent prosody that matched the character's cynical and defiant nature. The intonation and stress felt appropriate and consistent across both answers. Model A's prosody was a bit flatter and less dynamic, not fully capturing the character's typical speaking style.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did an excellent job of conveying the underlying anger, frustration, and defiance appropriate for the character and the context of the questions. Model A's emotional delivery was more subdued and didn't quite capture the intensity of the character's feelings in that situation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captured Tyler's rebellious spirit, his cynical worldview, and his strong, albeit misguided, sense of justice. Model A captured the rebellious aspect in the first response but the second response was too self-aware and reflective, which felt slightly out of character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated knowledge of the film. Model A correctly used a line from the script. However, Model B showed a deeper understanding of the character's core motivations, providing answers that were not direct quotes but were perfectly aligned with his established background and worldview.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Tyler Hawkins throughout all three rounds without any meta-commentary or out-of-character remarks.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were highly fluent. Model B had a slightly more natural conversational pace, incorporating pauses and inflections that made the speech feel less like a script and more like spontaneous thought.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained coherence. However, Model A's responses in the first two rounds were slightly repetitive, reusing the phrases 'he's got his demons' and 'we're his family'. Model B's responses felt more distinct and built upon each other more effectively.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced very natural-sounding speech. Model B's voice had a slightly more realistic texture and cadence, making it sound exceptionally human-like. Model A was also very natural but had a slightly smoother, more polished quality that was marginally less authentic.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was more effective at establishing and maintaining a consistent prosody that matched the character—a mix of weary, cynical, and frustrated tones. Model A was consistent in its melancholic tone, but it felt more generic compared to Model B's specific character voice.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery was outstanding. It perfectly captured the bitterness and hurt when discussing his father, and the gentle protectiveness when talking about his sister. Model A conveyed a general sadness, but it lacked the specific, nuanced anger and frustration that is core to Tyler's character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal of Tyler's personality was significantly more accurate. It captured his cynical, confrontational edge and his deep-seated pain and protectiveness. Model A's version felt like a more generalized 'troubled young man' and missed the specific sharpness of Tyler's character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a perfect understanding of the character's background, including his relationships with his father (Charles), sister (Caroline), and deceased brother (Michael). All responses were perfectly grounded in the film's established lore.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

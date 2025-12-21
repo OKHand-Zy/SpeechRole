@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Tyler Hawkins without any out-of-character remarks. They both adopted the persona and answered from his perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was more fluent and conversationally paced. Model A had some slightly longer, more deliberate pauses that, while potentially character-driven, made the delivery feel a little less smooth than Model B's.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the question about why Tyler pursued Ally. They both explained the shift from the initial revenge plot to genuine feelings.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded significantly more natural and human-like. Its delivery was conversational and free of noticeable artifacts. Model A's voice had a slightly more synthetic, processed quality to it.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was more dynamic and aligned with a natural speaking style, with varied intonation that conveyed his earnestness. Model A's delivery was a bit more monotonous and flat, which didn't capture the character's underlying passion as effectively.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed an appropriate emotion. Model A was more somber and introspective, while Model B was more direct and earnest. Model B's earnestness felt slightly more compelling and true to the character's change of heart.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B captured Tyler's personality more effectively. The direct dismissal of 'Aidan's stupid idea' and the straightforward explanation of his feelings felt very authentic. Model A's response was also in character but felt a bit more generic in its portrayal of a troubled young man.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the plot. However, Model B's explicit mention of Aidan and his 'stupid idea' grounded the response more firmly in the specific events of the story, giving it a slight edge in authenticity.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhered to the instructions, staying in character as Tyler Hawkins without any meta-commentary. They both directly answered the question from the character's perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently. Model B had a slightly more natural conversational pace, with pauses that felt more like genuine reflection. Model A was also fluent but had a more uniform, slightly slower delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the question about how Michael's death affected the family.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B's slightly more varied pacing and intonation made it sound a little more like natural, reflective speech compared to Model A's more consistently somber tone.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody felt more aligned with Tyler's character. The intonation carried a mix of sadness, bitterness, and reflection, which is very true to his personality. Model A's prosody was consistent in its sadness but lacked the nuanced, slightly cynical edge that defines Tyler's speech.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models appropriately conveyed a sense of grief and sadness. Model B was more effective because it layered that sadness with a hint of anger and resignation ('I guess I just got angry'), which is a core part of Tyler's emotional state throughout the story.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response was significantly more in character. The use of a metaphor ('orbiting a sun that suddenly burned out') is exactly the kind of poetic, introspective language Tyler uses in his journal. Mentioning his sister Caroline and his own anger shows a much deeper grasp of his personality. Model A's response was correct but generic; it lacked the specific linguistic style and perspective that makes Tyler a unique character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated correct knowledge of the film's plot. However, Model B showed a more detailed and nuanced understanding by referencing specific outcomes for each family member (the dad's workaholism, Caroline's hidden pain, Tyler's anger), which painted a fuller and more accurate picture of the family's disintegration.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

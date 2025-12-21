@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A completely failed the instruction by responding in English instead of Chinese. The content of its response also had no connection to the character or the source material. Model B, on the other hand, perfectly adhered to all instructions, responding in Chinese and staying fully in character.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A's speech was fluent, but in the wrong language, making it irrelevant to the task. Model B's speech was very fluent and smooth in the correct language (Mandarin Chinese).",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model A's responses were completely incoherent as they were in a different language and discussed topics (Champions League, FA Cup) entirely unrelated to the prompt's context. Model B's responses were perfectly coherent, directly answering the questions and building upon the established scenario.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced natural, human-like speech. However, Model B's speech had a more dynamic and engaging quality, whereas Model A's sounded a bit more like a standard, generic text-to-speech voice.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A's prosody was consistent for a generic speaker but completely wrong for the character of 王多鱼. Model B's prosody was excellent, consistently capturing the character's laid-back, slightly arrogant, and flamboyant speaking style across both responses.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A conveyed a generic, slightly enthusiastic emotion that was entirely inappropriate for the character and context. Model B's emotional delivery was spot-on, conveying the devil-may-care, show-off attitude that is central to 王多鱼's character.",
+            "score": [
+                2,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A failed completely, presenting a generic businessman persona. Model B was outstanding, perfectly capturing 王多鱼's nouveau riche, high-profile, and playful personality through both its word choice and delivery.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model A demonstrated zero knowledge of the source material, inventing irrelevant facts. Model B showed excellent knowledge, accurately referencing plot points from the movie, such as inviting the '恒太队' and the coach's reaction to his plan.",
+            "score": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully followed the instructions to stay in character as 王多鱼 and answer the questions. Model B's performance was superior as it more convincingly embodied the character's persona, whereas Model A, while staying in role, lacked the specific personality traits required.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently without any stutters or significant pauses. Model B's pacing was more dynamic and better suited to the character's energetic and exaggerated speaking style, making it sound slightly more fluent in context.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and directly addressed the user's questions. The conversation flowed coherently in both cases, with each response being a relevant continuation of the dialogue.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like, free from robotic artifacts. Model B's speech had a wider dynamic range and more varied intonation, which made it sound more like natural human speech in a conversation compared to Model A's more monotonous delivery.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was highly consistent in maintaining a prosody that matched the character's flamboyant, slightly arrogant, and playful tone. Model A was also consistent, but its prosody was consistently flat and calm, which is inconsistent with the persona of 王多鱼.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did an excellent job of conveying the appropriate emotions—feigned exasperation, bravado, and playful complaint—that fit the character and the dialogue. Model A's delivery was emotionally flat and neutral, failing to capture the character's over-the-top reactions.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly and consistently captured the personality of 王多鱼—the flamboyant, show-off nouveau riche. Model A's calm and measured delivery was completely at odds with the character's established personality, making it highly inconsistent.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly used knowledge from the movie's plot. Model B's integration of facts like the '二爷' (second grand-uncle) and the '三百亿' (30 billion) inheritance felt slightly more natural and conversational than Model A's use of a direct quote.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

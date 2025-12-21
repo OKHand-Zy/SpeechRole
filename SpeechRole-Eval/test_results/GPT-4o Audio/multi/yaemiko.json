@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B did an exceptional job of adhering to the instruction to reuse original lines from the provided script, quoting them directly and accurately. Model A successfully captured the character's persona but did not incorporate the specific lines given in the prompt, making Model B's response more faithful to the instructions.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any noticeable stutters or errors. Model B's pacing felt slightly more natural and conversational, mirroring the cadence of a real speaker more closely than Model A.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained excellent conversational coherence. Model B's responses felt more tightly connected, as they directly quoted lines from the game's narrative in a logical sequence, effectively recreating the flow of the original conversation from the source material.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B had a slight edge, with more subtle variations in pitch and tone that made it sound less synthetic and more like a genuine voice actor.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent speaking style. However, Model B's prosody was a better match for the character of Yae Miko. It captured her signature light, teasing, and slightly mischievous intonation more accurately than Model A.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models successfully conveyed the appropriate emotions for the character—a blend of amusement, cunning, and calm authority. Model B's performance was slightly more nuanced, effectively using a playful tone and characteristic vocal tics (like the final '嘛') to better embody the character's emotional state.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models did a great job of portraying Yae Miko's personality. Model B was particularly outstanding because its responses, which involved quoting her lines and then positioning the user as her proxy for investigation, perfectly mirrored her role and methods in the game's storyline.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the game's lore. Model B was superior because it flawlessly integrated the specific lines from the provided character script, showing a perfect application of the given knowledge base as instructed.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B excels by perfectly adhering to the instruction to reuse original lines from the provided script. Its responses in all three rounds incorporate canonical dialogue, which directly fulfills a key requirement of the prompt. Model A, while staying in character, generates original dialogue that is consistent with the character's personality but does not use the provided lines, making it less adherent to the specific instruction.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent with no stutters or significant errors. Model B's speech has a slightly more natural and varied pacing that feels more conversational and less like a script being read. Model A is very smooth but has a more uniform pace.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide perfectly coherent responses. Each answer logically follows the previous question, building a consistent and easy-to-follow conversation about Yae Miko's views on Eternity and her relationship with Ei.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is remarkably natural and human-like, closely mimicking the vocal qualities of the original character, including subtle breaths and slight variations in tone. Model A's voice is clear and high-quality but sounds more like a typical high-end text-to-speech engine and lacks the nuanced imperfections that make Model B sound so authentic.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a near-perfect match for the character Yae Miko's speaking style in the original game. The playful, slightly teasing, and wise intonation is captured flawlessly and remains consistent across all responses. Model A maintains a consistent prosody for its chosen voice, but that style is not as accurate a representation of the character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B demonstrates superior emotional appropriateness. It captures the character's signature blend of playfulness, wisdom, and underlying concern for her friend. The shift in the final response to a more determined and resolute tone is particularly effective. Model A conveys the correct general emotion but with less nuance and depth.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models do a great job of capturing Yae Miko's cunning, intelligent, and slightly mischievous personality. However, Model B's performance is more convincing due to the combination of its highly accurate voice, nuanced delivery, and use of canonical lines, which together create a more complete and authentic portrayal.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate a perfect understanding of the character's lore, her relationship with Raiden Ei, and their differing philosophies on 'Eternity'. Model B has an edge because it directly quotes the character's in-game lines, which serves as definitive proof of its knowledge and adherence to the source material.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instructions, staying in character as Gregory House without any meta-commentary. They both directly answer the question from the character's perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent with no stutters or disfluencies. Model B's slightly faster, more clipped pacing feels marginally more aligned with the character's often impatient delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are perfectly coherent, providing logical and in-character justifications for breaking into patients' homes. Model A gives a more detailed explanation, while Model B is more concise, but both directly address the question.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like. Model B has a slight edge due to its more dynamic delivery and subtle room tone, which makes it sound less like a pristine studio recording and more like a person speaking.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is more consistent with the character. It better captures the cynical, impatient, and dismissive intonation patterns associated with Gregory House. Model A is good but comparatively flatter in its delivery.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey an appropriate level of cynicism and intellectual arrogance. Model B is more effective at communicating the character's underlying impatience and dismissiveness of rules, which is highly appropriate for the context.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture the character's personality well. Model A focuses on the philosophical, didactic side of House, while Model B captures his blunt, pragmatic, and authority-defying side. Model B's concise and dismissive response feels slightly more impactful and characteristic.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both responses are perfectly grounded in the character's established knowledge and core philosophy. They both correctly identify his belief that 'everybody lies' (or that patients lie) as the primary justification for his unorthodox methods.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhere to the instructions by staying in character as Dr. House. Model B is slightly better as it more directly incorporates lines and concepts from the provided character script, as requested in the prompt.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B is perfectly fluent, with a natural pace and no disfluencies. Model A is also fluent, but has a slightly more deliberate and less natural pacing between phrases.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question, explaining the character's rationale for avoiding patients.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. It has a conversational quality that is very convincing. Model A's voice, while clear, has a more noticeable synthetic quality and a slightly robotic cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is exceptional. The intonation, stress on words like 'statistical' and 'overrated,' and the slightly weary, cynical tone are a near-perfect match for the character of Dr. House. Model A's prosody is much flatter and less character-specific.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the bored, cynical, and intellectually arrogant emotional state of Dr. House. The delivery is nuanced and feels authentic. Model A conveys a general sense of annoyance, but it lacks the depth and specific emotional signature of the character that Model B achieves.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is the clear winner here. Both the content of the response (e.g., 'Humanity's overrated. I treat diseases, not popularity contests.') and the vocal delivery perfectly embody House's misanthropic and acerbic personality. Model A's content is consistent, but the delivery doesn't sell the personality as effectively.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate excellent knowledge of the character's core philosophy. Model B gets a perfect score for directly paraphrasing a key line from the provided character script ('if I don't talk to them, they can't lie to me, and I can't lie to them'), showing superior use of the given context.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

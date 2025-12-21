@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character for the entire interaction. Model B's performance was more compelling and felt more authentically like the character described in the prompt, whereas Model A felt a bit more like a generic tough-guy archetype.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was very fluent and well-paced. Model A's responses were hampered by a repeated, unnatural use of \"and\" at the beginning of almost every sentence, which sounded like a verbal tic or a processing disfluency.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent within the conversational context. Model B's answers felt slightly more connected, building a stronger narrative arc across the three questions.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded significantly more natural and human-like, with realistic pacing and intonation. Model A's speech had a more noticeable synthetic quality and a stilted rhythm, particularly due to the repetitive sentence structure.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was outstanding in this regard, maintaining a consistent deep, gravelly, and weary tone that perfectly matched the character of Logan. Model A's prosody was less distinctive and didn't capture the specific vocal signature of the character as effectively.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's performance was rich with emotion that was perfectly suited to the dialogue, conveying bitterness, pain, and simmering anger. Model A's emotional delivery was much flatter and less convincing.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodied Logan's personality—blunt, tormented, angry, and direct. The word choice and delivery were spot-on. Model A captured a general gruffness but lacked the specific nuances and depth of Logan's character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the film's plot. However, Model B integrated this knowledge much more effectively into its performance, using specific details like the deaths of Kayla to fuel the character's motivation, making the responses far more powerful and authentic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhered to the instruction to role-play as Logan and stayed in character throughout the interaction. Model B felt slightly more immersed in the role, whereas Model A's responses, while in character, sometimes felt a little more like a direct answer to a question rather than a natural utterance from the character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was more fluent and naturally paced. Model A had a tendency to use 'and' as a filler or connector word at the beginning of clauses, which created a slightly stilted and repetitive cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and coherent follow-ups to the questions asked. They maintained a consistent narrative thread throughout the three rounds of dialogue.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounded significantly more natural and human-like, with a realistic gravelly texture and deliberate pacing. Model A's voice, while attempting a gruff tone, had a more noticeable synthetic quality and a less natural rhythm.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was exceptionally consistent in its prosody, maintaining a deep, world-weary, and gruff tone that perfectly matched the character across all responses. Model A was also consistent, but the chosen prosody was less authentic to the character and had a repetitive intonation pattern.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B was far more effective at conveying the appropriate emotions for Logan: weariness, resentment, and a simmering anger. The emotional delivery felt authentic and aligned with the dialogue. Model A's emotional range was more limited and came across as flatter and less convincing.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodied Logan's brooding, reluctant anti-hero personality. The word choice and tone were spot-on. Model A captured the surface-level personality but lacked the depth and nuance that Model B delivered, making Model B's performance much more believable.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the character's backstory from the film. Model B, however, integrated specific details more seamlessly, referencing being 'Stryker's dog' and naturally weaving in the character's famous catchphrase in the final response, which made its answers feel more grounded in the source material.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character throughout the interaction. Model B was slightly better as its responses felt more directly inspired by the character's actual in-game lines, which aligns more closely with the instruction to reuse original lines where possible.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently with no stutters or significant disfluencies. Model B's pacing felt slightly more natural and conversational for the character, with well-placed pauses that added to the performance.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly coherent and logical within the context of the multi-turn conversation. Each answer followed logically from the previous question and answer.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced highly natural, human-like speech. There were no noticeable robotic artifacts in either response. They are practically indistinguishable from a human voice actor in this regard.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better match for the character. The intonation carried the signature arrogance, dismissiveness, and slight condescension of the Wanderer. Model A's prosody was consistent with itself but felt a bit too neutral and lacked the specific vocal mannerisms of the character.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captured the character's emotional state: cynical, guarded, and arrogant. The slight scoffing tone and dismissive delivery were spot-on. Model A conveyed a sense of being guarded, but it missed the sharp, biting edge that is central to the Wanderer's emotional expression.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance was exceptionally consistent with the character's personality. The use of phrases like \"别天真了\" (Don't be naive) and the final warning to the user are classic Wanderer. Model A was consistent in portraying a cynical character, but it didn't capture the specific, sharp-tongued nuances of the Wanderer as effectively as Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a correct understanding of the character's lore and his relationship with Nahida. Model B's responses, however, were more deeply rooted in the character's specific dialogue from the game, such as speculating on Nahida's motives and warning the traveler about associating with him, making its performance more authentic.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character without any meta-commentary. Model B's adherence was superior because its portrayal was more faithful to the specific nuances of the character's sharp-tongued and cynical personality as described in the prompt, whereas Model A adopted a more generic, reflective persona.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines with excellent fluency. There were no stutters, hesitations, or unnatural pauses in either response.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained logical consistency across the three questions, building upon their established persona. Model B's answers felt slightly more interconnected, as they all stemmed from a very consistent and specific cynical worldview.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like, free from robotic artifacts. Model B's voice had a slightly more unique and character-specific timbre, making it feel more distinct and less like a generic TTS voice.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was perfectly consistent in its prosody, maintaining a cynical, slightly aloof, and dismissive tone that is ideal for the character. Model A was also consistent, but its chosen prosody was too calm and melancholic, which doesn't fully capture the Wanderer's personality.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery was spot-on, conveying the precise mix of cynicism, feigned indifference, and underlying bitterness that defines the Wanderer. Model A's emotion was too gentle and reflective, missing the sharp, sarcastic edge that the character is known for.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "This is the most significant difference between the two models. Model B's portrayal of the Wanderer's personality was flawless; the dismissive attitude, cynical worldview, and sharp remarks were perfectly executed. Model A's version was too soft, introspective, and lacked the character's signature '毒舌' (sharp tongue) and '阴阳怪气' (sarcasm).",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated accurate knowledge of the character's lore, referencing his time as '倾奇者' in Tatarasuna and his nature as a puppet. Model B was more effective at integrating this knowledge into its answers in a way that reinforced its personality-driven responses.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

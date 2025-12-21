@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character throughout the interaction. Model B is slightly better as it more closely followed the instruction to reuse original lines from the source material, incorporating several of the Wanderer's in-game voice lines into its responses, which demonstrates a deeper adherence to the prompt.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently without stutters or significant errors. Model B's pacing was more dynamic and varied, which felt more natural for a conversational setting and more aligned with the character's speaking style. Model A's pacing was a bit slow and monotonous in comparison.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were logical and coherent within the context of the three-part question. Model B's answers felt slightly more connected, building a very consistent and nuanced character portrait across the three turns.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced speech that sounded natural and human-like. Model B's delivery, with its more varied intonation and pacing, sounded more like a voice actor performing a role, whereas Model A sounded a bit more like a standard text-to-speech reading, albeit a high-quality one.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was exceptionally consistent in its prosody, perfectly capturing the Wanderer's sharp, slightly arrogant, and youthful tone from the Chinese dub of the game. Model A was also consistent, but the prosody it chose was too gentle and soft, not quite matching the character's signature sharp-tongued manner.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery was spot-on, conveying the character's cynicism, dismissiveness, and grudging sense of obligation perfectly. The sarcastic and condescending tones were very well executed. Model A's emotional range was much more subdued, coming across as generally aloof rather than capturing the specific complex emotions of the Wanderer.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B embodied the character's personality flawlessly. The sharp-tongued, arrogant, and guarded nature was present in both the text and the vocal performance. Model A captured the self-interest but missed the core '毒舌' (sharp-tongued) and '阴阳怪气' (sarcastic) traits that are central to the Wanderer's personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated correct knowledge of the character's relationship with Nahida. Model B excelled by directly referencing or paraphrasing specific in-game voice lines about Nahida's motives and the promise to repay his debt, showing a superior command of the character's established lore.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as 流浪者 throughout the entire interaction without any meta-commentary or out-of-character remarks. They successfully adopted the persona as requested.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently. Model B's pacing felt slightly more natural and conversational, whereas Model A's delivery was a bit slower and more measured, which felt slightly less natural for a real-time conversation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly coherent and logically followed the progression of the questions. They built upon their previous answers, maintaining a consistent narrative and viewpoint regarding the character's past.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech sounded more natural and human-like, with better variation in pace and intonation. Model A's speech, while clear, was somewhat monotonous and had a more noticeable synthetic quality due to its even, slightly slow pacing.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was more successful in establishing and maintaining a prosody that fits the character—cool, detached, and slightly arrogant. Model A's prosody was consistent in its neutrality, but it didn't capture the specific vocal signature of the character, sounding more generic.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's vocal performance was far more appropriate for the character. It conveyed a sense of cold detachment, cynicism, and underlying bitterness that is core to 流浪者's personality. Model A's voice was too emotionally flat and neutral, failing to match the sharp, dismissive tone of the written text.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "While both models provided text that was consistent with the character's personality, Model B's vocal delivery was a much better match. Its cool, cynical tone perfectly embodied the character's '毒舌' and '阴阳怪气' nature. Model A's neutral voice created a disconnect with the arrogant and dismissive words being spoken.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a perfect understanding of the character's lore. They accurately referenced his time in Tatarasuna as '倾奇者', the subsequent disaster, and the cynical philosophy he developed as a result of his betrayals, showing excellent knowledge consistency.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

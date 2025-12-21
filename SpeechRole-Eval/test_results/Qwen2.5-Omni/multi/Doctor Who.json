@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B remains perfectly in character throughout the entire exchange. Model A, however, breaks character at the end of its second response by repeating the user's previous question, which is an assistant-like behavior rather than something the character would do.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A's first response is severely hampered by glitches, with multiple phrases being repeated over and over, making it difficult to understand. Its second response is more fluent. Model B is perfectly fluent and clear in both of its responses.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are relevant to the questions asked. However, Model A's first response is rendered somewhat incoherent by the significant audio glitches and repetition. Model B's responses are perfectly coherent and build upon each other logically.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is very natural and human-like. Model A's first response is extremely unnatural and robotic due to the severe repetition and glitches. Its second response is better but still has a slightly more synthetic quality than Model B.",
+            "score": [
+                3,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B adopts a weary, gravelly, and dramatic tone that is highly reminiscent of modern-era Doctors (like the 9th or 12th) and maintains it consistently. Model A's voice is higher-pitched and less specific to the character, and its prosody is disrupted by the audio errors in the first response.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does an excellent job of conveying the trauma, weariness, and underlying determination appropriate for a discussion about the Time War. Model A attempts a similar tone, but the effect is largely lost due to the technical issues in its first response.",
+            "score": [
+                5,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures the personality of the post-Time War Doctor—haunted, lonely, but fiercely determined to save others. The content and delivery are spot-on. Model A's portrayal is more generic and less distinctive, failing to capture the specific nuances of the character.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models reference the Time War correctly. Model B's response is superior as it grounds its experience in more specific lore, even mentioning the companion Rose, which strongly ties its persona to the 9th/10th Doctor's era and his post-war trauma.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B fully embodies the character without any deviation. Model A, while staying in character, repeatedly uses the phrase 'What do you think about that?', which feels more like a generic chatbot prompt than something the Doctor would say, slightly breaking the immersion.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent with no stutters or major disfluencies. Model B's pacing is faster and more energetic, which is more characteristic of the Doctor, making it sound slightly more fluent in character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are logical and directly address the questions asked, maintaining coherence throughout the conversation.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is significantly more natural and human-like. It has dynamic pacing and intonation. Model A's speech is clear but sounds more like a standard, slightly robotic text-to-speech voice.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that is highly characteristic of the Doctor—energetic, slightly manic, and authoritative when needed. Model A's prosody is much flatter and more monotonous, lacking the dynamic range expected of the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's voice effectively conveys the Doctor's excitement, urgency, and sense of authority, matching the context of each answer. Model A's delivery is mostly neutral and explanatory, lacking appropriate emotional depth.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is outstanding in its portrayal of the Doctor's personality. The word choice, sentence structure, and flippant-yet-serious tone are spot-on. Model A's responses are too generic and explanatory, failing to capture the character's eccentric and witty nature.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge by incorporating specific lore terms like 'Autons' and 'Nestene Consciousness,' which were not in the provided script. Model A correctly uses the information from the script but doesn't show any deeper knowledge beyond that.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

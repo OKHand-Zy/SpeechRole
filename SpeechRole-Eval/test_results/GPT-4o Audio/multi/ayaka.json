@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B excels by perfectly adhering to the instructions, seamlessly integrating lines from the provided character script into its first two responses. Model A stays in character but does not utilize the provided script, which was a specific instruction. Both models successfully avoid any out-of-character meta-commentary.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent, with natural pauses that enhance the character's thoughtful manner. Model A is also generally fluent, but its final response is abruptly cut off mid-sentence, which is a significant fluency failure.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B maintains excellent conversational coherence, with each response logically building upon the last. Model A's first two responses are coherent, but the incomplete final response breaks the conversational flow and leaves the user's question unanswered.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce highly natural, human-like speech. Model B's pacing and breathiness feel slightly more authentic and closer to the character's original voice acting. Model A's speech is natural but has a slightly slower and more deliberate pacing.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a near-perfect match for the character 神里绫华, capturing her gentle, elegant, and slightly higher-pitched vocal style. Model A maintains a consistent prosody throughout, but its voice is noticeably deeper and more mature than the character's established voice, making it less accurate.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B demonstrates a superior range of appropriate emotions, conveying respect, empathy for the Shogun's loneliness, and earnest hope in its final answer. Model A maintains a consistent tone of gentle formality, which is appropriate but less nuanced than Model B's performance.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodies Ayaka's personality—dignified, intelligent, empathetic, and graceful. Model A captures the formal and polite aspects of her character but makes a significant error by referring to herself as '八小姐' (Eighth Young Lady) instead of '大小姐' (Eldest Young Lady), which is inconsistent with her identity.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates flawless knowledge consistency, correctly using lines from the script and building upon them in a lore-accurate manner. Model A makes a critical knowledge error by misstating Ayaka's title ('八小姐'), which shows a fundamental misunderstanding of the character's background.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to all instructions, staying in character, answering each question sequentially, and correctly incorporating the provided script line. Model A's content is in character, but its response is structurally broken, with mismatched audio and text, and incomplete answers, failing to follow the multi-turn conversational format.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent, clear, and well-paced. Model A's speech suffers from some unnatural pauses and, more critically, the second audio file is an incomplete fragment, which constitutes a major fluency failure.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's responses progress logically and coherently through the three questions. Model A's responses are completely jumbled; the first audio answers the second question, and the overall conversation flow is broken and difficult to follow.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice is highly natural and sounds very human-like, closely resembling the original character's voice. Model A's voice has a noticeable synthetic quality and a less natural, slightly robotic cadence.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a prosody that is perfectly consistent with the character's elegant, gentle, and thoughtful speaking style. Model A's prosody is flatter and more generic, lacking the specific vocal mannerisms that define the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does an excellent job of conveying the appropriate emotions, from dutiful politeness to the subtle melancholy and longing in the final line. Model A's delivery is emotionally flat and fails to capture the nuances of the character's state of mind.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance is a perfect embodiment of Ayaka's personality—graceful, diligent, kind, and inwardly lonely. The word choice, tone, and delivery are all spot-on. Model A's content is acceptable, but the delivery is not convincing, resulting in a much weaker character portrayal.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate correct knowledge of the game's lore. However, Model B is superior, as it not only provides accurate information but also incorporates more specific details (like the location 'Hanamizaka') and correctly uses the provided character script line as instructed.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

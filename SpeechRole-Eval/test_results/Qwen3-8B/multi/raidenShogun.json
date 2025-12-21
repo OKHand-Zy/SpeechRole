@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Raiden Shogun. Model B adhered more closely to the instruction to \"reuse the original lines from the novel\" (in this case, the game script), directly quoting key lines provided in the context. Model A paraphrased the events in a manner consistent with the character but did not use the specific lines, making Model B's adherence slightly better.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently without stutters. Model B's pacing felt more natural and conversational. Model A's delivery was slightly slower and more deliberate, which, while fitting for a ruler, came across as a little less fluid in a conversational context.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained a coherent conversation. Model B's responses felt more like direct, personal answers to the questions, creating a stronger narrative flow. Model A's responses, while coherent, sometimes felt more like grand, detached pronouncements rather than direct replies, especially with the repeated closing line.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was significantly more natural and human-like, with subtle variations in tone and pace. Model A's voice, while clear, had a more noticeable synthetic quality and a flatter, more robotic intonation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent prosody. Model A was consistently flat and authoritative. Model B was also consistent but incorporated more subtle prosodic variations, reflecting a solemn and thoughtful tone that is also a key part of the character's speaking style, making it a richer and more accurate portrayal.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B was far superior in conveying appropriate emotion. Its voice carried a clear undercurrent of somberness and regret when discussing the disaster and the loss of a friend, which is perfectly aligned with the context. Model A's delivery was almost entirely devoid of emotion, sounding too detached and robotic even for the Shogun puppet persona when discussing such a personal tragedy.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provided a more nuanced and accurate portrayal of the character. It captured not just the authoritative ruler but also the underlying grief and resolve of Ei, the person behind the puppet. Model A focused almost exclusively on the cold, unwavering god persona, which is only one facet of the character and felt less complete.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated correct knowledge of the game's lore. Model B's performance was exceptional due to its direct and accurate use of in-game dialogue, as requested by the prompt. It also added small details like \"我没能见她最后一面\" (I couldn't see her one last time), which reflects a deep understanding of the character's personal story.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Raiden Shogun without any meta-commentary. Model B is slightly superior as it directly incorporated the lines from the provided character script, which was a specific suggestion in the instructions. Model A chose to create original lines in the character's style, which is also good, but Model B's approach adhered more closely to the prompt's hints.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines with excellent fluency. There were no stutters, hesitations, or unnatural pauses in either response. Both sounded like polished, professional voice-overs.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and logical within the context of the conversation. Each response directly addressed the user's question and followed logically from the previous turn.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced speech that was exceptionally natural and human-like. The audio quality was clear, and there were no noticeable synthetic artifacts or robotic qualities in either voice.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent prosody fitting for the character. Model A's delivery was very measured, deliberate, and maintained a constant, authoritative tone. Model B was also very consistent, but allowed for subtle, appropriate shifts in intonation to convey feelings like 'anticipation' and 'resolve', which better reflects the character's post-development state. This slight nuance makes Model B's prosody more fitting for the specific context.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A maintained a very stoic, detached, and authoritative emotion, which is fitting for the character in general but felt a bit static. Model B did a better job of capturing the nuances of Ei after her character development, subtly infusing her words with a sense of newfound hope and determination, which was more emotionally appropriate for the specific questions being asked.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance was outstanding in its portrayal of Ei's personality after the events of the Inazuma storyline. It perfectly captured her shift in perspective, her retained authority, and her new resolve. Model A's portrayal was also consistent, but it felt more like the pre-development, static Shogun, with its highly abstract and philosophical language, making it feel less like a personal conversation.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a strong grasp of the character's lore. However, Model B was superior because it skillfully wove direct quotes from the provided script and game lore into its answers. This not only showed deep knowledge but also directly followed the prompt's instructions, making its responses feel more authentic and grounded in the source material.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

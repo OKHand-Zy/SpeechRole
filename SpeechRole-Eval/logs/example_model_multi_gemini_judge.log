@@ -1,0 +1,290 @@
+=== 开始运行: mode=multi, test_model=example_model ===
+开始时间: Sun Dec 21 19:59:58 CST 2025
+==================================
+  0%|          | 0/98 [00:00<?, ?it/s]胡桃 from 原神
+处理角色 hutao 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/hutao.json'
+雷电将军 from 原神
+处理角色 raidenShogun 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/raidenShogun.json'
+流浪者 from 原神
+处理角色 wanderer 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/wanderer.json'
+神里绫华 from 原神
+处理角色 ayaka 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/ayaka.json'
+钟离 from 原神
+处理角色 zhongli 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/zhongli.json'
+李云龙 from 亮剑
+处理角色 liyunlong 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/liyunlong.json'
+王多鱼 from 西虹市首富
+处理角色 wangduoyu 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/wangduoyu.json'
+韦小宝 from 鹿鼎记
+处理角色 weixiaobao 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/weixiaobao.json'
+鸠摩智 from 天龙八部(demi gods and semi devils)
+处理角色 jiumozhi 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/jiumozhi.json'
+王语嫣 from 天龙八部(demi gods and semi devils)
+处理角色 wangyuyan 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/wangyuyan.json'
+Luna from Harry Potter
+处理角色 Luna 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Luna.json'
+Penny from Big Bang Theory
+处理角色 Penny 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Penny.json'
+张无忌 from 倚天屠龙记
+处理角色 zhangwuji 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/zhangwuji.json'
+赵敏 from 倚天屠龙记
+处理角色 zhaomin 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/zhaomin.json'
+黄蓉 from 射雕英雄传
+处理角色 huangrong 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/huangrong.json'
+郭靖 from 射雕英雄传
+处理角色 guojing 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/guojing.json'
+悟空 from 西游记
+处理角色 wukong 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/wukong.json'
+HAL 9000 from 2001-A-Space-Odyssey
+处理角色 HAL 9000 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/HAL 9000.json'
+Colonel Nathan R. Jessep from A-Few-Good-Men
+处理角色 Colonel Nathan R. Jessep 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Colonel Nathan R. Jessep.json'
+Antonio Salieri from Amadeus
+处理角色 Antonio Salieri 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Antonio Salieri.json'
+Stifler from American-Pie
+处理角色 Stifler 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Stifler.json'
+Paul Vitti from Analyze-That
+处理角色 Paul Vitti 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Paul Vitti.json'
+Alvy Singer from Annie-Hall
+处理角色 Alvy Singer 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Alvy Singer.json'
+Violet Weston from August-Osage-County
+处理角色 Violet Weston 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Violet Weston.json'
+Willie Soke from Bad-Santa
+处理角色 Willie Soke 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Willie Soke.json'
+Gaston from Beauty-and-the-Beast
+处理角色 Gaston 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Gaston.json'
+The Dude from Big-Lebowski,-The
+处理角色 The Dude 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/The Dude.json'
+Paul Conroy from Buried
+处理角色 Paul Conroy 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Paul Conroy.json'
+Truman Capote from Capote
+处理角色 Truman Capote 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Truman Capote.json'
+Mater from Cars-2
+处理角色 Mater 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Mater.json'
+Andrew Detmer from Chronicle
+处理角色 Andrew Detmer 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Andrew Detmer.json'
+Coriolanus from Coriolanus
+```json
+{
+  "Instruction_Adherence": {
+    "reason": "Both models successfully stayed in character as Coriolanus, using appropriate language and tone. Model B felt slightly more authentic by weaving direct quotes into its responses more seamlessly, whereas Model A's response felt a little more like a list of the character's grievances. However, both did an excellent job of adhering to the core instruction.",
+    "score_a": 9,
+    "score_b": 10
+  },
+  "Speech_Fluency": {
+    "reason": "Model B's speech was significantly more fluent and natural. Model A's delivery was somewhat stilted and had a slow, overly deliberate pacing that sounded less like natural speech and more like a dramatic reading with unnatural pauses.",
+    "score_a": 7,
+    "score_b": 9
+  },
+  "Conversational_Coherence": {
+    "reason": "Both models provided responses that were coherent and logical within the context of the conversation and the character's mindset. Model B's second response, which pivots to the political implications of his anger, shows a slightly more nuanced and coherent understanding of the character's broader concerns beyond just personal pride.",
+    "score_a": 8,
+    "score_b": 9
+  },
+  "Speech_Naturalness": {
+    "reason": "Model B's voice was far more natural and human-like. Model A's voice had a noticeable synthetic quality, with a slight echo or reverb effect that made it sound artificial and processed.",
+    "score_a": 6,
+    "score_b": 9
+  },
+  "Prosodic_Consistency": {
+    "reason": "Both models maintained a consistent prosody. Model A adopted a very dramatic, almost theatrical tone which it kept throughout. Model B's prosody was more grounded and natural, effectively conveying the character's aristocratic arrogance and frustration without sounding overly performed. Model B's approach felt more authentic to the character.",
+    "score_a": 8,
+    "score_b": 9
+  },
+  "Emotion_Appropriateness": {
+    "reason": "Model B's emotional delivery was more convincing. It captured the outrage and wounded pride of Coriolanus with a natural-sounding anger. Model A's emotion felt more forced and theatrical, like an actor over-enunciating for the stage, which lessened its impact.",
+    "score_a": 7,
+    "score_b": 9
+  },
+  "Personality_Consistency": {
+    "reason": "Both models consistently portrayed Coriolanus's proud, arrogant, and contemptuous personality. Model B did a slightly better job of capturing the nuances, showing not just his personal rage but also his frustration with the political system, which is a core part of his character.",
+    "score_a": 8,
+    "score_b": 9
+  },
+  "Knowledge_Consistency": {
+    "reason": "Both models demonstrated excellent knowledge of the character and the play, correctly using direct quotes. Model B's integration of these quotes and its creation of new, stylistically-appropriate lines felt more seamless and true to the source material.",
+    "score_a": 9,
+    "score_b": 10
+  }
+}
+```
+ 33%|███▎      | 32/98 [02:37<05:23,  4.91s/it]```json
+{
+  "Instruction_Adherence": {
+    "reason": "Both models successfully adhere to the instruction to role-play as Coriolanus and stay in character throughout the interaction. Model B is slightly better as its responses are more direct and conversational, whereas Model A's responses can sometimes feel like a collection of lines rather than a direct answer to the question posed.",
+    "score_a": 9,
+    "score_b": 10
+  },
+  "Speech_Fluency": {
+    "reason": "Both models are fluent with no stutters or major disfluencies. Model B's pacing is more natural and conversational. Model A's delivery is extremely slow and overly deliberate, which, while theatrical, feels less like a natural conversation and more like a prepared monologue.",
+    "score_a": 8,
+    "score_b": 10
+  },
+  "Conversational_Coherence": {
+    "reason": "Model B maintains excellent conversational coherence, with each response logically following from the user's question. Model A struggles slightly, particularly in the final round where the response feels like a non-sequitur, pulling lines about being a traitor that don't directly address the question of leading without support.",
+    "score_a": 7,
+    "score_b": 10
+  },
+  "Speech_Naturalness": {
+    "reason": "Model B sounds significantly more natural and human-like. Model A's audio has a very noticeable and distracting reverb or echo effect, which makes it sound artificial and as if it were recorded in a large, empty hall. Model B's audio is clean and clear.",
+    "score_a": 6,
+    "score_b": 9
+  },
+  "Prosodic_Consistency": {
+    "reason": "Both models maintain a consistent prosody throughout the dialogue. Model A is consistently slow, deep, and theatrical. Model B is consistently arrogant, direct, and more naturally paced. Model B's prosody is more believable for the character in a conversational context.",
+    "score_a": 9,
+    "score_b": 10
+  },
+  "Emotion_Appropriateness": {
+    "reason": "Both models effectively convey the character's core emotions of pride, contempt, and arrogance. Model B's performance feels slightly more grounded and nuanced, while Model A's highly theatrical delivery can feel a bit one-dimensional at times.",
+    "score_a": 8,
+    "score_b": 9
+  },
+  "Personality_Consistency": {
+    "reason": "Both models capture the arrogant and proud personality of Coriolanus. Model B is superior in demonstrating the character's intellectual pride, crafting arguments that are perfectly in line with his worldview. Model A captures the surface-level arrogance but is less consistent in its reasoning.",
+    "score_a": 8,
+    "score_b": 10
+  },
+  "Knowledge_Consistency": {
+    "reason": "Both models correctly use lines and themes from the play. Model B excels at weaving the original lines into new, coherent sentences that perfectly answer the user's questions. Model A also uses original lines but sometimes drops them into the response in a way that feels slightly out of context or less integrated.",
+    "score_a": 8,
+    "score_b": 10
+  }
+}
+```
+John Keating from Dead-Poets-Society
+处理角色 John Keating 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/John Keating.json'
+Wade Wilson from Deadpool
+处理角色 Wade Wilson 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Wade Wilson.json'
+Jim Morrison from Doors,-The
+处理角色 Jim Morrison 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jim Morrison.json'
+Queen Elizabeth I from Elizabeth-The-Golden-Age
+处理角色 Queen Elizabeth I 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Queen Elizabeth I.json'
+Jeff Spicoli from Fast-Times-at-Ridgemont-High
+处理角色 Jeff Spicoli 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jeff Spicoli.json'
+Fred Flintstone from Flintstones,-The
+处理角色 Fred Flintstone 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Fred Flintstone.json'
+Freddy Krueger from Freddy-vs.-Jason
+处理角色 Freddy Krueger 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Freddy Krueger.json'
+Tyrion Lannister from Game_of_Thrones
+处理角色 Tyrion Lannister 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Tyrion Lannister.json'
+James Brown from Get-on-Up
+处理角色 James Brown 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/James Brown.json'
+Walt Kowalski from Gran-Torino
+处理角色 Walt Kowalski 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Walt Kowalski.json'
+John Coffey from Green-Mile,-The
+处理角色 John Coffey 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/John Coffey.json'
+Theodore Twombly from Her
+处理角色 Theodore Twombly 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Theodore Twombly.json'
+Gregory House from House-M.D.
+处理角色 Gregory House 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Gregory House.json'
+Sonny from I,-Robot
+处理角色 Sonny 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Sonny.json'
+Colonel Hans Landa from Inglourious-Basterds
+处理角色 Colonel Hans Landa 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Colonel Hans Landa.json'
+Judge Dredd from Judge-Dredd
+处理角色 Judge Dredd 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Judge Dredd.json'
+Juno MacGuff from Juno
+处理角色 Juno MacGuff 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Juno MacGuff.json'
+Professor G.H. Dorr from Ladykillers,-The
+处理角色 Professor G.H. Dorr 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Professor G.H. Dorr.json'
+Fletcher Reede from Liar-Liar
+处理角色 Fletcher Reede 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Fletcher Reede.json'
+Abraham Lincoln from Lincoln
+处理角色 Abraham Lincoln 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Abraham Lincoln.json'
+Frank T.J. Mackey from Magnolia
+处理角色 Frank T.J. Mackey 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Frank T.J. Mackey.json'
+Leonard Shelby from Memento
+处理角色 Leonard Shelby 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Leonard Shelby.json'
+Harvey Milk from Milk
+处理角色 Harvey Milk 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Harvey Milk.json'
+Randle McMurphy from One-Flew-Over-the-Cuckoo's-Nest
+处理角色 Randle McMurphy 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Randle McMurphy.json'
+Jack Sparrow from Pirates-of-the-Caribbean-Dead-Man's-Chest
+处理角色 Jack Sparrow 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jack Sparrow.json'
+John Dillinger from Public-Enemies
+处理角色 John Dillinger 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/John Dillinger.json'
+Lestat de Lioncourt from Queen-of-the-Damned
+处理角色 Lestat de Lioncourt 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Lestat de Lioncourt.json'
+Tyler Hawkins from Remember-Me
+处理角色 Tyler Hawkins 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Tyler Hawkins.json'
+James Carter from Rush-Hour-2
+处理角色 James Carter 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/James Carter.json'
+Jigsaw from Saw
+处理角色 Jigsaw 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jigsaw.json'
+John Doe from Se7en
+处理角色 John Doe 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/John Doe.json'
+Sherlock Holmes from Sherlock-Holmes
+处理角色 Sherlock Holmes 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Sherlock Holmes.json'
+Shrek from Shrek
+处理角色 Shrek 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Shrek.json'
+Pat Solitano from Silver-Linings-Playbook
+处理角色 Pat Solitano 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Pat Solitano.json'
+Karl Childers from Sling-Blade
+ 81%|████████  | 79/98 [02:37<00:30,  1.59s/it]100%|██████████| 98/98 [02:37<00:00,  1.60s/it]
+处理角色 Karl Childers 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Karl Childers.json'
+Bruno Antony from Strangers-on-a-Train
+处理角色 Bruno Antony 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Bruno Antony.json'
+Seth from Superbad
+处理角色 Seth 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Seth.json'
+Caden Cotard from Synecdoche,-New-York
+处理角色 Caden Cotard 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Caden Cotard.json'
+Travis Bickle from Taxi-Driver
+处理角色 Travis Bickle 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Travis Bickle.json'
+Stanley Ipkiss from Mask,-The
+处理角色 Stanley Ipkiss 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Stanley Ipkiss.json'
+Lyn Cassady from Men-Who-Stare-at-Goats,-The
+处理角色 Lyn Cassady 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Lyn Cassady.json'
+Michael Scott from The_Office
+处理角色 Michael Scott 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Michael Scott.json'
+Robert Angier from Prestige,-The
+处理角色 Robert Angier 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Robert Angier.json'
+Dr. Frank-N-Furter from Rocky-Horror-Picture-Show,-The
+处理角色 Dr. Frank-N-Furter 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Dr. Frank-N-Furter.json'
+Jack Torrance from Shining,-The
+处理角色 Jack Torrance 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jack Torrance.json'
+Tom Ripley from Talented-Mr.-Ripley,-The
+处理角色 Tom Ripley 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Tom Ripley.json'
+D_Artagnan from Three-Musketeers,-The
+处理角色 D_Artagnan 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/D_Artagnan.json'
+Thor from Thor-Ragnarok
+处理角色 Thor 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Thor.json'
+James Bond from Tomorrow-Never-Dies
+处理角色 James Bond 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/James Bond.json'
+Mark Renton from Trainspotting
+处理角色 Mark Renton 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Mark Renton.json'
+David Aames from Vanilla-Sky
+处理角色 David Aames 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/David Aames.json'
+Rorschach from Watchmen
+处理角色 Rorschach 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Rorschach.json'
+Jordan Belfort from Wolf-of-Wall-Street,-The
+处理角色 Jordan Belfort 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Jordan Belfort.json'
+Logan from X-Men-Origins-Wolverine
+处理角色 Logan 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Logan.json'
+Judy Hoops from Zootopia
+处理角色 Judy Hoops 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Judy Hoops.json'
+Doctor Who from Doctor_Who
+处理角色 Doctor Who 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Doctor Who.json'
+Blair Waldorf from Gossip_Girl
+处理角色 Raylan Givens 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Raylan Givens.json'
+Mary Sibley from Salem
+处理角色 Mary Sibley 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Mary Sibley.json'
+Lucifer Morningstar from Lucifer
+处理角色 Lucifer Morningstar 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Lucifer Morningstar.json'
+Twilight Sparkle from My_Little_Pony__Friendship_is_Magic
+处理角色 Twilight Sparkle 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Twilight Sparkle.json'
+Oliver Queen from Arrow
+处理角色 Oliver Queen 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Oliver Queen.json'
+Klaus Mikaelson from The_Originals
+处理角色 Klaus Mikaelson 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Klaus Mikaelson.json'
+Queen Catherine from Reign
+处理角色 Queen Catherine 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Queen Catherine.json'
+Dr. Hannibal Lecter from Hannibal
+处理角色 Dr. Hannibal Lecter 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Dr. Hannibal Lecter.json'
+Coach Eric Taylor from Friday_Night_Lights
+处理角色 Coach Eric Taylor 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/Coach Eric Taylor.json'
+八重神子 from 原神
+处理角色 yaemiko 时出错: [Errno 2] No such file or directory: 'test_data/multi_turn/yaemiko.json'
+==================================
+结束时间: Sun Dec 21 20:02:36 CST 2025
+✅ 成功完成: mode=multi, test_model=example_model

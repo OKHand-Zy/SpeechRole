@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Zhongli. Model B adhered more closely to the instruction to \"reuse the original lines\" by quoting directly from the game's script, which was provided as context. Model A paraphrased the lines, which is also acceptable but less precise in following the instruction.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any stutters or significant errors. Their pacing was deliberate and fitting for the character. Both are excellent in this regard.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided a direct and perfectly coherent answer to the question asked, drawing from the character's established knowledge and perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B's voice timbre and intonation felt slightly closer to the character's official voice actor, making it sound more authentic and less like a generic deep male voice.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a prosody consistent with a calm, ancient, and wise being. Model B's performance was slightly superior due to more nuanced intonation, particularly the slight scoff ('哼') which perfectly aligns with Zhongli's specific speaking style when expressing subtle amusement.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed a sense of calm approval. Model B was more effective in capturing the specific emotion of the scene. The slight scoff before stating his approval conveyed Zhongli's subtle satisfaction and amusement, which is a key part of his character's reaction in the game. Model A's delivery was more neutral and less emotionally nuanced.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models captured Zhongli's wise and observant personality. Model B's performance felt more authentic and true to the character, especially in its delivery which reflected not just his wisdom but also his hidden satisfaction with how events unfolded, a core aspect of his personality during this story arc.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge of the game's lore. Model B gets a higher score because it used the exact lines from the game script, showing a more precise and faithful representation of the source material as requested.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, not only staying in character but also successfully reusing original lines from the game's script as requested. Model A stays in character but its response is a generic creation rather than drawing from the established source material.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model B's pacing is more deliberate and measured, which is much more in line with how the character Zhongli speaks. Model A's delivery is slightly too quick and uniform.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's response is perfectly coherent, directly referencing the in-game explanation for the event (a contract) and maintaining the character's mystique. Model A's answer is coherent with the question but provides a less accurate and more generic explanation that doesn't fully align with the game's narrative.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce natural, human-like speech. Model B's audio has a slightly richer quality and more natural-sounding pauses, making it sound marginally more authentic.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is far superior in this aspect. Its intonation, stress, and calm, authoritative cadence are a near-perfect match for the character's established speaking style. Model A's prosody is much more generic and lacks the specific gravitas associated with Zhongli.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures the calm, wise, and slightly detached tone appropriate for Zhongli discussing a grand contract. Model A's tone is neutral but lacks the specific emotional nuance and authority of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a perfect reflection of Zhongli's personality. The emphasis on '契约' (contract), the formal language, and the cryptic deflection are all hallmarks of his character. Model A's response is too direct and simplistic, failing to capture the philosophical and contractual nature of Zhongli.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge consistency by quoting or closely paraphrasing Zhongli's actual dialogue from the game regarding his contract with the Tsaritsa. Model A's explanation is a significant oversimplification and factually less accurate, missing the core point of the contract and the test for Liyue.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    }
+]

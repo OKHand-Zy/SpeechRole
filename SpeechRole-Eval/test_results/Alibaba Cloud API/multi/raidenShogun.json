@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instruction to role-play as the character without any out-of-character remarks. They remained fully in character throughout the dialogue.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke fluently and clearly. Model B had slightly more natural pacing, making it sound more like spontaneous speech, whereas Model A sometimes sounded more like it was reading a prepared text.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models were coherent. Model B was superior as it built a more connected narrative by adding relevant, logical extensions to the provided script, while Model A relied more heavily on simply repeating the script.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's voice had slightly more subtle variations in intonation and a richer vocal quality, giving it a marginal edge in naturalness.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a prosody consistent with the character's calm and authoritative nature. Model B's delivery was more nuanced, better capturing the regal yet somber tone of the Raiden Shogun.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models appropriately conveyed a sense of sadness and reflection. Model B was more effective at layering this with a sense of resolve and personal regret, which is more true to the character's complex emotional state regarding her past.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was significantly better. Its responses added details that perfectly reflected the character's regrets and motivations. Model A made a major error by having the character deny her friendship with Kitsune Saiguu, which is inconsistent with her personality and history.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge consistency. It not only used the provided lore correctly but also expanded on it with details that are true to the game's story. Model A made a factual error regarding the character's relationship with a key figure from her past.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully adhered to the instructions, staying in character as 雷电将军 throughout the conversation without any meta-commentary or out-of-character remarks. They both fully embodied the persona requested.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models spoke very fluently. Model B's pacing felt slightly more deliberate and regal, which is more fitting for the character's authoritative and divine nature. Model A's speech was also smooth but slightly faster and more standard.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained coherence. However, Model B's responses built upon each other more effectively, showing a clearer progression of thought that reflects the character's development arc. Model A's final response was logical, but Model B's was more insightful and connected better to the previous points.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced highly natural, human-like speech. Model B's voice had a slightly more distinct and resonant quality that felt uniquely suited to a divine ruler, making it sound exceptionally natural for the specific role. Model A was also very natural but sounded a bit more like a generic calm female voice.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was outstanding in this regard. Its prosody—a calm, measured, and authoritative intonation—was a perfect match for 雷电将军 and was maintained flawlessly across all responses. Model A was also consistent but its prosody was less distinctive and didn't capture the character's regal bearing as effectively as Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a superior job of conveying the subtle emotions of the post-Archon Quest version of the character: a sense of calm reflection, quiet resolve, and a hint of newfound hope. Model A's delivery was appropriately calm and neutral, but lacked the nuanced emotional depth that Model B's performance captured.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was more consistent with the character's personality. Its word choice was more formal and profound, fitting for a deity reflecting on her past. Model A's final response, particularly the phrase '我也不能事事都亲力亲为' (I also can't do everything myself), felt a bit too colloquial and less formal than how the character typically speaks.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated a deeper and more accurate understanding of the game's lore. In the final question, it correctly stated that the '将军' (the Shogun puppet) would handle daily affairs, which is a crucial detail. Model A's response, using the vague term '其他人' (other people), was a minor but significant inaccuracy regarding the character's established plans.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

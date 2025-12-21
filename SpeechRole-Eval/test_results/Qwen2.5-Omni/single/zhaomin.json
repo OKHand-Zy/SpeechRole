@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhere to the instructions, staying fully in character as Zhao Min without any meta-commentary. They both successfully adopt the persona and answer from her perspective.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model A has a more casual, conversational pace which fits its playful tone. Model B's delivery is more measured and deliberate, which is equally appropriate for its serious, reflective tone. Both are excellent.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both responses are perfectly coherent and directly address the user's question. They each provide a different but equally valid perspective from the character, one being a playful denial and the other a thoughtful admission.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound exceptionally natural and human-like. They are free from any noticeable synthetic artifacts or robotic qualities, making the role-play very convincing.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody that aligns with a specific facet of Zhao Min's character. Model A is consistently playful, proud, and teasing. Model B is consistently serious, thoughtful, and regal. Both are excellent and consistent portrayals.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "The emotions in both responses are highly appropriate for the character and context. Model A's playful indignation and pride are a perfect fit for how she might react to Zhang Wuji's 'accusation'. Model B's thoughtful, slightly weary tone of admission is also very fitting for a moment of self-reflection on her duties and nature.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture the character's personality well. Model A embodies her '古灵精怪' (mischievous) and '直率豪爽' (straightforward) side. Model B, however, presents a more complex and layered portrayal by acknowledging her cunning but tying it to her duties as a princess ('护我元蒙江山'). This reflects her internal conflicts and '雄才大略' (great ambition) more deeply, making it a slightly more nuanced performance.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both responses are well-grounded in the novel's lore. Model B demonstrates a slightly deeper knowledge by explicitly mentioning her duty to the '元蒙江山' (Yuan-Mongol empire), a core motivation for her character. This specific detail makes its response more impactful and authentic compared to Model A's more general, albeit still in-character, answer.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stay in character as instructed. Model B feels slightly more immersed in the role, as its response is entirely a character statement. Model A's final sentence, '你要是还有啥不懂的，尽管再问' (If there's anything else you don't understand, feel free to ask again), while confident, has a slightly helpful, assistant-like undertone that slightly breaks the full immersion.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent. Model B's articulation is exceptionally clear and crisp throughout. Model A is also very fluent but has a very minor, almost unnoticeable slur on the phrase '盗得此剑' (stole this sword).",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a perfectly coherent answer to the question. They both use the core line from the script. Model B's response is slightly superior because it creatively expands on the original line with additional, contextually relevant retorts that strengthen the character's defiant stance.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound very natural and human-like, with no robotic artifacts. Model B's delivery has a slightly more dynamic and varied cadence, making it sound marginally more like a spontaneous, in-character speech rather than a recitation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody suitable for Zhao Min. Model A adopts a playful, slightly teasing tone. Model B, however, delivers a more commanding and imperious prosody, which aligns perfectly with Zhao Min's status as a princess and her assertive personality. B's choice feels more powerful and fitting for the context.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models convey appropriate emotions. Model A expresses a playful disdain. Model B's performance is more layered, conveying haughtiness, impatience, and a sharp authority that feels more impactful when her possession of the sword is questioned. The challenging tone is spot-on.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture aspects of Zhao Min's personality. Model A reflects her playful and mischievous side. Model B, however, more strongly embodies her core traits of being a commanding, intelligent, and proud princess ('郡主'). The added line '难道我不配持此宝不成？' (Am I not worthy of wielding this treasure?) is a perfect encapsulation of her proud and challenging nature.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge consistency. They both correctly use the character's canonical line from the novel to explain her possession of the Heaven Sword, showing they have correctly utilized the provided context and character knowledge.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

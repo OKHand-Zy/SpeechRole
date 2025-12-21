@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A is slightly better as it followed the instruction to reuse original lines from the novel, directly incorporating the provided character script into its response. Model B also stayed perfectly in character but did not use the provided lines.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are highly fluent, with no stutters or awkward pauses. Their articulation is clear and the pacing is appropriate for the character.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide excellent, coherent answers that directly address both parts of the question: how the engagement was handled and who the character prefers.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model A sounds more natural. Its audio is clean and clear. Model B's audio has a noticeable echo or reverb effect, which makes it sound slightly artificial and less like natural speech.",
+            "score": [
+                9,
+                7
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A's prosody is more consistent with Guo Jing's character. The slower, more deliberate, and slightly ponderous tone perfectly captures his simple and honest nature. Model B's delivery is good but sounds more like a generic heroic character rather than specifically Guo Jing.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models effectively convey the appropriate emotions of sincerity, loyalty, and the internal conflict between duty and love. Their tone reflects Guo Jing's earnestness when discussing this sensitive topic.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A's performance feels more authentic to Guo Jing's personality. The simpler language and straightforward delivery align perfectly with his well-known honest and simple-minded ('憨厚') nature. Model B's language is a bit too polished and eloquent for the character.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge of the novel's plot. Model A gets a slight edge for using a direct quote from the source material, which reinforces its authenticity and accuracy.",
+            "score": [
+                10,
+                9
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Guo Jing throughout their responses without any out-of-character remarks.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were highly fluent. Model B's pacing, with its slightly more deliberate and thoughtful pauses, felt more natural and in-character for Guo Jing, making it marginally better.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question about the musical duel on Peach Blossom Island.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both responses sounded very natural and human-like. Model B's delivery had a more authentic, less polished quality that perfectly matched the character of Guo Jing, making it sound exceptionally natural.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A's prosody was consistent but sounded like a standard heroic male character. Model B's prosody was also consistent but was much more specific to Guo Jing's personality—slower, more earnest, and humble, which was a much better fit.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed an appropriate sense of humility and recollection. Model B's earnest and slightly bewildered tone was more effective at capturing Guo Jing's emotional state during that specific event in the novel.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was significantly better at capturing Guo Jing's personality. The choice of words like '我资质驽钝' (my aptitude is dull) combined with the slow, sincere, and humble vocal delivery was a perfect match. Model A was good but portrayed a more generic, straightforward hero.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge of the specific event from the novel, accurately describing Guo Jing's process of understanding martial arts through the music. Model B's phrasing felt slightly more authentic to the style of the original text.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

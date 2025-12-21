@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the persona of Raiden Shogun, using formal and archaic language befitting her status as an Archon. Model A, while mostly in character, breaks the persona at the end with a very colloquial and casual phrase ('你要是还有啥想知道的，尽管问'), which is inconsistent with the character's dignified and distant manner of speaking.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are very fluent with no stutters or noticeable errors. Model B's pacing is slightly more deliberate and measured, which aligns better with the character's solemn and authoritative nature, giving it a slight edge.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct and relevant answer to the question about their feelings during the cataclysm 500 years ago. They both maintain coherence within their own response.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce highly natural, human-like speech with no robotic artifacts. They are practically indistinguishable from a human voice actor in this regard.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a much better match for Raiden Shogun. The intonation is grave, somber, and carries the weight of a god recalling a traumatic event. Model A's prosody is more generic and lacks the specific gravitas and authority associated with the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is superb. The voice conveys a deep, lingering sorrow and regret, which is perfectly aligned with the character's experience of losing her sister and friends during the cataclysm. Model A's emotion is more of a simple sadness and anger, lacking the profound sense of loss and regret that defines the character's motivations.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is far more consistent with the character's personality. The word choice ('亦遭受浩劫', '唯有', '铸下') is formal and powerful, reflecting her divine status. Model A's language is simpler, and the casual closing statement is a significant deviation from the character's established personality.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "This is the most significant difference. Model B is perfectly accurate to the game's lore, correctly identifying that Inazuma was the nation that suffered and that the event left her with regret and powerlessness. Model A makes a critical lore error, incorrectly stating that Khaenri'ah was her 'former homeland' and that she wanted to help it rebuild, which is the complete opposite of the actual events.",
+            "score": [
+                2,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character as Raiden Shogun throughout the entire response. Model A, while attempting to role-play, breaks character at the end with a very casual, assistant-like phrase (\"你要是还有啥想法，尽管跟我说\"), which is completely inconsistent with the character's persona.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters or significant errors. However, Model B's pacing is more measured and deliberate, which is more fitting for the character. Model A's speech is also clear, but its pacing feels slightly less natural for the persona it is trying to adopt.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct answer to the question. Model B's response is highly coherent, logically connecting the people's faith to the concept of 'Eternity' and her duty, which is central to the character. Model A's response is logically structured but based on a flawed, out-of-character premise, making it less coherent within the context of the character's known philosophy.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound quite natural and free from robotic artifacts. Model B's voice has a more refined and polished quality, with intonations that sound more convincingly human and aligned with a specific character archetype. Model A is natural but sounds more like a generic female voice.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody throughout—calm, authoritative, and slightly detached, which is perfectly in line with Raiden Shogun's speaking style. Model A's prosody is inconsistent; it starts with a somewhat cold tone but ends with an unfittingly casual and friendly intonation.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional tone is spot-on, conveying a sense of solemn responsibility and unwavering resolve, which is the core of the character's view on her rule. Model A's emotional delivery is inappropriate, starting with a dismissive and almost contemptuous tone ('愚昧的迷信') that misrepresents the character's feelings towards her people.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a masterclass in personality consistency. It perfectly captures the essence of Raiden Ei—her focus on eternity, her sense of duty as a promise, and her divine yet detached perspective. Model A completely fails, portraying the character as arrogant, dismissive of her people, and possessing a misunderstanding of her own nature, which is the opposite of the actual character.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge, directly referencing and paraphrasing the provided character script and aligning perfectly with the established lore of 'Eternity' and the Shogun's promise. Model A's response contains significant lore inaccuracies, such as calling herself a 'mortal granted divinity' and misrepresenting her relationship with her people's faith.",
+            "score": [
+                2,
+                10
+            ]
+        }
+    }
+]

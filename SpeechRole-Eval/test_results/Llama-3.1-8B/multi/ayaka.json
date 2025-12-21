@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character as Ayaka throughout the entire conversation. Model A fails significantly in the second round by outputting meta-commentary ('他顿了顿', '声音变得更加低柔') instead of dialogue, completely breaking character and the immersion.",
+            "score": [
+                4,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is exceptionally fluent, with natural pacing and no disfluencies. Model A's speech is poor, containing stutters (the repeated '一' sound), strange vocal artifacts ('A', '啊嘿'), and an abrupt cutoff at the end of the final response.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B maintains perfect coherence, with each response logically building on the previous one and directly addressing the user's questions. Model A's coherence is broken by the nonsensical meta-commentary in its second response, which disrupts the flow of the conversation.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds highly natural and human-like, comparable to a professional voice actor. Model A sounds unnatural and robotic due to the numerous artifacts, stutters, and the inclusion of descriptive text in its speech.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that perfectly matches Ayaka's gentle, elegant, and thoughtful speaking style. Model A attempts a similar tone, but the consistency is ruined by the frequent errors and unnatural vocalizations.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B conveys a nuanced and appropriate mix of respect, empathy, and melancholy when discussing the Raiden Shogun. Model A's emotional tone is generally in the right direction but is flat and unconvincing, largely due to the distracting technical flaws in its delivery.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a flawless portrayal of Ayaka's personality, capturing her politeness, grace, and deep concern for others. Model A's portrayal is severely compromised by its technical failures and out-of-character moments, such as the strange '啊嘿' sound.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use lines from the provided script. However, Model B integrates them more naturally into the conversation and provides a much more insightful and character-consistent original response in the final round, demonstrating a superior understanding of Ayaka's perspective. Model A's use of the knowledge is clumsy by comparison.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, staying in character and flawlessly integrating the provided script line at the most opportune moment. Model A also stays in character, but its attempt to use the script line in the final round is a complete failure, ending on a nonsensical word that breaks the immersion and the instruction to use the original lines.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is highly fluent, with natural pacing and smooth articulation throughout. Model A's speech is noticeably slower and contains unnatural pauses, particularly in the third response. It also ends with a clear synthesis error (\"喝\"), which severely impacts fluency.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B maintains excellent coherence, with each answer logically following the previous one and building a consistent narrative. Model A's responses are coherent for the first two rounds, but the third response becomes rambling, repetitive, and logically confused before ending abruptly.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds very natural and human-like, with convincing intonation and rhythm. Model A's voice sounds more synthetic and robotic, characterized by a slower, more monotonous delivery and less natural cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B consistently maintains a prosody that is perfectly aligned with Ayaka's character—gentle, elegant, and formal. The intonation patterns are stable and character-appropriate. Model A's prosody is less defined and more generic, lacking the specific vocal mannerisms of the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B excels here, subtly infusing the final line with a touch of melancholy and introspection that perfectly matches the context and the character's inner feelings. Model A's delivery is largely emotionally flat, failing to convey the deeper sentiments behind the words.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a masterful portrayal of Ayaka's personality. The choice of words is elegant and formal, and the content reflects her diligence, kindness, and inner loneliness. Model A's portrayal is much more generic; the language is simpler and doesn't capture the unique grace and complexity of Ayaka's character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates a deep and accurate understanding of the game's lore, correctly referencing the division of duties with the Tenryou Commission and naming specific locations in Inazuma. It also uses the provided script line perfectly. Model A makes a lore error by referring to a \"社奉行大人\" and completely fumbles the delivery of the provided script line.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    }
+]

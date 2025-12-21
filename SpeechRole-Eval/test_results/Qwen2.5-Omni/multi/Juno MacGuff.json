@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B fully adheres to the instructions, staying in character as Juno throughout both responses. Model A appears to suffer from a technical glitch, causing it to repeat the same phrases over and over, which prevents it from properly answering the questions or staying coherently in character.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent and well-paced. Model A's response is extremely disfluent, characterized by constant, unnatural repetition and glitching that makes it nearly impossible to understand.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B's answers are perfectly coherent, directly addressing the questions asked while building on the established context. Model A's responses are completely incoherent; due to the repetitive glitching, it fails to answer either question and instead just loops broken phrases.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like, with a conversational delivery. Model A sounds highly synthetic and broken due to the severe audio artifacts and repetition.",
+            "score": [
+                1,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B maintains a consistent prosody that aligns perfectly with Juno's sarcastic and witty speaking style. Model A's prosody is non-existent due to the technical failure, resulting in a flat, repetitive, and robotic delivery.",
+            "score": [
+                1,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B expertly captures Juno's characteristic blend of sarcasm, confidence, and underlying sincerity. The emotional tone is perfectly suited to the dialogue. Model A fails to convey any appropriate emotion because of the audio glitches.",
+            "score": [
+                1,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is outstanding in its portrayal of Juno's personality. The sharp humor, quick comebacks, and specific vocabulary are spot-on. Model A fails to convey any personality at all, as the response is just a garbled, repeating loop.",
+            "score": [
+                1,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge of the character and film, referencing the 'wholesome' ads, the Penny Saver, and her '104% sure' line, while also creating new dialogue (like the 'sea monkey' comment) that is perfectly in character. Model A attempts to use the '104% sure' line but fails to apply it correctly and is otherwise unable to demonstrate knowledge due to the technical issues.",
+            "score": [
+                3,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B remains perfectly in character throughout the entire exchange. Model A, while mostly in character, ends each response with the question 'So what do you think about that?', which feels more like an AI assistant's engagement tactic than something Juno would say.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent and free of disfluencies. Model B's pacing is slightly better, as it more closely matches the fast-talking, slightly clipped speech pattern of the character. Model A's delivery is a bit too slow and measured.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly logical and coherent within the context of the three-question conversation. They both address the prompts directly and build upon their previous statements.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produce highly natural, human-like speech without noticeable artifacts. Model B sounds slightly more natural due to its more dynamic and character-appropriate prosody.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is outstanding in this regard. It consistently captures Juno's specific prosody—the sarcastic tone, the rapid pace, and the world-weary intonation. Model A is also consistent, but its prosody is consistently too soft, earnest, and slow for the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does a much better job of conveying Juno's complex emotional state: the bravado and sarcasm on the surface, with hints of the panic and vulnerability underneath. Model A's emotional delivery is more one-note, portraying a generally uncertain teenager without the sarcastic armor.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "This is the biggest differentiator. Model B perfectly embodies Juno's personality through its witty word choices ('ego was preggo'), blunt humor, and sarcastic delivery. It feels authentic. Model A's portrayal is much more generic and lacks the sharp, distinctive personality that defines the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates a superior command of the character's knowledge, creatively weaving specific details from the film (the clinic scene, her dad's reaction to Bleeker) into original, in-character responses. Model A relies more on directly quoting or closely paraphrasing the provided script lines.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

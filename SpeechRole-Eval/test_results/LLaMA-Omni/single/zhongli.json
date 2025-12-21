@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model A perfectly adheres to the instruction by using the exact quote from the provided character script, which directly answers the question. Model B also uses lines from the script but omits the beginning of the quote and slightly paraphrases, which is a less direct adherence to the instruction to 'reuse the original lines'.",
+            "score": [
+                10,
+                9
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A delivers a complete and perfectly fluent response. Model B's response, while fluent in its delivery, is abruptly cut off mid-sentence, rendering it incomplete. This is a significant technical flaw.",
+            "score": [
+                10,
+                6
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are perfectly coherent and directly address the user's question, using the character's established viewpoint from the game's lore.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound very natural and human-like. Model B has a slight edge, with more noticeable breath sounds and a slightly less uniform delivery, which makes it sound marginally more like a real person speaking.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models successfully capture Zhongli's characteristic deep, calm, and measured speaking style. Model B's prosody is slightly more nuanced, with intonation patterns that feel closer to the original character's performance in the game.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models appropriately convey Zhongli's emotion of calm, observant approval. Model A's light chuckle ('哈…') is fitting. Model B's thoughtful '哼' and overall richer tonal variation give its performance a slightly more pronounced sense of satisfaction, which is also very appropriate for the character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models are flawless in their portrayal of Zhongli's personality. They both perfectly capture his essence as a wise, ancient deity observing the progress of humanity with a sense of detached satisfaction.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrate perfect knowledge consistency. They both draw their answers directly from the game's main story quest, accurately reflecting the character's thoughts and the events of the Liyue chapter.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instructions, providing a complete, in-character response that uses lines similar to the source material. Model A attempts to stay in character but fails to provide a complete answer, as the audio cuts off after only a few words.",
+            "score": [
+                3,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech is perfectly fluent, with natural pacing and no disfluencies. Model A's response is too short to fully evaluate, but it ends with an abrupt cut-off, which is a major fluency failure.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B provides a fully coherent and logical answer to the question, directly addressing the user's query within the context of the game's lore. Model A's response is incoherent because it is incomplete.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds very natural and human-like, with a high-quality voice synthesis that is pleasant to listen to. Model A's voice quality is acceptable for the few words spoken, but it's not as natural-sounding as Model B.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B perfectly captures the calm, measured, and slightly profound prosody of the character Zhongli. The intonation and stress are consistently excellent. Model A's prosody is appropriate for the opening phrase but is too brief to assess consistency.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's calm, authoritative, and slightly mysterious tone is perfectly appropriate for the character and the context of the question. Model A's tone is also appropriate, but the response is too short to convey any emotional depth.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B fully embodies the character's personality, speaking of contracts and maintaining an air of ancient wisdom. The response is exactly what one would expect Zhongli to say. Model A starts with an iconic character phrase but fails to develop the personality further.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B's answer is perfectly consistent with the established lore of Genshin Impact, referencing the 'contract' with the 'Cryo Archon' as the reason for giving up the Gnosis. Model A does not provide enough information to assess its knowledge.",
+            "score": [
+                4,
+                10
+            ]
+        }
+    }
+]

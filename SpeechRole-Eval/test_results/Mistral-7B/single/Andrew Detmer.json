@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Andrew Detmer. Model B is slightly better as it answers the question more generally, whereas Model A assumes the user is the character 'Steve' by addressing them as such, which wasn't part of the prompt.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's delivery is exceptionally fluent, with naturalistic pauses and hesitations that enhance the character. Model A is also fluent, but the pacing is a bit rushed and the words feel slightly mashed together in comparison.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a coherent answer to the question. Model A uses direct lines from the script, which is a valid response. Model B, however, provides a more comprehensive answer by using lines from the script and then expanding on the character's deeper motivations, making for a more insightful and coherent explanation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds remarkably natural and human-like, with realistic vocal mannerisms. Model A's speech is clear, but its slightly rushed and even pacing makes it sound less natural than Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a perfect match for Andrew Detmer's character, capturing his defensive, slightly mumbled, and troubled speaking style. Model A's prosody is also in character, but it's more one-dimensionally sullen and lacks the subtle emotional variations that Model B displays.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B does an excellent job of conveying the complex emotions of the character—a mix of defensiveness, vulnerability, and underlying anger. Model A's emotional tone is appropriate, capturing his withdrawn nature, but it doesn't have the same depth or nuance as Model B.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is a much stronger reflection of Andrew's personality. It captures his introverted nature, his defensiveness, and the trauma that fuels his actions. Model A is consistent with the character but presents a simpler, less layered version of his personality.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use lines from the provided script. However, Model B demonstrates superior knowledge by expanding on the quotes and referencing Andrew's core motivation for filming—the need for 'proof' and 'evidence' against his abusive father, a key plot point from the movie not present in the script snippet. This shows a much deeper understanding of the character.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model A begins its response with a stage direction ('Andrew looks puzzled then a smile spreads across his face'), which is an out-of-character description rather than spoken dialogue. This breaks the instruction to act as the character. Model B remains fully in character throughout its response, speaking directly from Andrew's perspective.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B's use of slight pauses and hesitations ('I just...') feels more natural and in-character, representing a teenager trying to articulate a profound experience. Model A is fluent but more straightforward and less nuanced.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct and coherent answer to the question. Model B's response is slightly more detailed, exploring the initial disbelief before moving on to the feeling of ownership, which makes for a more complete answer.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. The pacing, hesitations, and overall delivery are very convincing. Model A sounds a bit more like a standard text-to-speech voice, though it is still clear and understandable.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a much better match for the character of Andrew Detmer. It captures his slightly hesitant, introverted, yet intense speaking style. Model A's prosody is more generic and doesn't evoke the specific character as strongly.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A conveys a simple sense of shock and amazement, which is appropriate. However, Model B captures a more complex and accurate mix of emotions: initial disbelief, excitement, and a crucial hint of the possessiveness ('it's something that's mine') that defines his later arc. This is a much more insightful portrayal.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response is far more consistent with Andrew's personality. It references his camera, his initial self-doubt, and the core idea that the powers are something that belong only to him, which is central to his character. Model A's response is more generic and could apply to almost anyone discovering powers.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models are consistent with the events of the film. Model B, however, demonstrates a deeper knowledge by specifically mentioning the camera, his initial thought that the lens was broken, and the feeling that the power was something nobody could take from him—all key elements from the source material.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

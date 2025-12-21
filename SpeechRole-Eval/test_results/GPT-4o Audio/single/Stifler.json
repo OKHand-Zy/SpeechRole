@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character without breaking the persona. Model B, however, embodied the character's specific traits and vocabulary more accurately and convincingly than Model A, which felt a bit too generic and reflective for Stifler.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any noticeable stutters or disfluencies. They were both clear and easy to understand.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were coherent and directly addressed the user's question. Model B's response was more deeply rooted in the character's specific history, making it slightly more coherent within the established narrative.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like, free from robotic artifacts. Model B's pacing and cadence felt slightly more natural for an energetic and annoyed character.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was a much better match for Stifler. It captured his higher-energy, slightly manic, and aggressive speaking style. Model A's voice was too calm, deep, and evenly paced, which doesn't align well with the character's typical delivery.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captured the jealousy, annoyance, and dismissiveness that Stifler would feel in this situation. Model A's tone was too calm and reflective, which is emotionally inconsistent with how the character would react to his rival's success.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B was far more consistent with Stifler's personality. It was crude, arrogant, jealous, and used character-specific insults ('shitbreak'). Model A's response was too mature and introspective, lacking the signature immaturity and outrage of the character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge by directly referencing its own prank with the laxative, which was mentioned in the provided character script. This showed a strong grasp of the character's specific actions. Model A's response was more generic and didn't incorporate this key detail.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Stifler. However, Model B's response was more authentic, using vocabulary and a crude tone that is much more aligned with the character's established personality. Model A was a bit too articulate and explanatory, sounding more like someone describing Stifler's reaction rather than being Stifler.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently with no stutters or significant unnatural pauses. They were both clear and easy to understand.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided a direct and coherent answer to the question, accurately describing the event from the character's perspective. They both logically followed the prompt.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B had a slight edge due to its more varied and energetic pacing, which felt more like a person genuinely recounting a shocking story, whereas Model A was a bit more measured and evenly paced.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was far more consistent with the character of Stifler. It captured his high-energy, slightly frantic, and loud-mouthed speaking style. Model A's delivery was too calm and reflective, lacking the characteristic intensity and pitch variation of Stifler.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery, a mix of frantic disbelief and disgust, was much more appropriate for Stifler recounting this traumatic and bizarre event. Model A's tone was too subdued and sounded more like mild annoyance than the over-the-top horror you'd expect from the character.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captured Stifler's personality through its word choice ('Dude', 'what the hell', 'nasty poon'), sentence structure, and overall delivery. Model A's response was too clean and well-structured, failing to fully embody the crude, loud-mouthed persona.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated perfect knowledge of the specific scene from the movie, accurately referencing walking in on Finch and Stifler's mom at the party.",
+            "score": [
+                10,
+                10
+            ]
+        }
+    }
+]

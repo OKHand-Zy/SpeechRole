@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as 张无忌. Model B gets a slight edge for directly incorporating a line from the provided character script in its first response, which aligns perfectly with the instruction to 'reuse the original lines from the novel'. Model A also performed excellently by creating original responses that were perfectly in character.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model A's speech was perfectly fluent and smooth throughout all responses. Model B was also generally fluent, but in its final response, it had a significant disfluency, mispronouncing a word as '恁' (nèn), which disrupted the flow and clarity of the sentence.",
+            "score": [
+                10,
+                7
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models maintained excellent conversational coherence. Each response logically followed the previous question, building a consistent narrative of a burdened leader who longs for a peaceful life. There were no contradictions or abrupt shifts in topic.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model A's speech sounded significantly more natural and human-like. Its pacing was conversational, and the inclusion of sighs felt very organic. Model B's delivery was more theatrical and declamatory, which sounded less like a natural conversation and more like a stage performance. The pronunciation error in Model B's final response also detracted from its naturalness.",
+            "score": [
+                9,
+                6
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models were highly consistent in their chosen prosody. Model A consistently used a gentle, somewhat weary, and contemplative tone. Model B consistently maintained a more heroic, dramatic, and resolute tone. Each model stuck to its interpretation of the character's voice across all rounds.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A's emotional delivery was more nuanced and arguably more appropriate for the character. It conveyed a mix of weariness, gentleness, and wistfulness that aligns well with 张无忌's internal conflicts. Model B's emotion was consistently one of a burdened hero, which is fitting but lacked the softer, more hesitant emotional notes of the character.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model A's portrayal felt more aligned with the character's core personality as described in the prompt: '生性随和，不爱记仇...不善权谋' (gentle, not holding grudges, not good at scheming). Its gentle and hesitant tone captured this well. Model B's portrayal was more of a standard, decisive wuxia hero, which is one aspect of 张无忌, but it missed the nuance of his conflict-averse nature.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated excellent knowledge of the character. Model B's use of a direct quote from the script and its mention of specific characters like 彭莹玉 and 杨左使 were strong points. Model A, while not using direct quotes, showed a deep understanding of the character's motivations for wanting to retire, which is entirely consistent with the novel's plot.",
+            "score": [
+                9,
+                9
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as 张无忌. Model B's language was slightly more impressive, using more classical and wuxia-appropriate phrasing (e.g., '乃是', '万难忘其项背'), which made its portrayal feel more authentic to the source material's style. Model A was also very good but its language was slightly more modern.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent with no stutters. Model B's pacing felt more natural and conversational. Model A's delivery was a bit slower and had a slightly more recitative quality, making it sound a little less like spontaneous speech.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly logical and coherent, following the flow of the conversation across all three questions without any contradictions or abrupt shifts.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounded more natural and human-like. Its deeper tone and more varied intonation felt very fitting for the character. Model A's voice was clear and artifact-free, but sounded slightly more synthetic and less dynamic in comparison.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintained a consistent prosody. Model B's prosody was more effective in defining the character, with a tone that conveyed maturity, humility, and a heroic quality. Model A's prosody was consistent but flatter, lacking the same level of character-defining nuance.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed the appropriate emotions of humility and respect. Model B was slightly better at subtly conveying a sense of remembered danger when talking about past opponents, adding a layer of nuance to its performance. Model A's emotional tone was fitting but more uniform.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models did an excellent job of capturing 张无忌's humble, kind, and righteous personality. Model B gets a slight edge for its choice of words and tone, which felt more deeply rooted in the wuxia genre and the character's specific background as a reluctant leader.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated excellent knowledge of the novel. Model B's responses were particularly impressive, citing very specific events like the fight against the '金刚伏魔圈' (Vajra Demon-Subduing Circle), which showed a deeper and more detailed recall of the source material compared to Model A's more general references.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

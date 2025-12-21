@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres to the instructions perfectly, maintaining the character and context throughout. Model A fails significantly in the second round by repeating its first answer verbatim, thus not answering the question asked. It also uses overly modern language in the third round, which slightly breaks the persona.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent without stutters. However, Model B's pacing is more natural and conversational. Model A's delivery is excessively slow and deliberate, sounding more like a theatrical reading than a conversation.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Model B maintains perfect conversational coherence, with each response logically following the previous question. Model A completely fails in this aspect by repeating its first answer for the second question, showing a total lack of contextual awareness.",
+            "score": [
+                2,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech is far more natural and human-like. Model A's voice has a noticeable reverb and a highly theatrical, declamatory style that sounds artificial and less like genuine speech.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a consistent prosody. Model B's style is consistently natural and thoughtful, which is very appropriate for the character. Model A is also consistent, but its overly dramatic and slow style is less fitting for the persona of Zhang Wuji.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional delivery is excellent, conveying a nuanced mix of weariness, humility, and quiet resolve that feels very authentic to the character. Model A also expresses appropriate emotion, but it comes across as more performed and less genuine.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is perfectly consistent with Zhang Wuji's personality—humble, averse to power, and responsible. Model A's persona is severely undermined by its conversational failure and the use of jarringly modern phrasing ('给是的') in the final round.",
+            "score": [
+                5,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge of the source material, using period-appropriate language and correctly referencing other characters like Yang Xiao and Peng Yingyu. Model A uses a direct quote in the first round but then fails to generate new, relevant content, and its final response lacks the specific detail and authentic language of Model B.",
+            "score": [
+                6,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as 张无忌 without breaking the persona. Model B's language and tone felt more authentic to the character's humble and righteous nature as depicted in the novel. Model A's persona felt a bit more generic and grandiose.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were fluent. Model A's speech was very slow and deliberate, with a noticeable reverb effect that made it sound a bit unnatural. Model B had a more natural pace and flow, making it more pleasant to listen to.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were logical and directly addressed the questions in each round, maintaining a coherent conversation.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's speech was significantly more natural and human-like. Model A's voice had a synthetic quality, exacerbated by a slow pace and an artificial-sounding reverb effect.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was excellent, perfectly capturing the humble, earnest, and heroic tone of 张无忌. Model A was consistent in its own style, but the slow, deep, and overly dramatic tone did not align well with the character's known personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a better job of conveying subtle emotions. The respect in its voice when mentioning 张三丰 and the gravity when recalling dangerous fights were very appropriate. Model A's delivery was more monotonous and theatrical, lacking nuanced emotional expression.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly embodied 张无忌's personality – humble, respectful, and not arrogant despite his power. Model A's portrayal came across as more of a generic, powerful master, which misses the key nuances of 张无忌's character.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "This is the most significant difference. Model B demonstrated perfect knowledge of the novel, correctly identifying key opponents like the Shaolin elders and the Xuanming Elders. Model A made major factual errors, such as claiming to have fought the founding masters of various sects (who lived centuries prior) and misattributing who taught him the Nine Yang Manual. This severely undermined its credibility as the character.",
+            "score": [
+                3,
+                10
+            ]
+        }
+    }
+]

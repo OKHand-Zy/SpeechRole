@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is better because it successfully incorporated a line from the provided character script into its response, which was a specific instruction. Model A stayed in character but did not use the provided material.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model B's pacing is more dynamic and character-appropriate, while Model A's delivery is consistently slow and deliberate, which feels less like the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both maintain coherence. Model B is superior because its explanation of the relationship with Zhao Gang is much more nuanced and true to the source material, showing a deeper understanding of their partnership.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more natural and human-like, with better variation in tone and pace. Model A's speech is clear but has a more monotonous and slightly robotic quality.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is far more consistent with Li Yunlong's character—gruff, energetic, and with a wide intonational range. Model A's prosody is too flat and calm, lacking the character's signature fire.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B effectively conveys the character's defiance about drinking and his grudging respect for Zhao Gang. Model A's emotional expression is much more muted and less convincing.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captures Li Yunlong's personality: coarse, direct, arrogant (\"老子\"), but also shrewd and loyal to his comrades. Model A's portrayal feels more one-dimensional, capturing the gruffness but not the underlying complexity and energy.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates excellent knowledge by not only using the provided script line but also by accurately describing the \"division of labor\" between Li and Zhao, a central theme of their relationship. Model A's responses are more generic and less specific to the character's known history and relationships.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is superior as it perfectly reused a famous original line from the source material in the first round, as requested by the instructions. Model A paraphrased and slightly misquoted the line, making it less adherent to the prompt's suggestion to use original lines.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent, but Model B has a more natural pace and rhythm, making it sound less like a script reading. Model A has some slightly unnatural pauses between phrases.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide responses that are logical and coherent continuations of the conversation. They both answer the questions directly while staying in character, with no contradictions.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds significantly more natural and human-like. Model A's voice has a slightly muffled and more noticeably synthetic quality, with some minor artifacts.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is more dynamic and consistently captures the gruff, confident, and assertive tone of Li Yunlong. Model A is consistent in its tone, but its intonation is flatter and less expressive.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B more effectively conveys the character's emotions, such as defiance, confidence, and gritty determination, through its tone and stress. Model A's emotional delivery is present but feels more subdued and less impactful in comparison.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a more nuanced and complete portrayal of the character, capturing not only his bravado but also his cunning and core fighting philosophy. Model A's portrayal is good but focuses more singularly on the character's bravery, making it feel slightly more one-dimensional.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge by using an exact, famous quote from the source material in its first response, which was directly relevant to the question. Model A shows general knowledge but its paraphrase was not as accurate or impactful.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

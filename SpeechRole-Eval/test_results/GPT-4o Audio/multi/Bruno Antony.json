@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models adhered to the instructions perfectly, staying in character throughout. Model B gets a slight edge for explicitly using a line from the provided character script as encouraged by the prompt, demonstrating a deeper integration of the source material.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models were highly fluent with no stutters or disfluencies. Model B's pacing felt slightly more deliberate and in-character, mimicking the thoughtful yet manipulative cadence of a classic film antagonist. Model A was also very fluent but had a more standard, modern pacing.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly coherent and logical follow-ups to the questions. They successfully built upon the previous turn, escalating the intensity and revealing more of the character's twisted logic in a natural conversational flow.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded very natural and human-like. Model B's voice had a more unique and distinctive quality that felt less like a generic TTS voice and more like a specific character actor, which was more effective for this role-play.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was more distinctive and better aligned with the character. It had a certain charming, almost theatrical cadence that felt very appropriate for Bruno. Model A was consistent but its prosody was more generic and less character-specific.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Both models conveyed the correct emotions. However, Model B was more effective at layering them. It captured the feigned innocence, the underlying obsession, and the chillingly casual tone of his manipulative logic, particularly in the second response. Model A was good but less nuanced.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's portrayal of the personality was exceptional. It captured Bruno's manipulative charm, his self-pitying nature ('nobody ever seems to think I'm anything special, except my mother'), and his twisted sense of friendship. Model A captured the obsessive and manipulative side well, but Model B's performance felt more complete and psychologically grounded.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a strong understanding of the character's motivations. Model B excelled by incorporating specific details from the character's background, such as his relationship with his mother and a direct quote from the provided script, making the portrayal more authentic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models perfectly adhered to the instructions, staying in character as Bruno Antony throughout all three rounds without any meta-commentary or breaks in persona. They both successfully adopted the role as instructed.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines with excellent fluency. Model B had a slightly more energetic and varied pace that felt more aligned with the character's manic energy, making it feel marginally more dynamic than Model A's steady delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided responses that were perfectly logical and coherent within the context of the conversation. Each answer directly addressed the user's question while building upon the established character and scenario.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models produced highly natural, human-like speech with no noticeable synthetic artifacts. Model B's speech had a slightly more dynamic and less uniform quality, which made it sound marginally more authentic.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B was far superior in this aspect. Its prosody—the lilting, condescending, and charismatic intonation—was a perfect match for Bruno's character and was maintained consistently. Model A was also consistent, but its prosody was too flat and measured, failing to capture the character's distinctive vocal mannerisms.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B excelled at conveying Bruno's complex emotional state, blending manipulative charm with a sinister, boastful undertone. Model A's emotional delivery was too subdued and calm, missing the dark glee and unhinged excitement that is central to the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance was a masterclass in personality consistency, perfectly embodying Bruno's charismatic, narcissistic, and cunning nature in both its word choice and vocal delivery. Model A's responses were logically correct for the character but lacked the vocal personality to make the portrayal truly convincing.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models demonstrated a strong grasp of the character's knowledge and the plot. Model B had a slight edge by incorporating more specific details from the source material, such as the term 'criss-cross' and the location 'Metcalf', which made its portrayal feel more grounded and authentic.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

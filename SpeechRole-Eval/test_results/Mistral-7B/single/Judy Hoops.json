@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Judy Hopps without any meta-commentary. Model B's response was slightly more aligned with the specific instructions as it more accurately reflected the character's core motivations and knowledge from the film.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models delivered their lines fluently and without any stutters or significant disfluencies. Model B had a slightly more natural and even pacing, whereas Model A felt a little rushed in its delivery.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were direct and coherent responses to the question. Model B's answer was more logically consistent with the character's established motivations in the film, explaining that her sense of justice against prejudice was the primary driver, which is more accurate than Model A's more generic answer about helping a father and son.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sounded natural and human-like. Model B's intonation and cadence felt slightly more authentic and less like a caricature. The small laugh at the end of Model A's response sounded a bit artificial.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was exceptionally consistent with Judy Hopps' character, capturing her determined, slightly righteous, and optimistic tone perfectly. Model A also captured her high-pitched, energetic voice but felt a bit more generically cheerful rather than specifically capturing the nuances of Judy's personality.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's emotional tone was more appropriate for the context. It conveyed a sense of righteous indignation ('really upset me') that perfectly matches why Judy intervened in that scene. Model A's emotion was more generally sweet and optimistic, which is part of her character but doesn't quite capture her specific motivation in that moment.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's response was a perfect reflection of Judy's personality. It highlighted her core belief in fairness, her drive to fight stereotypes, and her motto that 'anyone can be anything.' Model A captured her optimism but missed the key element of her fierce sense of justice, which was the primary motivator in the scene.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge of the film's events. It correctly named the antagonist in the scene (Jerry Jumbeaux Jr.) and directly referenced the core themes of species stereotypes and the Zootopia ideal. Model A's response was more generic and lacked these specific, knowledgeable details.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Both models successfully stayed in character as Judy Hopps. Model B felt slightly more authentic to the character's voice and mannerisms, directly quoting a line from the movie which was encouraged by the prompt.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Model B's speech was perfectly fluent and naturally paced. Model A's speech was a bit slower and had some slight hesitations at the beginning, making it sound less fluid.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provided answers that were perfectly coherent and directly addressed the user's question. They both logically explained Judy's feelings and her subsequent actions.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounded significantly more natural and human-like. Model A's voice had a more noticeable synthetic quality and a slightly robotic cadence.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody was an excellent match for Judy Hopps's character, conveying her plucky and energetic nature. Model A's delivery was much flatter and more neutral, lacking the characteristic pep and determination in its intonation.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B did a great job of conveying the emotional arc of the moment: initial disappointment followed by a surge of determination. Model A stated the emotion of dissatisfaction but its vocal delivery remained largely neutral and unemotional.",
+            "score": [
+                6,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B perfectly captured Judy's personality, showing her initial disappointment but immediately pivoting to her core optimistic and determined nature. Model A's response was consistent in content, but the vocal performance lacked the energy and ambition that defines Judy's character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrated superior knowledge by directly quoting Judy's line from the movie: '200 tickets before noon!' This aligns perfectly with the prompt's instruction to use original lines. Model A's response was factually correct but more generic.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    }
+]

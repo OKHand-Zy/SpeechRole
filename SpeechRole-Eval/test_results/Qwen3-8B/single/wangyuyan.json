@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B adheres more strictly to the instruction to reuse original lines from the novel, directly quoting a known line from Wang Yuyan. Model A captures the character's tone but its phrasing is original rather than a direct reuse, and it starts by incorrectly stating she hasn't studied the school's arts.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B's delivery is slightly more crisp and evenly paced, making it sound a little more polished. Model A has some deliberate, character-appropriate pauses that slightly reduce the overall flow.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide a direct and relevant answer to the question about the characteristics of the Qingcheng School's martial arts. They are both perfectly coherent within the context of the conversation.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both voices sound natural and human-like. Model B has a slight edge as it sounds exceptionally clear and free of any noticeable synthetic artifacts. Model A is also very good but has a very subtle digital quality in comparison.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model A is highly consistent in maintaining a soft, melancholic prosody throughout the response, which aligns perfectly with the character's generally sorrowful nature. Model B's prosody is more neutral and informative, which is also consistent for the character when she is explaining martial arts, but Model A's tone is more representative of her overall character.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model A does an excellent job of conveying the subtle sadness and world-weariness described in the character prompt ('情感细腻,语气中时常流露哀愁'). Model B's tone is more knowledgeable and less emotional, which is also appropriate for the context, but Model A's emotional portrayal is richer and more aligned with the character's core state.",
+            "score": [
+                9,
+                8
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Both models capture a key aspect of Wang Yuyan's personality. Model A captures her melancholy and desire for a simple life with her books. Model B captures her persona as a confident, walking encyclopedia of martial arts. Model B's directness and factual accuracy are slightly more representative of how she behaves when specifically asked about martial arts.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates superior knowledge from the novel. It not only uses a direct quote but also adds further correct details ('青字九打', '城字十八破'). Model A correctly identifies the general characteristics but prefaces it with a slightly inaccurate statement ('未曾涉猎') and uses a move name that doesn't seem to be from the original text.",
+            "score": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B is superior as it perfectly adheres to the instruction to reuse original lines from the novel, directly quoting the provided character script. This demonstrates a deeper understanding of the prompt. Model A also stays in character but creates an original response instead of using the canonical lines.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. Model B's pacing feels slightly more natural and conversational, especially with the slight hesitation on '那……那……' which is very true to the original text. Model A's delivery is a little slower and more measured.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide coherent answers. Model A answers both parts of the question (the 'why' and the 'if'). Model B focuses on the second part ('if she suspected') by using the direct quote, which is a very powerful and contextually perfect response given the provided script.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B sounds more natural and human-like. The intonation and pacing mimic natural speech patterns very well. Model A is also clear, but has a slightly more uniform and less dynamic delivery, making it sound a little more synthetic in comparison.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Both models maintain a prosody that is consistent with the character of a gentle, well-born lady. Model A maintains a consistently melancholic and thoughtful tone. Model B's prosody shifts from realization to regret, which is also very consistent with the character's reaction in that specific scene.",
+            "score": [
+                9,
+                9
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's performance is exceptional. The tone perfectly captures the mix of surprise, dawning realization, and slight self-reproach ('我早该知道的') that Wang Yuyan feels in that moment. Model A conveys a general sadness and worry, which is appropriate for the character but less specific to the scene in question.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B is perfect in this regard, as it uses the character's actual lines from the novel, which is the ultimate expression of personality consistency. Model A also does a very good job of capturing her delicate, intelligent, and sorrowful nature in its original text.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge by using the canonical lines from the novel, as prompted by the character script. Model A also shows good knowledge by correctly identifying Murong Fu's general motivations, but Model B's direct use of the source material is a stronger display of knowledge in this context.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]

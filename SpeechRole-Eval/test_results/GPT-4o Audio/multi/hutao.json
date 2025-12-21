@@ -1,0 +1,120 @@
+[
+    {
+        "idx": 0,
+        "Instruction_Adherence_results": {
+            "reason": "Model B perfectly adheres to the instruction to reuse original lines from the provided script, integrating them seamlessly into the conversation. Model A captures the general idea of the script but creates its own dialogue instead of using the provided lines.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are very fluent with no stutters or noticeable errors. Model B's pacing is slightly more dynamic and energetic, which fits the character better than Model A's more measured and even pace.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide responses that are logical and coherent within the conversation. Model B's responses feel slightly more connected because they are the exact lines intended for this conversational flow, making the progression feel very natural.",
+            "score": [
+                9,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Both models sound natural and human-like. However, Model B's speech has more variation in intonation and pacing, making it sound more like a real person speaking rather than a high-quality text-to-speech engine. Model A is very clear but slightly more robotic in comparison.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B is outstanding in this regard. Its prosody, pitch, and intonation are a near-perfect match for the character's original voice in the game, maintaining this style consistently. Model A's prosody is consistent with itself but is far too calm, low-pitched, and mature for the character of Hu Tao.",
+            "score": [
+                6,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B perfectly captures Hu Tao's playful, mischievous, and slightly teasing emotional state, which is exactly what the context calls for. Model A's delivery is too neutral and explanatory, lacking the specific emotional flavor of the character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B's performance is a flawless representation of Hu Tao's personality. The energetic, quirky, and cheeky nature of the character comes through in both the text and the vocal performance. Model A's portrayal is too subdued and feels like a different, calmer character.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Model B demonstrates perfect knowledge consistency by using the exact dialogue from an in-game quest, which is what the provided script is from. Model A provides a plausible explanation that fits within the game's lore, but it is not based on established character dialogue.",
+            "score": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "idx": 1,
+        "Instruction_Adherence_results": {
+            "reason": "Model B excels by directly incorporating the original lines provided in the prompt, which was a specific instruction. Model A stays in character but does not use the provided lines, making its adherence less complete. Both models successfully maintain the persona throughout the conversation.",
+            "score": [
+                8,
+                10
+            ]
+        },
+        "Speech_Fluency_results": {
+            "reason": "Both models are fluent. However, Model B's pacing is more energetic and lively, which is more in line with Hu Tao's character. Model A's delivery is noticeably slower and more deliberate, which feels less natural for the character.",
+            "score": [
+                8,
+                9
+            ]
+        },
+        "Conversational_Coherence_results": {
+            "reason": "Both models provide answers that are logical and follow the flow of the conversation perfectly. They build upon the previous questions to tell a coherent story about the Wangsheng Funeral Parlor.",
+            "score": [
+                10,
+                10
+            ]
+        },
+        "Speech_Naturalness_results": {
+            "reason": "Model B's voice sounds significantly more natural and human-like. Model A's voice has a noticeable reverb or echo effect and a slightly robotic cadence, which detracts from its naturalness.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Prosodic_Consistency_results": {
+            "reason": "Model B's prosody is a much better match for Hu Tao's character. It captures her youthful energy, playful intonation, and quick-witted speaking style. Model A's prosody is too mature, slow, and solemn, which only represents one small facet of the character's personality.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Emotion_Appropriateness_results": {
+            "reason": "Model B's performance is filled with a playful, energetic, and slightly mischievous emotion that is perfectly appropriate for Hu Tao in a casual conversation. Model A's emotional tone is more consistently serious and somber, which doesn't quite fit the context of the user's curious questions.",
+            "score": [
+                7,
+                9
+            ]
+        },
+        "Personality_Consistency_results": {
+            "reason": "Model B provides a stellar portrayal of Hu Tao's personality, capturing her quirky, energetic, and surprisingly wise nature. Model A's portrayal feels more like a generic, serious funeral director and misses the core playful and mischievous elements that define Hu Tao.",
+            "score": [
+                7,
+                10
+            ]
+        },
+        "Knowledge_Consistency_results": {
+            "reason": "Both models correctly use the established lore regarding the Wangsheng Funeral Parlor's history. Model B's performance is stronger because it seamlessly integrates direct quotes from the game, demonstrating a deeper and more authentic knowledge base as per the instructions.",
+            "score": [
+                9,
+                10
+            ]
+        }
+    }
+]
