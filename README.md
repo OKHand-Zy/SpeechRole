@@ -16,6 +16,8 @@
 ## 📋 Evaluation Data
 
 🤗 The evaluation data for SpeechRole benchmark is available at: [https://huggingface.co/datasets/yuhui1038/SpeechRole-Eval](https://huggingface.co/datasets/yuhui1038/SpeechRole-Eval)
+Please download the `test_data` and `test_result` files from Hugging Face and place them under the `HF/` folder.
+
 
 ## 📊 Data Demo
 

@@ -1,0 +1,8 @@
+# Realtime eval runners
+google-genai>=1.0.0
+websocket-client>=1.8.0
+
+# HF/gemini_judge.py
+openai>=1.0.0
+pydub>=0.25.1
+tqdm>=4.66.0
